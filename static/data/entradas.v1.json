@@ -35,7 +35,7 @@
 	},
 	{
 		"id": "a-nu-hoy",
-		"forma_clck": "a-nú",
+		"forma_clck": "a-nú",
 		"grafia_provisional": true,
 		"clave_canonica": "anu",
 		"clave_historica": "anu",
@@ -50,7 +50,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "a-nú",
+				"forma": "a-nú",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -354,7 +354,7 @@
 	},
 	{
 		"id": "ais-pur-ia-cerca",
-		"forma_clck": "ais-pur-iá",
+		"forma_clck": "ais-pur-iá",
 		"grafia_provisional": true,
 		"clave_canonica": "aispuria",
 		"clave_historica": "aisPuria",
@@ -369,7 +369,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ais-pur-iá",
+				"forma": "ais-pur-iá",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -502,7 +502,7 @@
 	},
 	{
 		"id": "antiquia-donde",
-		"forma_clck": "antiquiá",
+		"forma_clck": "antiquiá",
 		"grafia_provisional": true,
 		"clave_canonica": "antiquia",
 		"clave_historica": "anTiKia",
@@ -517,7 +517,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "antiquiá",
+				"forma": "antiquiá",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -536,7 +536,7 @@
 	},
 	{
 		"id": "anuckapin-hoy",
-		"forma_clck": "anuckápin",
+		"forma_clck": "anuckápin",
 		"grafia_provisional": true,
 		"clave_canonica": "anuckapin",
 		"clave_historica": "anuKaPin",
@@ -551,7 +551,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "anuckápin",
+				"forma": "anuckápin",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -709,7 +709,7 @@
 	},
 	{
 		"id": "atan-noche",
-		"forma_clck": "atán",
+		"forma_clck": "atán",
 		"grafia_provisional": true,
 		"clave_canonica": "atan",
 		"clave_historica": "aTan",
@@ -724,7 +724,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "atán",
+				"forma": "atán",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -953,7 +953,7 @@
 	},
 	{
 		"id": "ay-ian-la-joven",
-		"forma_clck": "ay-ián",
+		"forma_clck": "ay-ián",
 		"grafia_provisional": true,
 		"clave_canonica": "ayian",
 		"clave_historica": "aian",
@@ -968,7 +968,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ay-ián",
+				"forma": "ay-ián",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -1724,7 +1724,7 @@
 	},
 	{
 		"id": "be-si",
-		"forma_clck": "bé",
+		"forma_clck": "bé",
 		"grafia_provisional": true,
 		"clave_canonica": "be",
 		"clave_historica": "Be",
@@ -1740,7 +1740,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "bé",
+				"forma": "bé",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -2273,7 +2273,7 @@
 	},
 	{
 		"id": "cahmor-luna",
-		"forma_clck": "cáhmor",
+		"forma_clck": "cáhmor",
 		"grafia_provisional": true,
 		"clave_canonica": "cahmor",
 		"clave_historica": "Kamor",
@@ -2288,7 +2288,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "cáhmor",
+				"forma": "cáhmor",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -2587,7 +2587,7 @@
 	},
 	{
 		"id": "cayahia-bueno",
-		"forma_clck": "cayáhia",
+		"forma_clck": "cayáhia",
 		"grafia_provisional": true,
 		"clave_canonica": "cayahia",
 		"clave_historica": "Kaiaia",
@@ -2602,7 +2602,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "cayáhia",
+				"forma": "cayáhia",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -2931,7 +2931,7 @@
 	},
 	{
 		"id": "chcho-la-ma-ocho",
-		"forma_clck": "chchó-la-ma",
+		"forma_clck": "chchó-la-ma",
 		"grafia_provisional": true,
 		"clave_canonica": "chcholama",
 		"clave_historica": "Colama",
@@ -2946,7 +2946,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "chchó-la-ma",
+				"forma": "chchó-la-ma",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -6565,7 +6565,7 @@
 	},
 	{
 		"id": "ckenia-diente",
-		"forma_clck": "ckénia",
+		"forma_clck": "ckénia",
 		"grafia_provisional": true,
 		"clave_canonica": "ckenia",
 		"clave_historica": "Kenia",
@@ -6580,7 +6580,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ckénia",
+				"forma": "ckénia",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -9074,7 +9074,7 @@
 	},
 	{
 		"id": "ckuc-kun-tur-silbar",
-		"forma_clck": "ckúc-kun-tur",
+		"forma_clck": "ckúc-kun-tur",
 		"grafia_provisional": true,
 		"clave_canonica": "ckuckuntur",
 		"clave_historica": "KuKunTur",
@@ -9090,7 +9090,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ckúc-kun-tur",
+				"forma": "ckúc-kun-tur",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -9143,7 +9143,7 @@
 	},
 	{
 		"id": "ckulan-cara",
-		"forma_clck": "ckúlan",
+		"forma_clck": "ckúlan",
 		"grafia_provisional": true,
 		"clave_canonica": "ckulan",
 		"clave_historica": "Kulan",
@@ -9158,7 +9158,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ckúlan",
+				"forma": "ckúlan",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -9531,7 +9531,7 @@
 	},
 	{
 		"id": "ckutchubi-esquina",
-		"forma_clck": "ckutchubí",
+		"forma_clck": "ckutchubí",
 		"grafia_provisional": true,
 		"clave_canonica": "ckutchubi",
 		"clave_historica": "KuCuBi",
@@ -9547,7 +9547,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ckutchubí",
+				"forma": "ckutchubí",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -9635,7 +9635,7 @@
 	},
 	{
 		"id": "cogcia-atras",
-		"forma_clck": "cogciá",
+		"forma_clck": "cogciá",
 		"grafia_provisional": true,
 		"clave_canonica": "cogcia",
 		"clave_historica": "KogKia",
@@ -9651,7 +9651,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "cogciá",
+				"forma": "cogciá",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -9775,7 +9775,7 @@
 	},
 	{
 		"id": "comala-garganta",
-		"forma_clck": "comála",
+		"forma_clck": "comála",
 		"grafia_provisional": true,
 		"clave_canonica": "comala",
 		"clave_historica": "Komala",
@@ -9790,7 +9790,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "comála",
+				"forma": "comála",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -10267,7 +10267,7 @@
 	},
 	{
 		"id": "e-ne-pasado-manana",
-		"forma_clck": "e-né",
+		"forma_clck": "e-né",
 		"grafia_provisional": true,
 		"clave_canonica": "ene",
 		"clave_historica": "ene",
@@ -10282,7 +10282,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "e-né",
+				"forma": "e-né",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -10337,7 +10337,7 @@
 	},
 	{
 		"id": "entickia-donde",
-		"forma_clck": "entickiá",
+		"forma_clck": "entickiá",
 		"grafia_provisional": true,
 		"clave_canonica": "entickia",
 		"clave_historica": "enTiKia",
@@ -10352,7 +10352,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "entickiá",
+				"forma": "entickiá",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -10685,7 +10685,7 @@
 	},
 	{
 		"id": "haba-ayer",
-		"forma_clck": "habá",
+		"forma_clck": "habá",
 		"grafia_provisional": true,
 		"clave_canonica": "haba",
 		"clave_historica": "aBa",
@@ -10700,7 +10700,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "habá",
+				"forma": "habá",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -12124,7 +12124,7 @@
 	},
 	{
 		"id": "ho-honima-fuego",
-		"forma_clck": "ho-hónima",
+		"forma_clck": "ho-hónima",
 		"grafia_provisional": true,
 		"clave_canonica": "hohonima",
 		"clave_historica": "onima",
@@ -12139,7 +12139,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ho-hónima",
+				"forma": "ho-hónima",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -12824,7 +12824,7 @@
 	},
 	{
 		"id": "humar-vacio",
-		"forma_clck": "húmar",
+		"forma_clck": "húmar",
 		"grafia_provisional": true,
 		"clave_canonica": "humar",
 		"clave_historica": "umar",
@@ -12839,7 +12839,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "húmar",
+				"forma": "húmar",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -12998,7 +12998,7 @@
 	},
 	{
 		"id": "ia-el-ella-ello",
-		"forma_clck": "ía",
+		"forma_clck": "ía",
 		"grafia_provisional": true,
 		"clave_canonica": "ia",
 		"clave_historica": "ia",
@@ -13013,7 +13013,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ía",
+				"forma": "ía",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -13068,7 +13068,7 @@
 	},
 	{
 		"id": "ianinckiare-siempre",
-		"forma_clck": "ianinckiaré",
+		"forma_clck": "ianinckiaré",
 		"grafia_provisional": true,
 		"clave_canonica": "ianinckiare",
 		"clave_historica": "ianinKiare",
@@ -13083,7 +13083,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ianinckiaré",
+				"forma": "ianinckiaré",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -13138,7 +13138,7 @@
 	},
 	{
 		"id": "icota-ellos",
-		"forma_clck": "ícota",
+		"forma_clck": "ícota",
 		"grafia_provisional": true,
 		"clave_canonica": "icota",
 		"clave_historica": "iKoTa",
@@ -13154,7 +13154,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ícota",
+				"forma": "ícota",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -13313,7 +13313,7 @@
 	},
 	{
 		"id": "iquiare-si",
-		"forma_clck": "iquiaré",
+		"forma_clck": "iquiaré",
 		"grafia_provisional": true,
 		"clave_canonica": "iquiare",
 		"clave_historica": "iKiare",
@@ -13329,7 +13329,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "iquiaré",
+				"forma": "iquiaré",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -13629,7 +13629,7 @@
 	},
 	{
 		"id": "itiquia-quien",
-		"forma_clck": "itiquiá",
+		"forma_clck": "itiquiá",
 		"grafia_provisional": true,
 		"clave_canonica": "itiquia",
 		"clave_historica": "iTiKia",
@@ -13644,7 +13644,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "itiquiá",
+				"forma": "itiquiá",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -13663,7 +13663,7 @@
 	},
 	{
 		"id": "itquiquia-cual",
-		"forma_clck": "itquiquiá",
+		"forma_clck": "itquiquiá",
 		"grafia_provisional": true,
 		"clave_canonica": "itquiquia",
 		"clave_historica": "iTKiKia",
@@ -13678,7 +13678,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "itquiquiá",
+				"forma": "itquiquiá",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -14420,7 +14420,7 @@
 	},
 	{
 		"id": "kuh-ri-leon",
-		"forma_clck": "kúh-ri",
+		"forma_clck": "kúh-ri",
 		"grafia_provisional": true,
 		"clave_canonica": "kuhri",
 		"clave_historica": "Kuri",
@@ -14435,7 +14435,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "kúh-ri",
+				"forma": "kúh-ri",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -14903,7 +14903,7 @@
 	},
 	{
 		"id": "lalackma-madrugada",
-		"forma_clck": "lálackma",
+		"forma_clck": "lálackma",
 		"grafia_provisional": true,
 		"clave_canonica": "lalackma",
 		"clave_historica": "lalaKma",
@@ -14918,7 +14918,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "lálackma",
+				"forma": "lálackma",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -15535,7 +15535,7 @@
 	},
 	{
 		"id": "lejia-calvo",
-		"forma_clck": "lejía",
+		"forma_clck": "lejía",
 		"grafia_provisional": true,
 		"clave_canonica": "lejia",
 		"clave_historica": "lejia",
@@ -15550,7 +15550,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "lejía",
+				"forma": "lejía",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -16853,7 +16853,7 @@
 	},
 	{
 		"id": "mi-che-lo-seis",
-		"forma_clck": "mí-che-lo",
+		"forma_clck": "mí-che-lo",
 		"grafia_provisional": true,
 		"clave_canonica": "michelo",
 		"clave_historica": "miCelo",
@@ -16868,7 +16868,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "mí-che-lo",
+				"forma": "mí-che-lo",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -17024,7 +17024,7 @@
 	},
 	{
 		"id": "misckan-rana",
-		"forma_clck": "misckán",
+		"forma_clck": "misckán",
 		"grafia_provisional": true,
 		"clave_canonica": "misckan",
 		"clave_historica": "misKan",
@@ -17039,7 +17039,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "misckán",
+				"forma": "misckán",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -17128,7 +17128,7 @@
 	},
 	{
 		"id": "mitchala-seis",
-		"forma_clck": "mítchala",
+		"forma_clck": "mítchala",
 		"grafia_provisional": true,
 		"clave_canonica": "mitchala",
 		"clave_historica": "miCala",
@@ -17143,7 +17143,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "mítchala",
+				"forma": "mítchala",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -19895,7 +19895,7 @@
 	},
 	{
 		"id": "pinch-co-cuando",
-		"forma_clck": "pinch-có",
+		"forma_clck": "pinch-có",
 		"grafia_provisional": true,
 		"clave_canonica": "pinchco",
 		"clave_historica": "PinCKo",
@@ -19910,7 +19910,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "pinch-có",
+				"forma": "pinch-có",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -20480,7 +20480,7 @@
 	},
 	{
 		"id": "ppalama-tres",
-		"forma_clck": "ppálama",
+		"forma_clck": "ppálama",
 		"grafia_provisional": true,
 		"clave_canonica": "ppalama",
 		"clave_historica": "Palama",
@@ -20495,7 +20495,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ppálama",
+				"forma": "ppálama",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -20514,7 +20514,7 @@
 	},
 	{
 		"id": "ppalantin-tercero",
-		"forma_clck": "ppalantín",
+		"forma_clck": "ppalantín",
 		"grafia_provisional": true,
 		"clave_canonica": "ppalantin",
 		"clave_historica": "PalanTin",
@@ -20529,7 +20529,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ppalantín",
+				"forma": "ppalantín",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -21202,7 +21202,7 @@
 	},
 	{
 		"id": "quel-char-verdadero",
-		"forma_clck": "quél-char",
+		"forma_clck": "quél-char",
 		"grafia_provisional": true,
 		"clave_canonica": "quelchar",
 		"clave_historica": "KelCar",
@@ -21217,7 +21217,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "quél-char",
+				"forma": "quél-char",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -21408,7 +21408,7 @@
 	},
 	{
 		"id": "reganama-tragar",
-		"forma_clck": "regánama",
+		"forma_clck": "regánama",
 		"grafia_provisional": true,
 		"clave_canonica": "reganama",
 		"clave_historica": "reganama",
@@ -21423,7 +21423,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "regánama",
+				"forma": "regánama",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -21476,7 +21476,7 @@
 	},
 	{
 		"id": "sabur-carne",
-		"forma_clck": "sábur",
+		"forma_clck": "sábur",
 		"grafia_provisional": true,
 		"clave_canonica": "sabur",
 		"clave_historica": "saBur",
@@ -21491,7 +21491,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "sábur",
+				"forma": "sábur",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -23792,7 +23792,7 @@
 	},
 	{
 		"id": "taipu-ene-pasado-manana",
-		"forma_clck": "taipu-ené",
+		"forma_clck": "taipu-ené",
 		"grafia_provisional": true,
 		"clave_canonica": "taipuene",
 		"clave_historica": "TaiPuene",
@@ -23807,7 +23807,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "taipu-ené",
+				"forma": "taipu-ené",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -24258,7 +24258,7 @@
 	},
 	{
 		"id": "tcha-ni-ma-tristeza",
-		"forma_clck": "tchá-ni-ma",
+		"forma_clck": "tchá-ni-ma",
 		"grafia_provisional": true,
 		"clave_canonica": "tchanima",
 		"clave_historica": "Canima",
@@ -24275,7 +24275,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "tchá-ni-ma",
+				"forma": "tchá-ni-ma",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -24601,7 +24601,7 @@
 	},
 	{
 		"id": "tchanima-dolor",
-		"forma_clck": "tchánima",
+		"forma_clck": "tchánima",
 		"grafia_provisional": true,
 		"clave_canonica": "tchanima",
 		"clave_historica": "Canima",
@@ -24616,7 +24616,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "tchánima",
+				"forma": "tchánima",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -25610,7 +25610,7 @@
 	},
 	{
 		"id": "tcholama-ocho",
-		"forma_clck": "tchólama",
+		"forma_clck": "tchólama",
 		"grafia_provisional": true,
 		"clave_canonica": "tcholama",
 		"clave_historica": "Colama",
@@ -25625,7 +25625,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "tchólama",
+				"forma": "tchólama",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -25644,7 +25644,7 @@
 	},
 	{
 		"id": "tchoo-testiculo",
-		"forma_clck": "tchóo",
+		"forma_clck": "tchóo",
 		"grafia_provisional": true,
 		"clave_canonica": "tcho",
 		"clave_historica": "Co",
@@ -25659,7 +25659,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "tchóo",
+				"forma": "tchóo",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -26404,7 +26404,7 @@
 	},
 	{
 		"id": "teckara-nueve",
-		"forma_clck": "téckara",
+		"forma_clck": "téckara",
 		"grafia_provisional": true,
 		"clave_canonica": "teckara",
 		"clave_historica": "TeKara",
@@ -26419,7 +26419,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "téckara",
+				"forma": "téckara",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -26473,7 +26473,7 @@
 	},
 	{
 		"id": "teker-nueve",
-		"forma_clck": "téker",
+		"forma_clck": "téker",
 		"grafia_provisional": true,
 		"clave_canonica": "teker",
 		"clave_historica": "TeKer",
@@ -26488,7 +26488,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "téker",
+				"forma": "téker",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -26610,7 +26610,7 @@
 	},
 	{
 		"id": "ti-si-tur-pedir",
-		"forma_clck": "tí-si-tur",
+		"forma_clck": "tí-si-tur",
 		"grafia_provisional": true,
 		"clave_canonica": "tisitur",
 		"clave_historica": "TisiTur",
@@ -26625,7 +26625,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "tí-si-tur",
+				"forma": "tí-si-tur",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -26782,7 +26782,7 @@
 	},
 	{
 		"id": "to-lac-ku-tur-juntar",
-		"forma_clck": "to-lac-kú-tur",
+		"forma_clck": "to-lac-kú-tur",
 		"grafia_provisional": true,
 		"clave_canonica": "tolackutur",
 		"clave_historica": "TolaKuTur",
@@ -26797,7 +26797,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "to-lac-kú-tur",
+				"forma": "to-lac-kú-tur",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -27129,7 +27129,7 @@
 	},
 	{
 		"id": "tschapur-zorro",
-		"forma_clck": "tschápur",
+		"forma_clck": "tschápur",
 		"grafia_provisional": true,
 		"clave_canonica": "tschapur",
 		"clave_historica": "SCaPur",
@@ -27144,7 +27144,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "tschápur",
+				"forma": "tschápur",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -27920,7 +27920,7 @@
 	},
 	{
 		"id": "ttic-ku-tur-separar",
-		"forma_clck": "ttíc-ku-tur",
+		"forma_clck": "ttíc-ku-tur",
 		"grafia_provisional": true,
 		"clave_canonica": "ttickutur",
 		"clave_historica": "TiKuTur",
@@ -27936,7 +27936,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "ttíc-ku-tur",
+				"forma": "ttíc-ku-tur",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -28646,7 +28646,7 @@
 	},
 	{
 		"id": "tuckuba-cerca",
-		"forma_clck": "túckuba",
+		"forma_clck": "túckuba",
 		"grafia_provisional": true,
 		"clave_canonica": "tuckuba",
 		"clave_historica": "TuKuBa",
@@ -28661,7 +28661,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "túckuba",
+				"forma": "túckuba",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -28927,7 +28927,7 @@
 	},
 	{
 		"id": "va-quit-abajo",
-		"forma_clck": "vá-quit",
+		"forma_clck": "vá-quit",
 		"grafia_provisional": true,
 		"clave_canonica": "vaquit",
 		"clave_historica": "BaKiT",
@@ -28943,7 +28943,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "vá-quit",
+				"forma": "vá-quit",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -29000,7 +29000,7 @@
 	},
 	{
 		"id": "valchar-malo",
-		"forma_clck": "válchar",
+		"forma_clck": "válchar",
 		"grafia_provisional": true,
 		"clave_canonica": "valchar",
 		"clave_historica": "BalCar",
@@ -29015,7 +29015,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "válchar",
+				"forma": "válchar",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -29035,7 +29035,7 @@
 	},
 	{
 		"id": "vaquit-debajo",
-		"forma_clck": "váquit",
+		"forma_clck": "váquit",
 		"grafia_provisional": true,
 		"clave_canonica": "vaquit",
 		"clave_historica": "BaKiT",
@@ -29050,7 +29050,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "váquit",
+				"forma": "váquit",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -29205,7 +29205,7 @@
 	},
 	{
 		"id": "yabian-despacio",
-		"forma_clck": "yabían",
+		"forma_clck": "yabían",
 		"grafia_provisional": true,
 		"clave_canonica": "yabian",
 		"clave_historica": "iaBian",
@@ -29221,7 +29221,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "yabían",
+				"forma": "yabían",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
@@ -29800,7 +29800,7 @@
 	},
 	{
 		"id": "zalpaia-delantero",
-		"forma_clck": "zalpáia",
+		"forma_clck": "zalpáia",
 		"grafia_provisional": true,
 		"clave_canonica": "zalpaia",
 		"clave_historica": "salPaia",
@@ -29816,7 +29816,7 @@
 		],
 		"variantes_historicas": [
 			{
-				"forma": "zalpáia",
+				"forma": "zalpáia",
 				"fuente": "ids-lehnert-2021"
 			}
 		],
