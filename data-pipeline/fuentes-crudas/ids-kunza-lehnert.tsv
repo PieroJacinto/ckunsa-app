@@ -1,0 +1,896 @@
+id_ids	forma	valor_original	concepto_en	concepticon_gloss	concepticon_id	capitulo_id	capitulo	comentario
+308-1-210-1	hoyri	hoyri; hoi-re	earth, land	LAND	626	1	El mundo físico	Also hoi-ri; hoy-tu. Also recorded is [paatcha], prob. from Quechua 'pacha'.
+308-1-210-2	hoi-re	hoyri; hoi-re	earth, land	LAND	626	1	El mundo físico	Also hoi-ri; hoy-tu. Also recorded is [paatcha], prob. from Quechua 'pacha'.
+308-1-212-1	hoyri	hoyri; ttunar; hoy-tu	earth=ground, soil	EARTH (SOIL)	1228	1	El mundo físico	
+308-1-212-2	ttunar	hoyri; ttunar; hoy-tu	earth=ground, soil	EARTH (SOIL)	1228	1	El mundo físico	
+308-1-212-3	hoy-tu	hoyri; ttunar; hoy-tu	earth=ground, soil	EARTH (SOIL)	1228	1	El mundo físico	
+308-1-213-1	pockor	pockor	dust	DUST	2	1	El mundo físico	
+308-1-214-1	yot-to	yot-to; quis-ti	mud	MUD	640	1	El mundo físico	
+308-1-214-2	quis-ti	yot-to; quis-ti	mud	MUD	640	1	El mundo físico	
+308-1-215-1	horckte	horckte; si-tche-re	sand	SAND	671	1	El mundo físico	
+308-1-215-2	si-tche-re	horckte; si-tche-re	sand	SAND	671	1	El mundo físico	
+308-1-220-1	ckabur	ckabur; caur	mountain, hill	MOUNTAIN OR HILL	2118	1	El mundo físico	Also cabur; cahur; kaur.
+308-1-220-2	caur	ckabur; caur	mountain, hill	MOUNTAIN OR HILL	2118	1	El mundo físico	Also cabur; cahur; kaur.
+308-1-230-1	tul-va	tul-va; ttul-va	plain, field	PLAIN	652	1	El mundo físico	Also tul-ba; bac-ka; back-cka; paca; katur.
+308-1-230-2	ttul-va	tul-va; ttul-va	plain, field	PLAIN	652	1	El mundo físico	Also tul-ba; bac-ka; back-cka; paca; katur.
+308-1-240-1	ckalal	ckalal	valley	VALLEY	921	1	El mundo físico	
+308-1-280-1	toco	toco; [ckoiba]	cave	CAVE	1155	1	El mundo físico	The latter, prob. loanword from Span. 'cueva'. Cf. 'hole' 12.850.
+308-1-280-2	ckoiba	toco; [ckoiba]	cave	CAVE	1155	1	El mundo físico	The latter, prob. loanword from Span. 'cueva'. Cf. 'hole' 12.850.
+308-1-310-1	puri	puri; puy; [yacko]	water	WATER	948	1	El mundo físico	The latter prob. from Quechua 'yacu'.
+308-1-310-2	puy	puri; puy; [yacko]	water	WATER	948	1	El mundo físico	The latter prob. from Quechua 'yacu'.
+308-1-310-3	yacko	puri; puy; [yacko]	water	WATER	948	1	El mundo físico	The latter prob. from Quechua 'yacu'.
+308-1-360-1	back-cka	back-cka; vac-ka	river, stream, brook	FLOWING BODY OF WATER	3311	1	El mundo físico	Also birinatur; backcka. The latter is also given for 'plain, field' 01.230.
+308-1-360-2	vac-ka	back-cka; vac-ka	river, stream, brook	FLOWING BODY OF WATER	3311	1	El mundo físico	Also birinatur; backcka. The latter is also given for 'plain, field' 01.230.
+308-1-362-1	tchinckonao	tchinckonao; ckoi-man	whirlpool	WHIRLPOOL	1982	1	El mundo físico	
+308-1-362-2	ckoi-man	tchinckonao; ckoi-man	whirlpool	WHIRLPOOL	1982	1	El mundo físico	
+308-1-370-1	cherejner	cherejner; cheresner; cheresnir	spring, well	SPRING OR WELL	2144	1	El mundo físico	
+308-1-370-2	cheresner	cherejner; cheresner; cheresnir	spring, well	SPRING OR WELL	2144	1	El mundo físico	
+308-1-370-3	cheresnir	cherejner; cheresner; cheresnir	spring, well	SPRING OR WELL	2144	1	El mundo físico	
+308-1-420-1	yali	yali; yaii	tree (cf 08.600)	TREE	906	1	El mundo físico	
+308-1-420-2	yaii	yali; yaii	tree (cf 08.600)	TREE	906	1	El mundo físico	
+308-1-440-1	ckaitchi	ckaitchi; cai-chi	stone, rock	STONE OR ROCK	2125	1	El mundo físico	Also tocknar; ckat-tu; tchickal.
+308-1-440-2	cai-chi	ckaitchi; cai-chi	stone, rock	STONE OR ROCK	2125	1	El mundo físico	Also tocknar; ckat-tu; tchickal.
+308-1-520-1	ckapin	ckapin; caapin	sun	SUN	1343	1	El mundo físico	Also capin; cappin; hapin. The latter also means 'day'.
+308-1-520-2	caapin	ckapin; caapin	sun	SUN	1343	1	El mundo físico	Also capin; cappin; hapin. The latter also means 'day'.
+308-1-530-1	ckamur	ckamur; cáhmor	moon	MOON	1313	1	El mundo físico	Also jamur; camur. Also mean 'month' 14.710.
+308-1-530-2	cáhmor	ckamur; cáhmor	moon	MOON	1313	1	El mundo físico	Also jamur; camur. Also mean 'month' 14.710.
+308-1-540-1	haalar	haalar; halar; ahlar	star	STAR	1430	1	El mundo físico	
+308-1-540-2	halar	haalar; halar; ahlar	star	STAR	1430	1	El mundo físico	
+308-1-540-3	ahlar	haalar; halar; ahlar	star	STAR	1430	1	El mundo físico	
+308-1-560-1	lul-an-tur	lul-an-tur	thunder	THUNDER	1150	1	El mundo físico	
+308-1-580-1	ckoimar	ckoimar	storm	STORM	858	1	El mundo físico	
+308-1-590-1	ckoitchi	ckoitchi	rainbow	RAINBOW	1733	1	El mundo físico	
+308-1-610-1	lalcktchir	lalcktchir	light (noun)	LIGHT (RADIATION)	630	1	El mundo físico	
+308-1-630-1	minas	minas	shade, shadow	SHADE	1388	1	El mundo físico	
+308-1-710-1	ckelinar	ckelinar; [huayra]	air	AIR	27	1	El mundo físico	The latter, prob. from Quechua 'huayra'.
+308-1-710-2	huayra	ckelinar; [huayra]	air	AIR	27	1	El mundo físico	The latter, prob. from Quechua 'huayra'.
+308-1-720-1	ckuri	ckuri; khuri; khuro	wind	WIND	960	1	El mundo físico	Also ckuri; ckoimar; cirba.
+308-1-720-2	khuri	ckuri; khuri; khuro	wind	WIND	960	1	El mundo físico	Also ckuri; ckoimar; cirba.
+308-1-720-3	khuro	ckuri; khuri; khuro	wind	WIND	960	1	El mundo físico	Also ckuri; ckoimar; cirba.
+308-1-730-1	molti	molti; molle; molte	cloud	CLOUD	1489	1	El mundo físico	Also kara; cara.
+308-1-730-2	molle	molti; molle; molte	cloud	CLOUD	1489	1	El mundo físico	Also kara; cara.
+308-1-730-3	molte	molti; molle; molte	cloud	CLOUD	1489	1	El mundo físico	Also kara; cara.
+308-1-740-1	molte	molte; molle	fog	FOG	249	1	El mundo físico	
+308-1-740-2	molle	molte; molle	fog	FOG	249	1	El mundo físico	
+308-1-750-1	saire	saire; zaire; sairi	rain (noun)	RAIN (PRECIPITATION)	658	1	El mundo físico	Also sairina.
+308-1-750-2	zaire	saire; zaire; sairi	rain (noun)	RAIN (PRECIPITATION)	658	1	El mundo físico	Also sairina.
+308-1-750-3	sairi	saire; zaire; sairi	rain (noun)	RAIN (PRECIPITATION)	658	1	El mundo físico	Also sairina.
+308-1-760-1	tsimir	tsimir; tchi-mir	snow (noun)	SNOW	784	1	El mundo físico	
+308-1-760-2	tchi-mir	tsimir; tchi-mir	snow (noun)	SNOW	784	1	El mundo físico	
+308-1-810-1	ho-hónima	ho-hónima; humur; ckelar	fire	FIRE	221	1	El mundo físico	Also hamur.
+308-1-810-2	humur	ho-hónima; humur; ckelar	fire	FIRE	221	1	El mundo físico	Also hamur.
+308-1-810-3	ckelar	ho-hónima; humur; ckelar	fire	FIRE	221	1	El mundo físico	Also hamur.
+308-1-830-1	ttoy-ur	ttoy-ur	smoke (noun)	SMOKE (EXHAUST)	778	1	El mundo físico	
+308-1-840-1	tchili	tchili	ashes	ASH	646	1	El mundo físico	
+308-1-841-1	ckelar	ckelar	embers	EMBERS	67	1	El mundo físico	
+308-1-851-1	ho-na-tur	ho-na-tur	burn (vb trans)	BURN (SOMETHING)	141	1	El mundo físico	
+308-1-852-1	lock-tur	lock-tur; tu-mai-na-tur	burn (vb intrans)	BURNING	1428	1	El mundo físico	
+308-1-852-2	tu-mai-na-tur	lock-tur; tu-mai-na-tur	burn (vb intrans)	BURNING	1428	1	El mundo físico	
+308-1-860-1	loc-kun-tur	loc-kun-tur; hay-ian-tur	light, kindle, ignite	LIGHT (IGNITE)	737	1	El mundo físico	
+308-1-860-2	hay-ian-tur	loc-kun-tur; hay-ian-tur	light, kindle, ignite	LIGHT (IGNITE)	737	1	El mundo físico	
+308-1-861-1	si-an-tur	si-an-tur	extinguish	EXTINGUISH	127	1	El mundo físico	
+308-1-880-1	hackamur	hackamur; hak'amur	firewood	FIREWOOD	10	1	El mundo físico	Also means 'staff, walking stick' 19.250.
+308-1-880-2	hak'amur	hackamur; hak'amur	firewood	FIREWOOD	10	1	El mundo físico	Also means 'staff, walking stick' 19.250.
+308-2-210-1	sima	sima; sim-ma	man (vs. woman)	MAN	1554	2	Parentesco	Also kónte; conti, which also means 'people'.
+308-2-210-2	sim-ma	sima; sim-ma	man (vs. woman)	MAN	1554	2	Parentesco	Also kónte; conti, which also means 'people'.
+308-2-220-1	lickau	lickau; liq'cau	woman	WOMAN	962	2	Parentesco	Also likau; licau.
+308-2-220-2	liq'cau	lickau; liq'cau	woman	WOMAN	962	2	Parentesco	Also likau; licau.
+308-2-230-1	ttari	ttari; t'ari	male	MALE (OF PERSON)	2261	2	Parentesco	
+308-2-230-2	t'ari	ttari; t'ari	male	MALE (OF PERSON)	2261	2	Parentesco	
+308-2-240-1	qui-bur	qui-bur; liq-cau	female	FEMALE (OF PERSON)	2260	2	Parentesco	For example, zahli liq-cau 'sister'.
+308-2-240-2	liq-cau	qui-bur; liq-cau	female	FEMALE (OF PERSON)	2260	2	Parentesco	For example, zahli liq-cau 'sister'.
+308-2-250-1	pauna	pauna; sima pauna	boy	BOY	1366	2	Parentesco	Also ppauna; pani; panck-ti; paunichqui.
+308-2-250-2	sima pauna	pauna; sima pauna	boy	BOY	1366	2	Parentesco	Also ppauna; pani; panck-ti; paunichqui.
+308-2-251-1	yaalir	yaalir; baina	young man (adolescent)	YOUNG MAN	76	2	Parentesco	
+308-2-251-2	baina	yaalir; baina	young man (adolescent)	YOUNG MAN	76	2	Parentesco	
+308-2-260-1	lickau pauna	lickau pauna; pauna licau	girl	GIRL	1646	2	Parentesco	
+308-2-260-2	pauna licau	lickau pauna; pauna licau	girl	GIRL	1646	2	Parentesco	
+308-2-261-1	ay-ián	ay-ián	young woman (adolescent)	YOUNG WOMAN	77	2	Parentesco	
+308-2-270-1	pauna	pauna; panck-ti	child	CHILD (YOUNG HUMAN)	1304	2	Parentesco	Also paunicaiqui.
+308-2-270-2	panck-ti	pauna; panck-ti	child	CHILD (YOUNG HUMAN)	1304	2	Parentesco	Also paunicaiqui.
+308-2-310-1	sima	sima; sim-ma	husband	HUSBAND	1200	2	Parentesco	
+308-2-310-2	sim-ma	sima; sim-ma	husband	HUSBAND	1200	2	Parentesco	
+308-2-320-1	licki	licki; kiqui	wife	WIFE	1199	2	Parentesco	
+308-2-320-2	kiqui	licki; kiqui	wife	WIFE	1199	2	Parentesco	
+308-2-350-1	tickan	tickan; tic'han	father	FATHER	1217	2	Parentesco	Also itica; tu'han.
+308-2-350-2	tic'han	tickan; tic'han	father	FATHER	1217	2	Parentesco	Also itica; tu'han.
+308-2-360-1	patta	patta; pat'ta	mother	MOTHER	1216	2	Parentesco	Also ipata; pata.
+308-2-360-2	pat'ta	patta; pat'ta	mother	MOTHER	1216	2	Parentesco	Also ipata; pata.
+308-2-410-1	pahni	pahni; panni	son	SON	1620	2	Parentesco	
+308-2-410-2	panni	pahni; panni	son	SON	1620	2	Parentesco	
+308-2-420-1	pahni lickau	pahni lickau; pahni liq'cau	daughter	DAUGHTER	1357	2	Parentesco	Also pani lic-cau.
+308-2-420-2	pahni liq'cau	pahni lickau; pahni liq'cau	daughter	DAUGHTER	1357	2	Parentesco	Also pani lic-cau.
+308-2-440-1	pitchau	pitchau; sahli	brother	BROTHER	1262	2	Parentesco	Also zahli; sali; pichao.
+308-2-440-2	sahli	pitchau; sahli	brother	BROTHER	1262	2	Parentesco	Also zahli; sali; pichao.
+308-2-445-1	sulcka	[sulcka]	younger brother	YOUNGER BROTHER	1760	2	Parentesco	Prob. from Quechua 'sullka'.
+308-2-450-1	sahli lickau	sahli lickau; zahli liqcau	sister	SISTER	1263	2	Parentesco	Also sale saalipinau.
+308-2-450-2	zahli liqcau	sahli lickau; zahli liqcau	sister	SISTER	1263	2	Parentesco	Also sale saalipinau.
+308-2-458-1	pinnau	pinnau	twins	TWINS	1005	2	Parentesco	
+308-2-460-1	aulo	[aulo]	grandfather	GRANDFATHER	1383	2	Parentesco	Loanword, prob. from Spanish 'abuelo'.
+308-2-461-1	ckonicks	ckonicks; muy-i	old man	OLD MAN	406	2	Parentesco	
+308-2-461-2	muy-i	ckonicks; muy-i	old man	OLD MAN	406	2	Parentesco	
+308-2-471-1	ckannau	ckannau	old woman	OLD WOMAN	907	2	Parentesco	
+308-2-480-1	ckamai	ckamai; cahmai	grandson	GRANDSON	1618	2	Parentesco	
+308-2-480-2	cahmai	ckamai; cahmai	grandson	GRANDSON	1618	2	Parentesco	
+308-2-530-1	pitchipani	pitchipani	nephew	NEPHEW	1063	2	Parentesco	
+308-2-540-1	salipani	salipani	niece	NIECE	1642	2	Parentesco	
+308-2-620-1	ttosi	ttosi	mother-in-law (of a man)	MOTHER-IN-LAW (OF MAN)	2257	2	Parentesco	
+308-2-750-1	pucki	pucki; puk'i; puqui	orphan	ORPHAN	1149	2	Parentesco	Also backtcha.
+308-2-750-2	puk'i	pucki; puk'i; puqui	orphan	ORPHAN	1149	2	Parentesco	Also backtcha.
+308-2-750-3	puqui	pucki; puk'i; puqui	orphan	ORPHAN	1149	2	Parentesco	Also backtcha.
+308-2-910-1	ackcka	ackcka; acsa; akia	I	I	1209	2	Parentesco	Also ac-ca.
+308-2-910-2	acsa	ackcka; acsa; akia	I	I	1209	2	Parentesco	Also ac-ca.
+308-2-910-3	akia	ackcka; acsa; akia	I	I	1209	2	Parentesco	Also ac-ca.
+308-2-920-1	tchema	tchema; chema	you (singular)	THOU	1215	2	Parentesco	
+308-2-920-2	chema	tchema; chema	you (singular)	THOU	1215	2	Parentesco	
+308-2-930-1	ía	ía; ckachir (ckatchbi); ilckau-ya	he/she/it	HE OR SHE OR IT	262	2	Parentesco	Respectively: from San Román; from Vaisse et alii; Vaisse et alii. The morpheme ia also functions as a definite article: ckuruia 'the wind'; ckamuria 'the moon'; ckapinia 'the sun'; simaia 'the man'.
+308-2-930-2	ckachir	ía; ckachir (ckatchbi); ilckau-ya	he/she/it	HE OR SHE OR IT	262	2	Parentesco	Respectively: from San Román; from Vaisse et alii; Vaisse et alii. The morpheme ia also functions as a definite article: ckuruia 'the wind'; ckamuria 'the moon'; ckapinia 'the sun'; simaia 'the man'.
+308-2-930-3	ilckau-ya	ía; ckachir (ckatchbi); ilckau-ya	he/she/it	HE OR SHE OR IT	262	2	Parentesco	Respectively: from San Román; from Vaisse et alii; Vaisse et alii. The morpheme ia also functions as a definite article: ckuruia 'the wind'; ckamuria 'the moon'; ckapinia 'the sun'; simaia 'the man'.
+308-2-940-1	ckunna	ckunna; cunna	we	WE	1212	2	Parentesco	Also kunna; ckun; vaina.
+308-2-940-2	cunna	ckunna; cunna	we	WE	1212	2	Parentesco	Also kunna; ckun; vaina.
+308-2-950-1	chime	chime	you (plural)	YOU	1213	2	Parentesco	
+308-2-960-1	ickota	ickota; k'hota-cota; ícota	they	THEY	817	2	Parentesco	
+308-2-960-2	k'hota-cota	ickota; k'hota-cota; ícota	they	THEY	817	2	Parentesco	
+308-2-960-3	ícota	ickota; k'hota-cota; ícota	they	THEY	817	2	Parentesco	
+308-3-130-1	ckibur	ckibur	female (adj)	FEMALE (OF ANIMAL)	2262	3	Animales	For example, lockma ckibur '(female) dog'.
+308-3-350-1	ckutchi	[ckutchi]	pig	PIG	1337	3	Animales	Prob. from common term 'cochi/coche/ cochino'.
+308-3-540-1	athalpa	[athalpa]	hen	HEN	1514	3	Animales	Prob. from Quechua 'atahuallpa'.
+308-3-550-1	pani	pani; [tchiuchi]	chicken	CHICKEN	1318	3	Animales	The latter prob. from Quechua 'chiuchi'.
+308-3-550-2	tchiuchi	pani; [tchiuchi]	chicken	CHICKEN	1318	3	Animales	The latter prob. from Quechua 'chiuchi'.
+308-3-570-1	tchockbar	tchockbar; chopor	duck	DUCK	1360	3	Animales	Also chopar; tchun-tchurún.
+308-3-570-2	chopor	tchockbar; chopor	duck	DUCK	1360	3	Animales	Also chopar; tchun-tchurún.
+308-3-580-1	hitan	hitan	nest	NEST	539	3	Animales	
+308-3-581-1	latchir	latchir; laachir; lacira	bird	BIRD	937	3	Animales	
+308-3-581-2	laachir	latchir; laachir; lacira	bird	BIRD	937	3	Animales	
+308-3-581-3	lacira	latchir; laachir; lacira	bird	BIRD	937	3	Animales	
+308-3-584-1	vitti	vitti	eagle	EAGLE	1905	3	Animales	
+308-3-593-1	haari	haari	crow	CROW	913	3	Animales	
+308-3-594-1	ckir-ckir	ckir-ckir; toiva	dove	DOVE	1853	3	Animales	
+308-3-594-2	toiva	ckir-ckir; toiva	dove	DOVE	1853	3	Animales	
+308-3-596-1	ckoscko	ckoscko; cos-co; [tuckur]	owl	OWL	735	3	Animales	The latter prob. from Quechua 'ttucu'.
+308-3-596-2	cos-co	ckoscko; cos-co; [tuckur]	owl	OWL	735	3	Animales	The latter prob. from Quechua 'ttucu'.
+308-3-596-3	tuckur	ckoscko; cos-co; [tuckur]	owl	OWL	735	3	Animales	The latter prob. from Quechua 'ttucu'.
+308-3-610-1	lockma	lockma; lojma; locjma	dog	DOG	2009	3	Animales	Also lokma; tcholo.
+308-3-610-2	lojma	lockma; lojma; locjma	dog	DOG	2009	3	Animales	Also lokma; tcholo.
+308-3-610-3	locjma	lockma; lojma; locjma	dog	DOG	2009	3	Animales	Also lokma; tcholo.
+308-3-614-1	puluckur	puluckur; cururo	rabbit	RABBIT	1136	3	Animales	
+308-3-614-2	cururo	puluckur; cururo	rabbit	RABBIT	1136	3	Animales	
+308-3-620-1	mitchi	[mitchi]	cat	CAT	1208	3	Animales	From common term 'michi'.
+308-3-630-1	ckilli	ckilli; ckilir; killi	mouse, rat	MUROID (MOUSE OR RAT)	2139	3	Animales	Also quiler.
+308-3-630-2	ckilir	ckilli; ckilir; killi	mouse, rat	MUROID (MOUSE OR RAT)	2139	3	Animales	Also quiler.
+308-3-630-3	killi	ckilli; ckilir; killi	mouse, rat	MUROID (MOUSE OR RAT)	2139	3	Animales	Also quiler.
+308-3-650-1	ckacktchi	ckacktchi	fish	FISH	227	3	Animales	Also means 'good' 16.710.
+308-3-720-1	ckuru	ckuru; kúh-ri	lion	LION	1386	3	Animales	
+308-3-720-2	kúh-ri	ckuru; kúh-ri	lion	LION	1386	3	Animales	
+308-3-740-1	tchapur	tchapur; tschápur	fox	FOX	1312	3	Animales	
+308-3-740-2	tschápur	tchapur; tschápur	fox	FOX	1312	3	Animales	
+308-3-811-1	hebir	hebir	louse	LOUSE	1392	3	Animales	
+308-3-812-1	cketchir	cketchir; ckitche	nit (louse egg)	NIT	267	3	Animales	
+308-3-812-2	ckitche	cketchir; ckitche	nit (louse egg)	NIT	267	3	Animales	
+308-3-815-1	pickar	pickar	scorpion	SCORPION	1538	3	Animales	
+308-3-816-1	ckackma	ckackma	cockroach	COCKROACH	1575	3	Animales	
+308-3-818-1	kuma	kuma	spider	SPIDER	843	3	Animales	
+308-3-820-1	lulan	lulan	bee	BEE	665	3	Animales	Also means 'honey' 05.840.
+308-3-823-1	cura	cura; curato	wasp	WASP	1517	3	Animales	
+308-3-823-2	curato	cura; curato	wasp	WASP	1517	3	Animales	
+308-3-830-1	pairi	pairi	fly	FLY (INSECT)	1504	3	Animales	
+308-3-832-1	tchuckun	tchuckun; paire; tchuckur	mosquito	MOSQUITO	1509	3	Animales	
+308-3-832-2	paire	tchuckun; paire; tchuckur	mosquito	MOSQUITO	1509	3	Animales	
+308-3-832-3	tchuckur	tchuckun; paire; tchuckur	mosquito	MOSQUITO	1509	3	Animales	
+308-3-840-1	ttockomar	ttockomar; tock-mar	worm	WORM	1219	3	Animales	
+308-3-840-2	tock-mar	ttockomar; tock-mar	worm	WORM	1219	3	Animales	
+308-3-920-1	tchocko	tchocko; [pilpinto]	butterfly	BUTTERFLY	1791	3	Animales	The latter is a loanword, prob. from Quechua 'pilpinta'.
+308-3-920-2	pilpinto	tchocko; [pilpinto]	butterfly	BUTTERFLY	1791	3	Animales	The latter is a loanword, prob. from Quechua 'pilpinta'.
+308-3-950-1	misckán	misckán; [ampatur]	frog	FROG	503	3	Animales	The latter prob. from Quechua 'hamppato'.
+308-3-950-2	ampatur	misckán; [ampatur]	frog	FROG	503	3	Animales	The latter prob. from Quechua 'hamppato'.
+308-3-960-1	tchalti	tchalti; chalte; challe	lizard	LIZARD	632	3	Animales	
+308-3-960-2	chalte	tchalti; chalte; challe	lizard	LIZARD	632	3	Animales	
+308-3-960-3	challe	tchalti; chalte; challe	lizard	LIZARD	632	3	Animales	
+308-4-110-1	ckooli	ckooli	body	BODY	1480	4	El cuerpo	
+308-4-120-1	ckati	ckati; cka-tir	skin, hide	SKIN	763	4	El cuerpo	
+308-4-120-2	cka-tir	ckati; cka-tir	skin, hide	SKIN	763	4	El cuerpo	
+308-4-140-1	mussur	mussur; musa	hair (head)	HAIR (HEAD)	2648	4	El cuerpo	
+308-4-140-2	musa	mussur; musa	hair (head)	HAIR (HEAD)	2648	4	El cuerpo	
+308-4-142-1	huntur	huntur; [suntia]	beard	BEARD	678	4	El cuerpo	The latter, prob. from Quechua 'sunka'.
+308-4-142-2	suntia	huntur; [suntia]	beard	BEARD	678	4	El cuerpo	The latter, prob. from Quechua 'sunka'.
+308-4-150-1	laari	laari; lay-ir; lari	blood	BLOOD	946	4	El cuerpo	The latter also means 'red' 15.560.
+308-4-150-2	lay-ir	laari; lay-ir; lari	blood	BLOOD	946	4	El cuerpo	The latter also means 'red' 15.560.
+308-4-150-3	lari	laari; lay-ir; lari	blood	BLOOD	946	4	El cuerpo	The latter also means 'red' 15.560.
+308-4-160-1	mulur	mulur	bone	BONE	1394	4	El cuerpo	
+308-4-162-1	ckarao	ckarao; ckarau; ckaru	rib	RIB	801	4	El cuerpo	
+308-4-162-2	ckarau	ckarao; ckarau; ckaru	rib	RIB	801	4	El cuerpo	
+308-4-162-3	ckaru	ckarao; ckarau; ckaru	rib	RIB	801	4	El cuerpo	
+308-4-170-1	backra	[backra]	horn	HORN (ANATOMY)	1393	4	El cuerpo	Prob. from Quechua 'huakra'.
+308-4-180-1	peckay	peckay	tail	TAIL	1220	4	El cuerpo	
+308-4-190-1	chocklo	chocklo; choclo	back	BACK	1291	4	El cuerpo	Also cko-cko; k'ok'o.
+308-4-190-2	choclo	chocklo; choclo	back	BACK	1291	4	El cuerpo	Also cko-cko; k'ok'o.
+308-4-200-1	lacksi	lacksi; hlacse; hjlacse	head	HEAD	1256	4	El cuerpo	
+308-4-200-2	hlacse	lacksi; hlacse; hjlacse	head	HEAD	1256	4	El cuerpo	
+308-4-200-3	hjlacse	lacksi; hlacse; hjlacse	head	HEAD	1256	4	El cuerpo	
+308-4-202-1	ckot-cko	ckot-cko	skull	SKULL	1605	4	El cuerpo	
+308-4-203-1	coyo	coyo; mutuck-tur	brain	BRAIN	1583	4	El cuerpo	Also [nutcko], prob. from Quechua 'ñutko'.
+308-4-203-2	mutuck-tur	coyo; mutuck-tur	brain	BRAIN	1583	4	El cuerpo	Also [nutcko], prob. from Quechua 'ñutko'.
+308-4-204-1	ckúlan	ckúlan; culam	face	FACE	1560	4	El cuerpo	
+308-4-204-2	culam	ckúlan; culam	face	FACE	1560	4	El cuerpo	
+308-4-205-1	ckacka	ckacka; ccaca; k'ak'a	forehead	FOREHEAD	123	4	El cuerpo	
+308-4-205-2	ccaca	ckacka; ccaca; k'ak'a	forehead	FOREHEAD	123	4	El cuerpo	
+308-4-205-3	k'ak'a	ckacka; ccaca; k'ak'a	forehead	FOREHEAD	123	4	El cuerpo	
+308-4-207-1	tackil	tackil; silatackil	jaw	JAW	798	4	El cuerpo	The latter is the jaw of a llama.
+308-4-207-2	silatackil	tackil; silatackil	jaw	JAW	798	4	El cuerpo	The latter is the jaw of a llama.
+308-4-208-1	bitis	bitis	cheek	CHEEK	1730	4	El cuerpo	
+308-4-210-1	ckepi	ckepi; qquepe; ikhepe	eye	EYE	1248	4	El cuerpo	Also ckepe; quepi.
+308-4-210-2	qquepe	ckepi; qquepe; ikhepe	eye	EYE	1248	4	El cuerpo	Also ckepe; quepi.
+308-4-210-3	ikhepe	ckepi; qquepe; ikhepe	eye	EYE	1248	4	El cuerpo	Also ckepe; quepi.
+308-4-212-1	ckackasima	ckackasima	eyebrow	EYEBROW	1173	4	El cuerpo	
+308-4-213-1	ckepi-ckati	ckepi-ckati	eyelid	EYELID	17	4	El cuerpo	
+308-4-214-1	ckepi-sinna	ckepi-sinna	eyelash	EYELASH	1540	4	El cuerpo	
+308-4-215-1	tchi-pac-kin-tur	tchi-pac-kin-tur	blink	BLINK	1655	4	El cuerpo	
+308-4-220-1	ckai-ckai	ckai-ckai; aicke	ear	EAR	1247	4	El cuerpo	
+308-4-220-2	aicke	ckai-ckai; aicke	ear	EAR	1247	4	El cuerpo	
+308-4-230-1	sep-pi	sep-pi; sepe	nose	NOSE	1221	4	El cuerpo	
+308-4-230-2	sepe	sep-pi; sepe	nose	NOSE	1221	4	El cuerpo	
+308-4-232-1	sepil-tur	sepil-tur	mucus (nasal)	NASAL MUCUS (SNOT)	208	4	El cuerpo	
+308-4-240-1	ckaipi	ckaipi; khaipe; quaipi	mouth	MOUTH	674	4	El cuerpo	
+308-4-240-2	khaipe	ckaipi; khaipe; quaipi	mouth	MOUTH	674	4	El cuerpo	
+308-4-240-3	quaipi	ckaipi; khaipe; quaipi	mouth	MOUTH	674	4	El cuerpo	
+308-4-250-1	tchuinu	tchuinu	lip	LIP	478	4	El cuerpo	
+308-4-260-1	las-si	las-si; lasi; las-kar	tongue	TONGUE	1205	4	El cuerpo	Also hackamur.
+308-4-260-2	lasi	las-si; lasi; las-kar	tongue	TONGUE	1205	4	El cuerpo	Also hackamur.
+308-4-260-3	las-kar	las-si; lasi; las-kar	tongue	TONGUE	1205	4	El cuerpo	Also hackamur.
+308-4-270-1	ckénia	ckénia; cune	tooth	TOOTH	1380	4	El cuerpo	
+308-4-270-2	cune	ckénia; cune	tooth	TOOTH	1380	4	El cuerpo	
+308-4-271-1	ckentchockol	ckentchockol; ckeu	gums	GUMS	139	4	El cuerpo	
+308-4-271-2	ckeu	ckentchockol; ckeu	gums	GUMS	139	4	El cuerpo	
+308-4-280-1	ckati	ckati; ccati; [ckooyo]	neck	NECK	1333	4	El cuerpo	The latter, possibly loanword from Spanish 'cuello'.
+308-4-280-2	ccati	ckati; ccati; [ckooyo]	neck	NECK	1333	4	El cuerpo	The latter, possibly loanword from Spanish 'cuello'.
+308-4-280-3	ckooyo	ckati; ccati; [ckooyo]	neck	NECK	1333	4	El cuerpo	The latter, possibly loanword from Spanish 'cuello'.
+308-4-281-1	coyo	coyo	nape of neck	NAPE (OF NECK)	1347	4	El cuerpo	
+308-4-290-1	ckomal	ckomal; malckar; comála	throat	THROAT	1346	4	El cuerpo	Also tackei.
+308-4-290-2	malckar	ckomal; malckar; comála	throat	THROAT	1346	4	El cuerpo	Also tackei.
+308-4-290-3	comála	ckomal; malckar; comála	throat	THROAT	1346	4	El cuerpo	Also tackei.
+308-4-300-1	tchocklo	tchocklo; choclo	shoulder	SHOULDER	1482	4	El cuerpo	
+308-4-300-2	choclo	tchocklo; choclo	shoulder	SHOULDER	1482	4	El cuerpo	
+308-4-310-1	socke	socke; soke; soqui	arm	ARM	1673	4	El cuerpo	
+308-4-310-2	soke	socke; soke; soqui	arm	ARM	1673	4	El cuerpo	
+308-4-310-3	soqui	socke; soke; soqui	arm	ARM	1673	4	El cuerpo	
+308-4-312-1	matackai	matackai	armpit	ARMPIT	1886	4	El cuerpo	
+308-4-320-1	tickne	tickne; tic-ni	elbow	ELBOW	981	4	El cuerpo	
+308-4-320-2	tic-ni	tickne; tic-ni	elbow	ELBOW	981	4	El cuerpo	
+308-4-330-1	suy-i	suy-i; suyi	hand	HAND	1277	4	El cuerpo	
+308-4-330-2	suyi	suy-i; suyi	hand	HAND	1277	4	El cuerpo	
+308-4-331-1	sutalanau	sutalanau	palm of hand	PALM OF HAND	1183	4	El cuerpo	
+308-4-340-1	sulay-ie	sulay-ie; sui	finger	FINGER	1303	4	El cuerpo	
+308-4-340-2	sui	sulay-ie; sui	finger	FINGER	1303	4	El cuerpo	
+308-4-344-1	khin	khin; cken-ni; kh'in	fingernail	FINGERNAIL	1258	4	El cuerpo	
+308-4-344-2	cken-ni	khin; cken-ni; kh'in	fingernail	FINGERNAIL	1258	4	El cuerpo	
+308-4-344-3	kh'in	khin; cken-ni; kh'in	fingernail	FINGERNAIL	1258	4	El cuerpo	
+308-4-350-1	nan	nan	leg	LEG	1297	4	El cuerpo	
+308-4-352-1	nan-tchackti	nan-tchackti; poi-ya	calf of leg	CALF OF LEG	498	4	El cuerpo	
+308-4-352-2	poi-ya	nan-tchackti; poi-ya	calf of leg	CALF OF LEG	498	4	El cuerpo	
+308-4-360-1	pocklo	pocklo; ckolck-ul; colc'ul	knee	KNEE	1371	4	El cuerpo	
+308-4-360-2	ckolck-ul	pocklo; ckolck-ul; colc'ul	knee	KNEE	1371	4	El cuerpo	
+308-4-360-3	colc'ul	pocklo; ckolck-ul; colc'ul	knee	KNEE	1371	4	El cuerpo	
+308-4-370-1	ckutchir	ckutchir; cuchi; khoche	foot	FOOT	1301	4	El cuerpo	
+308-4-370-2	cuchi	ckutchir; cuchi; khoche	foot	FOOT	1301	4	El cuerpo	
+308-4-370-3	khoche	ckutchir; cuchi; khoche	foot	FOOT	1301	4	El cuerpo	
+308-4-371-1	ckulub	ckulub; k'ulub	ankle	ANKLE	803	4	El cuerpo	
+308-4-371-2	k'ulub	ckulub; k'ulub	ankle	ANKLE	803	4	El cuerpo	
+308-4-372-1	ckai-yi	ckai-yi	heel	HEEL	980	4	El cuerpo	
+308-4-392-1	ack-iu	ack-iu	wing	WING	1257	4	El cuerpo	Also means 'feather' 04.393.
+308-4-393-1	ack-iu	ack-iu; hackiu; hackeu	feather	FEATHER	1201	4	El cuerpo	The first form also means 'wing' 04.392.
+308-4-393-2	hackiu	ack-iu; hackiu; hackeu	feather	FEATHER	1201	4	El cuerpo	The first form also means 'wing' 04.392.
+308-4-393-3	hackeu	ack-iu; hackiu; hackeu	feather	FEATHER	1201	4	El cuerpo	The first form also means 'wing' 04.392.
+308-4-400-1	aytia	aytia	chest	CHEST	1592	4	El cuerpo	
+308-4-410-1	ckatnu	ckatnu; pibur; pivur	breast (of woman)	BREAST	1402	4	El cuerpo	Also h'aiti.
+308-4-410-2	pibur	ckatnu; pibur; pivur	breast (of woman)	BREAST	1402	4	El cuerpo	Also h'aiti.
+308-4-410-3	pivur	ckatnu; pibur; pivur	breast (of woman)	BREAST	1402	4	El cuerpo	Also h'aiti.
+308-4-412-1	tutu	tutu	nipple, teat	NIPPLE	796	4	El cuerpo	Also means 'spit' 04.560.
+308-4-430-1	ckutti	ckutti	navel	NAVEL	1838	4	El cuerpo	
+308-4-440-1	tchitack	tchitack; haiti	heart	HEART	1223	4	El cuerpo	
+308-4-440-2	haiti	tchitack; haiti	heart	HEART	1223	4	El cuerpo	
+308-4-441-1	hoopir	hoopir	lung	LUNG	688	4	El cuerpo	
+308-4-450-1	himri	himri	liver	LIVER	1224	4	El cuerpo	
+308-4-451-1	tchinur	tchinur	kidney	KIDNEY	489	4	El cuerpo	
+308-4-460-1	ckani	ckani; ckan; cani	stomach	STOMACH	819	4	El cuerpo	Also chitag; tchuckut.
+308-4-460-2	ckan	ckani; ckan; cani	stomach	STOMACH	819	4	El cuerpo	Also chitag; tchuckut.
+308-4-460-3	cani	ckani; ckan; cani	stomach	STOMACH	819	4	El cuerpo	Also chitag; tchuckut.
+308-4-461-1	lali	lali; lalir	intestines, guts	INTESTINES	1991	4	El cuerpo	
+308-4-461-2	lalir	lali; lalir	intestines, guts	INTESTINES	1991	4	El cuerpo	
+308-4-462-1	tckura	tckura; ckuri	waist	WAIST	1681	4	El cuerpo	
+308-4-462-2	ckuri	tckura; ckuri	waist	WAIST	1681	4	El cuerpo	
+308-4-463-1	ckat	ckat; caktu	hip	HIP	1745	4	El cuerpo	
+308-4-463-2	caktu	ckat; caktu	hip	HIP	1745	4	El cuerpo	
+308-4-464-1	toro	toro	buttocks	BUTTOCKS	834	4	El cuerpo	
+308-4-490-1	tchóo	tchóo	testicle	TESTICLES	797	4	El cuerpo	
+308-4-492-1	tchalau	tchalau	penis	PENIS	1222	4	El cuerpo	
+308-4-510-1	haabu	haabu; haa-ru	breathe, breath	BREATH OR BREATHE	3183	4	El cuerpo	Also hat-cka-tcha-tur.
+308-4-510-2	haa-ru	haabu; haa-ru	breathe, breath	BREATH OR BREATHE	3183	4	El cuerpo	Also hat-cka-tcha-tur.
+308-4-520-1	tul-tap-tur	tul-tap-tur; tul-ta-pur	yawn, gape	YAWN	1028	4	El cuerpo	
+308-4-520-2	tul-ta-pur	tul-tap-tur; tul-ta-pur	yawn, gape	YAWN	1028	4	El cuerpo	
+308-4-530-1	hoc-kol-tur	hoc-kol-tur	cough	COUGH	879	4	El cuerpo	
+308-4-540-1	ttack-tur	ttack-tur	sneeze	SNEEZE	1621	4	El cuerpo	
+308-4-560-1	tu-tu	tu-tu	spit	SPIT	1440	4	El cuerpo	Also means 'nipple' 04.412.
+308-4-570-1	ppo-tun-tur	ppo-tun-tur	vomit	VOMIT	1278	4	El cuerpo	
+308-4-580-1	beck-na-tur	beck-na-tur	bite	BITE	1403	4	El cuerpo	
+308-4-590-1	la-ba-sa-tur	la-ba-sa-tur	lick	LICK	319	4	El cuerpo	
+308-4-610-1	tu-lur	tu-lur; ttul-tur	sleep	SLEEP	1585	4	El cuerpo	
+308-4-610-2	ttul-tur	tu-lur; ttul-tur	sleep	SLEEP	1585	4	El cuerpo	
+308-4-620-1	ttultur	ttultur; ttulti	dream	DREAM (SOMETHING)	1920	4	El cuerpo	Respectively: verb; noun.
+308-4-620-2	ttulti	ttultur; ttulti	dream	DREAM (SOMETHING)	1920	4	El cuerpo	Respectively: verb; noun.
+308-4-630-1	ckep-ni-tur	ckep-ni-tur	wake up	WAKE UP	1602	4	El cuerpo	
+308-4-650-1	pel-an-tur	pel-an-tur; ppel-a-tur	urinate	PISS	592	4	El cuerpo	
+308-4-650-2	ppel-a-tur	pel-an-tur; ppel-a-tur	urinate	PISS	592	4	El cuerpo	
+308-4-660-1	tta-na-tur	tta-na-tur; so-la-tur	defecate	SHIT (DEFECATE)	676	4	El cuerpo	
+308-4-660-2	so-la-tur	tta-na-tur; so-la-tur	defecate	SHIT (DEFECATE)	676	4	El cuerpo	
+308-4-670-1	tchoc-kon-tur	tchoc-kon-tur	have sexual intercourse	COPULATE	549	4	El cuerpo	
+308-4-690-1	tchulck-tur	tchulck-tur	bathe	BATHE	138	4	El cuerpo	
+308-4-710-1	panc-ki-tur	panc-ki-tur	beget (of father)	BEGET	1152	4	El cuerpo	
+308-4-720-1	sa-ri-tur	sa-ri-tur	born (to be)	BE BORN	1090	4	El cuerpo	
+308-4-740-1	ckau-sa-tur	ckau-sa-tur; ckauscku	live, living, life	BE ALIVE OR LIFE	3184	4	El cuerpo	Also ckausama.
+308-4-740-2	ckauscku	ckau-sa-tur; ckauscku	live, living, life	BE ALIVE OR LIFE	3184	4	El cuerpo	Also ckausama.
+308-4-750-1	moc-kor	moc-kor; muc-kar; mul-sin-tur	die, dead	BE DEAD OR DIE	2101	4	El cuerpo	
+308-4-750-2	muc-kar	moc-kor; muc-kar; mul-sin-tur	die, dead	BE DEAD OR DIE	2101	4	El cuerpo	
+308-4-750-3	mul-sin-tur	moc-kor; muc-kar; mul-sin-tur	die, dead	BE DEAD OR DIE	2101	4	El cuerpo	
+308-4-760-1	lat-an-tur	lat-an-tur; lat-ta-tur	kill	KILL	1417	4	El cuerpo	
+308-4-760-2	lat-ta-tur	lat-an-tur; lat-ta-tur	kill	KILL	1417	4	El cuerpo	
+308-4-780-1	hoy-tur	hoy-tur	bury (the dead)	BURY	1719	4	El cuerpo	
+308-4-840-1	ckotchi	ckotchi; ccotas	sick, sickness	SICK	1847	4	El cuerpo	
+308-4-840-2	ccotas	ckotchi; ccotas	sick, sickness	SICK	1847	4	El cuerpo	
+308-4-843-1	morack-tur	morack-tur	cold (catarrh)	COMMON COLD (DISEASE)	102	4	El cuerpo	
+308-4-854-1	tcheck-tcheck-na-tur	tcheck-tcheck-na-tur	itch	ITCH	148	4	El cuerpo	
+308-4-857-1	ya-tur	ya-tur	pus	PUS	1808	4	El cuerpo	
+308-4-860-1	ckayatar	ckayatar; [hampi]-tur	cure, heal	CURE	499	4	El cuerpo	The latter, prob. from Quechua 'hampini'.
+308-4-860-2	hampi-tur	ckayatar; [hampi]-tur	cure, heal	CURE	499	4	El cuerpo	The latter, prob. from Quechua 'hampini'.
+308-4-880-1	hampi	[hampi]	medicine, drug	MEDICINE	1372	4	El cuerpo	Prob. from Quechua 'hamppi'.
+308-4-910-1	heus-tcha	heus-tcha	tired, weary	TIRED	1757	4	El cuerpo	
+308-4-920-1	ack-ckatchar	ack-ckatchar	lazy	LAZY	1564	4	El cuerpo	
+308-4-930-1	ttairi	ttairi; lejía	bald	BALD	1125	4	El cuerpo	
+308-4-930-2	lejía	ttairi; lejía	bald	BALD	1125	4	El cuerpo	
+308-4-950-1	yockto	yockto	deaf	DEAF	996	4	El cuerpo	
+308-4-980-1	pilckta	pilckta	intoxicated	DRUNK	1463	4	El cuerpo	
+308-4-990-1	ttaire	ttaire	naked, bare	NAKED	590	4	El cuerpo	
+308-5-110-1	holm-tur	holm-tur; ohlm-tur	eat	EAT	1336	5	Comida y bebida	Also o-lo-ma; to-cu-ba.
+308-5-110-2	ohlm-tur	holm-tur; ohlm-tur	eat	EAT	1336	5	Comida y bebida	Also o-lo-ma; to-cu-ba.
+308-5-120-1	tocke	tocke	food	FOOD	256	5	Comida y bebida	
+308-5-122-1	ckuitchar	ckuitchar	raw	RAW	1959	5	Comida y bebida	
+308-5-124-1	cka-ri	cka-ri	green, unripe	UNRIPE	1958	5	Comida y bebida	
+308-5-125-1	becktchi	becktchi; ckai-mai-ɲir	rotten	ROTTEN	1728	5	Comida y bebida	
+308-5-125-2	ckai-mai-ɲir	becktchi; ckai-mai-ɲir	rotten	ROTTEN	1728	5	Comida y bebida	
+308-5-130-1	haita-tur	haita-tur; hai-tur	drink	DRINK	1401	5	Comida y bebida	Also ckack-tur; hai-ta-ma.
+308-5-130-2	hai-tur	haita-tur; hai-tur	drink	DRINK	1401	5	Comida y bebida	Also ckack-tur; hai-ta-ma.
+308-5-140-1	tchors-tur	tchors-tur; choristur; tchorjmar	hunger	HUNGER	1864	5	Comida y bebida	
+308-5-140-2	choristur	tchors-tur; choristur; tchorjmar	hunger	HUNGER	1864	5	Comida y bebida	
+308-5-140-3	tchorjmar	tchors-tur; choristur; tchorjmar	hunger	HUNGER	1864	5	Comida y bebida	
+308-5-141-1	lack-tor	lack-tor	famine	FAMINE	199	5	Comida y bebida	
+308-5-150-1	tarckma	tarckma; tarajche; tarcktcha	thirst	THIRST	848	5	Comida y bebida	
+308-5-150-2	tarajche	tarckma; tarajche; tarcktcha	thirst	THIRST	848	5	Comida y bebida	
+308-5-150-3	tarcktcha	tarckma; tarajche; tarcktcha	thirst	THIRST	848	5	Comida y bebida	
+308-5-160-1	tchoc-kop-tur	tchoc-kop-tur	suck	SUCK	1421	5	Comida y bebida	
+308-5-180-1	cker-an-tur	cker-an-tur; ckap-na-tur	chew	CHEW	321	5	Comida y bebida	
+308-5-180-2	ckap-na-tur	cker-an-tur; ckap-na-tur	chew	CHEW	321	5	Comida y bebida	
+308-5-181-1	man-tur	man-tur; regánama	swallow	SWALLOW	897	5	Comida y bebida	
+308-5-181-2	regánama	man-tur; regánama	swallow	SWALLOW	897	5	Comida y bebida	
+308-5-220-1	ckun-tur	ckun-tur; pol-pon	boil (vb)	BOIL (OF LIQUID)	792	5	Comida y bebida	
+308-5-220-2	pol-pon	ckun-tur; pol-pon	boil (vb)	BOIL (OF LIQUID)	792	5	Comida y bebida	
+308-5-230-1	ckauc-kai-tur	ckauc-kai-tur; ckanc-ka-ta	roast, fry	ROAST OR FRY	2146	5	Comida y bebida	
+308-5-230-2	ckanc-ka-ta	ckauc-kai-tur; ckanc-ka-ta	roast, fry	ROAST OR FRY	2146	5	Comida y bebida	
+308-5-240-1	tchec-kan-tur	tchec-kan-tur	bake	BAKE	183	5	Comida y bebida	
+308-5-250-1	tatio	tatio	oven	OVEN	1143	5	Comida y bebida	
+308-5-260-1	ckurasa	ckurasa; tchecknar	pot, cooking vessel	COOKING POT	3653	5	Comida y bebida	Also checc-nar; tckecknar, which also means 'lamp, torch'.
+308-5-260-2	tchecknar	ckurasa; tchecknar	pot, cooking vessel	COOKING POT	3653	5	Comida y bebida	Also checc-nar; tckecknar, which also means 'lamp, torch'.
+308-5-340-1	po-tor	po-tor	pitcher, jug	JUG	270	5	Comida y bebida	
+308-5-480-1	bac-ka-ra-tur	bac-ka-ra-tur; tchac-ka-tur	scrape	SCRAPE	1767	5	Comida y bebida	
+308-5-480-2	tchac-ka-tur	bac-ka-ra-tur; tchac-ka-tur	scrape	SCRAPE	1767	5	Comida y bebida	
+308-5-560-1	te-pi-tur	te-pi-tur; hey-na-tur	crush, grind	GRIND	1033	5	Comida y bebida	Also ckas-an-tur.
+308-5-560-2	hey-na-tur	te-pi-tur; hey-na-tur	crush, grind	GRIND	1033	5	Comida y bebida	Also ckas-an-tur.
+308-5-610-1	sábur	sábur	meat	MEAT	634	5	Comida y bebida	
+308-5-700-1	tchusli	tchusli	potato	POTATO	593	5	Comida y bebida	
+308-5-712-1	tolva	tolva	bunch	BUNCH	1966	5	Comida y bebida	
+308-5-791-1	suitchi	suitchi	grease, fat	FAT (ORGANIC SUBSTANCE)	323	5	Comida y bebida	
+308-5-810-1	ckuta	ckuta; ckut-ta	salt	SALT	1274	5	Comida y bebida	
+308-5-810-2	ckut-ta	ckuta; ckut-ta	salt	SALT	1274	5	Comida y bebida	
+308-5-821-1	sicku	sicku	chili pepper	CHILI PEPPER	919	5	Comida y bebida	
+308-5-840-1	lu-lan	lu-lan	honey	HONEY	942	5	Comida y bebida	Also means 'bee'.
+308-5-940-1	ckilapana	ckilapana; kilampana; ckatchir	fermented drink	ALCOHOL (FERMENTED DRINK)	404	5	Comida y bebida	Also techajnita; ccachi.
+308-5-940-2	kilampana	ckilapana; kilampana; ckatchir	fermented drink	ALCOHOL (FERMENTED DRINK)	404	5	Comida y bebida	Also techajnita; ccachi.
+308-5-940-3	ckatchir	ckilapana; kilampana; ckatchir	fermented drink	ALCOHOL (FERMENTED DRINK)	404	5	Comida y bebida	Also techajnita; ccachi.
+308-5-970-1	ckauti	ckauti; ckanti	egg	EGG	744	5	Comida y bebida	Also k'auti; humor.
+308-5-970-2	ckanti	ckauti; ckanti	egg	EGG	744	5	Comida y bebida	Also k'auti; humor.
+308-5-971-1	ckalanna	ckalanna	egg yolk	YOLK	1556	5	Comida y bebida	
+308-6-110-1	ckaa-bart-an-tur	ckaa-bart-an-tur; ttan-tur	put on (clothes)	PUT ON	158	6	Ropa y arreglo personal	
+308-6-110-2	ttan-tur	ckaa-bart-an-tur; ttan-tur	put on (clothes)	PUT ON	158	6	Ropa y arreglo personal	
+308-6-120-1	ckaabar	ckaabar; cka-bar	clothing, clothes	CLOTHES	1895	6	Ropa y arreglo personal	
+308-6-120-2	cka-bar	ckaabar; cka-bar	clothing, clothes	CLOTHES	1895	6	Ropa y arreglo personal	
+308-6-210-1	koriate	koriate; koriarte	cloth	CLOTH	1616	6	Ropa y arreglo personal	
+308-6-210-2	koriarte	koriate; koriarte	cloth	CLOTH	1616	6	Ropa y arreglo personal	
+308-6-220-1	paapur	paapur; papur; paur	wool	WOOL	964	6	Ropa y arreglo personal	
+308-6-220-2	papur	paapur; papur; paur	wool	WOOL	964	6	Ropa y arreglo personal	
+308-6-220-3	paur	paapur; papur; paur	wool	WOOL	964	6	Ropa y arreglo personal	
+308-6-290-1	ckatir	ckatir; cka-tur	leather	LEATHER	629	6	Ropa y arreglo personal	Also ccati; ckati.
+308-6-290-2	cka-tur	ckatir; cka-tur	leather	LEATHER	629	6	Ropa y arreglo personal	Also ccati; ckati.
+308-6-320-1	ckoi-tur	ckoi-tur; mismina	spindle	SPINDLE	277	6	Ropa y arreglo personal	
+308-6-320-2	mismina	ckoi-tur; mismina	spindle	SPINDLE	277	6	Ropa y arreglo personal	
+308-6-330-1	pi-na-tur	pi-na-tur; tem-natur	weave	WEAVE	133	6	Ropa y arreglo personal	
+308-6-330-2	tem-natur	pi-na-tur; tem-natur	weave	WEAVE	133	6	Ropa y arreglo personal	
+308-6-340-1	pincks-tur	pincks-tur	loom	LOOM	1787	6	Ropa y arreglo personal	
+308-6-380-1	kucana	kucana; cuchana	thread	THREAD	1161	6	Ropa y arreglo personal	
+308-6-380-2	cuchana	kucana; cuchana	thread	THREAD	1161	6	Ropa y arreglo personal	
+308-6-440-1	pi-imu	pi-imu	shirt	SHIRT	1622	6	Ropa y arreglo personal	Also means 'skirt' 06.460.
+308-6-460-1	pi-imu	pi-imu	skirt	SKIRT	1600	6	Ropa y arreglo personal	Also means 'shirt' 06.440.
+308-6-550-1	panta	panta	hat, cap	HEADGEAR	2130	6	Ropa y arreglo personal	
+308-6-570-1	ckeppar	ckeppar; ckepar	belt, girdle	BELT	772	6	Ropa y arreglo personal	
+308-6-570-2	ckepar	ckeppar; ckepar	belt, girdle	BELT	772	6	Ropa y arreglo personal	
+308-6-710-1	nincks	nincks	ornament, adornment	ORNAMENT	917	6	Ropa y arreglo personal	
+308-6-810-1	tchuluscktur	tchuluscktur	handkerchief, rag	RAG	332	6	Ropa y arreglo personal	
+308-6-910-1	ckarisur	ckarisur	comb	COMB	1475	6	Ropa y arreglo personal	
+308-6-921-1	haana	haana	braid	BRAID	1043	6	Ropa y arreglo personal	
+308-7-120-1	tturi	tturi; t'huri; capu	house	HOUSE	1252	7	La casa	Also ttups; ca-ru; tihuri.
+308-7-120-2	t'huri	tturi; t'huri; capu	house	HOUSE	1252	7	La casa	Also ttups; ca-ru; tihuri.
+308-7-120-3	capu	tturi; t'huri; capu	house	HOUSE	1252	7	La casa	Also ttups; ca-ru; tihuri.
+308-7-130-1	tturitka	tturitka; ha-ra	hut	HUT	1678	7	La casa	The latter also means 'place' 12.110.
+308-7-130-2	ha-ra	tturitka; ha-ra	hut	HUT	1678	7	La casa	The latter also means 'place' 12.110.
+308-7-420-1	ckipti	ckipti; ckitti; krit-te	bed	BED	1663	7	La casa	
+308-7-420-2	ckitti	ckipti; ckitti; krit-te	bed	BED	1663	7	La casa	
+308-7-420-3	krit-te	ckipti; ckitti; krit-te	bed	BED	1663	7	La casa	
+308-7-421-1	lockati	lockati	pillow	PILLOW	1044	7	La casa	
+308-7-422-1	tchuse	tchuse	blanket	BLANKET	806	7	La casa	
+308-7-450-1	checcnar	checcnar	lamp, torch	TORCH OR LAMP	2131	7	La casa	Also means 'pot, cooking vessel' 05.260.
+308-7-510-1	ckeitin	ckeitin	roof	ROOF	769	7	La casa	
+308-8-170-1	toockor	toockor; pocko	ditch	DITCH	2002	8	Agricultura y vegetación	Also po-ko; poco.
+308-8-170-2	pocko	toockor; pocko	ditch	DITCH	2002	8	Agricultura y vegetación	Also po-ko; poco.
+308-8-220-1	baa-la-tur	baa-la-tur	dig	DIG	1418	8	Agricultura y vegetación	
+308-8-310-1	hut-an-tur	hut-an-tur	sow	SOW SEEDS	748	8	Agricultura y vegetación	
+308-8-311-1	mu-hu	mu-hu; tan-ti	seed	SEED	714	8	Agricultura y vegetación	
+308-8-311-2	tan-ti	mu-hu; tan-ti	seed	SEED	714	8	Agricultura y vegetación	
+308-8-330-1	ckatchunti	ckatchunti; k'ach'unti	sickle, scythe	SICKLE OR SCYTHE	2132	8	Agricultura y vegetación	
+308-8-330-2	k'ach'unti	ckatchunti; k'ach'unti	sickle, scythe	SICKLE OR SCYTHE	2132	8	Agricultura y vegetación	
+308-8-340-1	hoc-kun-tur	hoc-kun-tur, bal-ta-tur	thresh	THRESH	285	8	Agricultura y vegetación	
+308-8-340-2	bal-ta-tur	hoc-kun-tur, bal-ta-tur	thresh	THRESH	285	8	Agricultura y vegetación	
+308-8-350-1	bat-tar	bat-tar	threshing-floor	THRESHING-FLOOR	223	8	Agricultura y vegetación	
+308-8-410-1	ttaba	ttaba	crop, harvest	HARVEST	611	8	Agricultura y vegetación	
+308-8-430-1	tchacko	tchacko	wheat	WHEAT	1077	8	Agricultura y vegetación	
+308-8-470-1	tanti	tanti, yanckul; ay-i	maize, corn	MAIZE	506	8	Agricultura y vegetación	Also caria; háyen; áyin; ayil; ai-llen.
+308-8-470-2	yanckul	tanti, yanckul; ay-i	maize, corn	MAIZE	506	8	Agricultura y vegetación	Also caria; háyen; áyin; ayil; ai-llen.
+308-8-470-3	ay-i	tanti, yanckul; ay-i	maize, corn	MAIZE	506	8	Agricultura y vegetación	Also caria; háyen; áyin; ayil; ai-llen.
+308-8-540-1	ckapar	ckapar	root	ROOT	670	8	Agricultura y vegetación	
+308-8-550-1	tackos	tackos	branch	BRANCH OR TWIG	3223	8	Agricultura y vegetación	
+308-8-560-1	ckatta	ckatta; cata	leaf	LEAF	628	8	Agricultura y vegetación	
+308-8-560-2	cata	ckatta; cata	leaf	LEAF	628	8	Agricultura y vegetación	
+308-8-570-1	putchur	putchur; pu-chur; pucher	flower	FLOWER	239	8	Agricultura y vegetación	
+308-8-570-2	pu-chur	putchur; pu-chur; pucher	flower	FLOWER	239	8	Agricultura y vegetación	
+308-8-570-3	pucher	putchur; pu-chur; pucher	flower	FLOWER	239	8	Agricultura y vegetación	
+308-8-600-1	yali	yali; yaii	tree	TREE	906	8	Agricultura y vegetación	
+308-8-600-2	yaii	yali; yaii	tree	TREE	906	8	Agricultura y vegetación	
+308-8-750-1	tchack-tchas-tur	tchack-tchas-tur; chac-ach-astur	bark	BARK	1204	8	Agricultura y vegetación	
+308-8-750-2	chac-ach-astur	tchack-tchas-tur; chac-ach-astur	bark	BARK	1204	8	Agricultura y vegetación	
+308-8-931-1	lau-tchur	lau-tchur	pumpkin, squash	PUMPKIN	864	8	Agricultura y vegetación	
+308-9-120-1	heus-tcha-tur	heus-tcha-tur; heus-tur	work	WORK (LABOUR)	984	9	Acciones básicas y tecnología	
+308-9-120-2	heus-tur	heus-tcha-tur; heus-tur	work	WORK (LABOUR)	984	9	Acciones básicas y tecnología	
+308-9-140-1	tchut-na-tur	tchut-na-tur; pit-chac-ku-tur	bend	BEND	2004	9	Acciones básicas y tecnología	Also tchai-la-tur.
+308-9-140-2	pit-chac-ku-tur	tchut-na-tur; pit-chac-ku-tur	bend	BEND	2004	9	Acciones básicas y tecnología	Also tchai-la-tur.
+308-9-160-1	ckoi-yo-tur	ckoi-yo-tur; lac-kal-tur	tie, bind	TIE	1917	9	Acciones básicas y tecnología	Also lack-tur.
+308-9-160-2	lac-kal-tur	ckoi-yo-tur; lac-kal-tur	tie, bind	TIE	1917	9	Acciones básicas y tecnología	Also lack-tur.
+308-9-161-1	pot-na-tur	pot-na-tur	untie	UNTIE	352	9	Acciones básicas y tecnología	
+308-9-190-1	misckar	misckar	rope, cord	ROPE	1218	9	Acciones básicas y tecnología	
+308-9-192-1	ttusu	ttusu; humar	knot (noun)	KNOT	760	9	Acciones básicas y tecnología	
+308-9-192-2	humar	ttusu; humar	knot (noun)	KNOT	760	9	Acciones básicas y tecnología	
+308-9-210-1	tchick-nar	tchick-nar	strike (hit, beat)	STRIKE OR BEAT	2133	9	Acciones básicas y tecnología	
+308-9-220-1	cka-rac-kar-tur	cka-rac-kar-tur; cka-ra-tur	cut	CUT	1432	9	Acciones básicas y tecnología	Also cca-ra-tur.
+308-9-220-2	cka-ra-tur	cka-rac-kar-tur; cka-ra-tur	cut	CUT	1432	9	Acciones básicas y tecnología	Also cca-ra-tur.
+308-9-222-1	tec-ki-tur	tec-ki-tur	chop, hew	CHOP	155	9	Acciones básicas y tecnología	Also means 'destroy'.
+308-9-260-1	cku-ra-tur	cku-ra-tur; cja-ra-tur	break	BREAK (DESTROY OR GET DESTROYED)	680	9	Acciones básicas y tecnología	Also lorck-na-tur.
+308-9-260-2	cja-ra-tur	cku-ra-tur; cja-ra-tur	break	BREAK (DESTROY OR GET DESTROYED)	680	9	Acciones básicas y tecnología	Also lorck-na-tur.
+308-9-290-1	tte-ra-tur	tte-ra-tur	flay, skin	PULL OFF (SKIN)	291	9	Acciones básicas y tecnología	
+308-9-340-1	pe-ra-tur	pe-ra-tur; tus-sa-tur	spread out	SPREAD OUT	38	9	Acciones básicas y tecnología	Also laus-sar.
+308-9-340-2	tus-sa-tur	pe-ra-tur; tus-sa-tur	spread out	SPREAD OUT	38	9	Acciones básicas y tecnología	Also laus-sar.
+308-9-341-1	be-lui-na-tur	be-lui-na-tur; te-bai-na-tur	hang up	HANG UP	357	9	Acciones básicas y tecnología	
+308-9-341-2	te-bai-na-tur	be-lui-na-tur; te-bai-na-tur	hang up	HANG UP	357	9	Acciones básicas y tecnología	
+308-9-342-1	cka-tal-na-tur	cka-tal-na-tur	press	PRESS	1913	9	Acciones básicas y tecnología	
+308-9-343-1	te-pi-tur	te-pi-tur	squeeze, wring	SQUEEZE	1414	9	Acciones básicas y tecnología	
+308-9-350-1	tchuck-na-tur	tchuck-na-tur	pour	POUR	1487	9	Acciones básicas y tecnología	
+308-9-360-1	cka-bu-tur	cka-bu-tur; tchec-ka-tin-tur	wash	WASH	1453	9	Acciones básicas y tecnología	
+308-9-360-2	tchec-ka-tin-tur	cka-bu-tur; tchec-ka-tin-tur	wash	WASH	1453	9	Acciones básicas y tecnología	
+308-9-370-1	baal-sa-tur	baal-sa-tur	sweep	SWEEP	230	9	Acciones básicas y tecnología	
+308-9-380-1	bal-san-tur	bal-san-tur	broom	BROOM	245	9	Acciones básicas y tecnología	
+308-9-461-1	baalatur	baalatur	hollow out	HOLLOW OUT	46	9	Acciones básicas y tecnología	
+308-9-560-1	tchauna-tur	tchauna-tur	glue	GLUE	1069	9	Acciones básicas y tecnología	
+308-9-650-1	leber	leber; le-vir	silver	SILVER	759	9	Acciones básicas y tecnología	
+308-9-650-2	le-vir	leber; le-vir	silver	SILVER	759	9	Acciones básicas y tecnología	
+308-9-660-1	co-la	co-la	copper, bronze	BRONZE OR COPPER	3192	9	Acciones básicas y tecnología	
+308-9-730-1	yotto	yotto; ckisti	clay	CLAY	1399	9	Acciones básicas y tecnología	
+308-9-730-2	ckisti	yotto; ckisti	clay	CLAY	1399	9	Acciones básicas y tecnología	
+308-9-750-1	ckot-na-tur	ckot-na-tur	weave, plait	BRAID (VERB) OR WEAVE (BASKET)	3294	9	Acciones básicas y tecnología	
+308-10-110-1	luc-kan-tur	luc-kan-tur	move	MOVE	765	10	Movimiento	
+308-10-120-1	cku-tup-tur	cku-tup-tur; li-bay-na-tur	turn over	TURN (SOMETHING)	1445	10	Movimiento	
+308-10-120-2	li-bay-na-tur	cku-tup-tur; li-bay-na-tur	turn over	TURN (SOMETHING)	1445	10	Movimiento	
+308-10-130-1	sac-ka-tur	sac-ka-tur	turn around	TURN AROUND	1444	10	Movimiento	
+308-10-150-1	lu-pay-na-tur	lu-pay-na-tur	roll	ROLL	827	10	Movimiento	
+308-10-210-1	heu-tur	heu-tur; temp-tur	rise	RISE (MOVE UPWARDS)	568	10	Movimiento	
+308-10-210-2	temp-tur	heu-tur; temp-tur	rise	RISE (MOVE UPWARDS)	568	10	Movimiento	
+308-10-230-1	ckolck-tur	ckolck-tur; colc-tur	fall	FALL	1280	10	Movimiento	Also tto-mai-tur.
+308-10-230-2	colc-tur	ckolck-tur; colc-tur	fall	FALL	1280	10	Movimiento	Also tto-mai-tur.
+308-10-250-1	so-ru-tur	so-ru-tur; yoc-ke-tur	throw	THROW	1456	10	Movimiento	Also toock-na-clo.
+308-10-250-2	yoc-ke-tur	so-ru-tur; yoc-ke-tur	throw	THROW	1456	10	Movimiento	Also toock-na-clo.
+308-10-252-1	be-ri-na-tur	be-ri-na-tur; pat-pi-tur	catch (ball)	CATCH	702	10	Movimiento	
+308-10-252-2	pat-pi-tur	be-ri-na-tur; pat-pi-tur	catch (ball)	CATCH	702	10	Movimiento	
+308-10-320-1	che-rej-ner	che-rej-ner; che-res-nir	flow	FLOW	2003	10	Movimiento	
+308-10-320-2	che-res-nir	che-rej-ner; che-res-nir	flow	FLOW	2003	10	Movimiento	
+308-10-370-1	heu-tur	heu-tur	fly (vb)	FLY (MOVE THROUGH AIR)	1441	10	Movimiento	Also means 'rise' 10.210.
+308-10-380-1	ppupu-tur	ppupu-tur	blow	BLOW (OF WIND)	175	10	Movimiento	
+308-10-410-1	sor-ur-tur	sor-ur-tur	creep, crawl	CRAWL OR CREEP	3456	10	Movimiento	Also means 'throw'.
+308-10-412-1	ttonck-tur	ttonck-tur	kneel	KNEEL	66	10	Movimiento	
+308-10-430-1	suck-nu-tur	suck-nu-tur	jump, leap	JUMP	1829	10	Movimiento	
+308-10-431-1	pas-sap-tur	pas-sap-tur	kick	KICK	1135	10	Movimiento	
+308-10-450-1	cku-tchin-tur	cku-tchin-tur; lan-tur	walk	WALK	1443	10	Movimiento	Also sack-tur.
+308-10-450-2	lan-tur	cku-tchin-tur; lan-tur	walk	WALK	1443	10	Movimiento	Also sack-tur.
+308-10-460-1	balt-hi-tur	balt-hi-tur; cko-pa-cko-tur	run	RUN	1519	10	Movimiento	Also val-ti-ca-lo.
+308-10-460-2	cko-pa-cko-tur	balt-hi-tur; cko-pa-cko-tur	run	RUN	1519	10	Movimiento	Also val-ti-ca-lo.
+308-10-470-1	sack-tur	sack-tur; saj-ne-ma	go	GO	695	10	Movimiento	Also sa-qui-ma. The first form above also means 'walk' 10.450.
+308-10-470-2	saj-ne-ma	sack-tur; saj-ne-ma	go	GO	695	10	Movimiento	Also sa-qui-ma. The first form above also means 'walk' 10.450.
+308-10-471-1	mas-sa-tur	mas-sa-tur	go up	GO UP (ASCEND)	705	10	Movimiento	Also means 'go out' 10.474.
+308-10-473-1	ta-bil-tur	ta-bil-tur	go down	GO DOWN (DESCEND)	2014	10	Movimiento	
+308-10-474-1	mas-sa-tur	mas-sa-tur	go out	GO OUT	1107	10	Movimiento	Also means 'go up' 10.471.
+308-10-480-1	hau-tur	hau-tur	come	COME	1446	10	Movimiento	
+308-10-481-1	ckat-na-tur	ckat-na-tur	come back	COME BACK	581	10	Movimiento	
+308-10-550-1	tte-tur	tte-tur	reach, arrive	ARRIVE	1387	10	Movimiento	
+308-10-610-1	lap-tur	lap-tur	carry (bear)	CARRY	700	10	Movimiento	
+308-10-613-1	ckap-tur	ckap-tur	carry-on-shoulder	CARRY ON SHOULDER	413	10	Movimiento	
+308-10-620-1	ma-tur	ma-tur	bring	BRING	692	10	Movimiento	
+308-10-660-1	back-ni-tur	back-ni-tur	ride	RIDE	367	10	Movimiento	Also means 'sit' 12.130.
+308-10-670-1	ho-ni-tur	ho-ni-tur	push, shove	PUSH	1452	10	Movimiento	
+308-10-710-1	beter	beter; pe-ter; pet-tir; pete	road	ROAD	667	10	Movimiento	
+308-10-710-2	pe-ter	beter; pe-ter; pet-tir; pete	road	ROAD	667	10	Movimiento	
+308-10-710-3	pet-tir	beter; pe-ter; pet-tir; pete	road	ROAD	667	10	Movimiento	
+308-10-710-4	pete	beter; pe-ter; pet-tir; pete	road	ROAD	667	10	Movimiento	
+308-10-740-1	sommala	sommala	bridge	BRIDGE	1011	10	Movimiento	
+308-11-110-1	ttan-sir	ttan-sir; ttans-tur; ttan-zi	have	HAVE	773	11	Posesión	
+308-11-110-2	ttans-tur	ttan-sir; ttans-tur; ttan-zi	have	HAVE	773	11	Posesión	
+308-11-110-3	ttan-zi	ttan-sir; ttans-tur; ttan-zi	have	HAVE	773	11	Posesión	
+308-11-130-1	te-pir-tur	te-pir-tur; ma-ca-lo	take	TAKE	1749	11	Posesión	
+308-11-130-2	ma-ca-lo	te-pir-tur; ma-ca-lo	take	TAKE	1749	11	Posesión	
+308-11-140-1	te-pir-tur	te-pir-tur	seize, grasp	SEIZE	855	11	Posesión	Also means 'take'.
+308-11-150-1	tchauck-tur	tchauck-tur	hold	HOLD	1448	11	Posesión	
+308-11-160-1	ma-is-tur	ma-is-tur	get, obtain	GET	694	11	Posesión	Also means 'find' 11.320.
+308-11-210-1	ckan-tur	ckan-tur; hanc-ku-sa-tur	give	GIVE	1447	11	Posesión	Also yayawe.
+308-11-210-2	hanc-ku-sa-tur	ckan-tur; hanc-ku-sa-tur	give	GIVE	1447	11	Posesión	Also yayawe.
+308-11-270-1	tec-ki-tur	tec-ki-tur	destroy	DESTROY	681	11	Posesión	Also means 'chop, hew'.
+308-11-310-1	ckonn-tur	ckonn-tur	seek, look for	LOOK FOR	1468	11	Posesión	
+308-11-320-1	ma-is-tur	ma-is-tur	find	FIND	719	11	Posesión	Also means 'get, obtain' 11.160.
+308-11-330-1	pi-la-pa-tur	pi-la-pa-tur	lose	MISPLACE	3072	11	Posesión	
+308-11-520-1	back-tcha	back-tcha	poor	POOR	1674	11	Posesión	
+308-11-540-1	tcha-na-tur	tcha-na-tur	avaricious, stingy	STINGY	1774	11	Posesión	
+308-11-820-1	tta-si-tur	tta-si-tur	sell	SELL	1571	11	Posesión	
+308-12-10-1	ttosti	ttosti	after	AFTER	1685	12	Relaciones espaciales	
+308-12-11-1	ckocku	ckocku; ckoockops; cogciá	behind	BEHIND	1686	12	Relaciones espaciales	Also có-cop; k'ok'ops.
+308-12-11-2	ckoockops	ckocku; ckoockops; cogciá	behind	BEHIND	1686	12	Relaciones espaciales	Also có-cop; k'ok'ops.
+308-12-11-3	cogciá	ckocku; ckoockops; cogciá	behind	BEHIND	1686	12	Relaciones espaciales	Also có-cop; k'ok'ops.
+308-12-30-1	backit	backit; vá-quit; ekebakipas	down, below	DOWN OR BELOW	2094	12	Relaciones espaciales	Also back's.
+308-12-30-2	vá-quit	backit; vá-quit; ekebakipas	down, below	DOWN OR BELOW	2094	12	Relaciones espaciales	Also back's.
+308-12-30-3	ekebakipas	backit; vá-quit; ekebakipas	down, below	DOWN OR BELOW	2094	12	Relaciones espaciales	Also back's.
+308-12-40-1	ckonni	ckonni	before	BEFORE	1882	12	Relaciones espaciales	
+308-12-41-1	halpaps	halpaps; hebi-i; zalpáia	front	IN FRONT OF	1883	12	Relaciones espaciales	Also salpa; cka-acks.
+308-12-41-2	hebi-i	halpaps; hebi-i; zalpáia	front	IN FRONT OF	1883	12	Relaciones espaciales	Also salpa; cka-acks.
+308-12-41-3	zalpáia	halpaps; hebi-i; zalpáia	front	IN FRONT OF	1883	12	Relaciones espaciales	Also salpa; cka-acks.
+308-12-60-1	tcho-tchi	tcho-tchi	outside	OUTSIDE	762	12	Relaciones espaciales	
+308-12-70-1	peppi	peppi; ish-cu; váquit	under	BELOW OR UNDER	1485	12	Relaciones espaciales	
+308-12-70-2	ish-cu	peppi; ish-cu; váquit	under	BELOW OR UNDER	1485	12	Relaciones espaciales	
+308-12-70-3	váquit	peppi; ish-cu; váquit	under	BELOW OR UNDER	1485	12	Relaciones espaciales	
+308-12-80-1	ckito	ckito; muttu; ckec-tchi	up, above	UP	1591	12	Relaciones espaciales	Also mus-tu-pá; mut-u.
+308-12-80-2	muttu	ckito; muttu; ckec-tchi	up, above	UP	1591	12	Relaciones espaciales	Also mus-tu-pá; mut-u.
+308-12-80-3	ckec-tchi	ckito; muttu; ckec-tchi	up, above	UP	1591	12	Relaciones espaciales	Also mus-tu-pá; mut-u.
+308-12-110-1	ara	ara; aro; les-si	place	PLACE (POSITION)	723	12	Relaciones espaciales	
+308-12-110-2	aro	ara; aro; les-si	place	PLACE (POSITION)	723	12	Relaciones espaciales	
+308-12-110-3	les-si	ara; aro; les-si	place	PLACE (POSITION)	723	12	Relaciones espaciales	
+308-12-120-1	ttan-tur	ttan-tur; hil-tur	put	PUT	998	12	Relaciones espaciales	
+308-12-120-2	hil-tur	ttan-tur; hil-tur	put	PUT	998	12	Relaciones espaciales	
+308-12-130-1	back-ni-tur	back-ni-tur	sit	SIT	1416	12	Relaciones espaciales	Also means 'ride' 10.660.
+308-12-140-1	ckac-ka-sin-tur	ckac-ka-sin-tur	lie down	LIE DOWN	215	12	Relaciones espaciales	Also sep-pi-an-tur; cka-ray-in.
+308-12-150-1	ckes-tur	ckes-tur	stand	STAND	1442	12	Relaciones espaciales	
+308-12-220-1	to-lac-kú-tur	to-lac-kú-tur; in-nal	join, unite	JOIN	1743	12	Relaciones espaciales	Also ha-lay-na-tur.
+308-12-220-2	in-nal	to-lac-kú-tur; in-nal	join, unite	JOIN	1743	12	Relaciones espaciales	Also ha-lay-na-tur.
+308-12-230-1	ttíc-ku-tur	ttíc-ku-tur	separate	SEPARATE	1359	12	Relaciones espaciales	
+308-12-240-1	ckac-ka-tur	ckac-ka-tur; ckack-tur	open	OPEN	1156	12	Relaciones espaciales	Also ckas-tur.
+308-12-240-2	ckack-tur	ckac-ka-tur; ckack-tur	open	OPEN	1156	12	Relaciones espaciales	Also ckas-tur.
+308-12-260-1	ckosc-ka-tur	ckosc-ka-tur	cover	COVER	761	12	Relaciones espaciales	
+308-12-270-1	ckaba-tur	ckaba-tur	hide, conceal	HIDE (CONCEAL)	602	12	Relaciones espaciales	
+308-12-310-1	ca-pur	ca-pur; ckapur; kapur	high	HIGH	1265	12	Relaciones espaciales	Also means 'large, big' 12.550.
+308-12-310-2	ckapur	ca-pur; ckapur; kapur	high	HIGH	1265	12	Relaciones espaciales	Also means 'large, big' 12.550.
+308-12-310-3	kapur	ca-pur; ckapur; kapur	high	HIGH	1265	12	Relaciones espaciales	Also means 'large, big' 12.550.
+308-12-320-1	ish-cu	ish-cu	low	LOW	721	12	Relaciones espaciales	
+308-12-353-1	ckoi-yi	ckoi-yi	edge	EDGE	863	12	Relaciones espaciales	
+308-12-360-1	ckaru	ckaru	side	SIDE	682	12	Relaciones espaciales	
+308-12-370-1	ckees	ckees	middle, center	CENTER OR MIDDLE	3208	12	Relaciones espaciales	Also means 'half' 13.240.
+308-12-410-1	ckonnir	ckonnir; com-pas	right (side)	RIGHT	1019	12	Relaciones espaciales	Also co-ni-pas.
+308-12-410-2	com-pas	ckonnir; com-pas	right (side)	RIGHT	1019	12	Relaciones espaciales	Also co-ni-pas.
+308-12-420-1	ckaapir	ckaapir; cka-pir; ca-pi-ra	left (side)	LEFT	244	12	Relaciones espaciales	Also k'apir.
+308-12-420-2	cka-pir	ckaapir; cka-pir; ca-pi-ra	left (side)	LEFT	244	12	Relaciones espaciales	Also k'apir.
+308-12-420-3	ca-pi-ra	ckaapir; cka-pir; ca-pi-ra	left (side)	LEFT	244	12	Relaciones espaciales	Also k'apir.
+308-12-430-1	cko-yu	cko-yu; túckuba; ais-pur-iá	near (adv)	NEAR	1942	12	Relaciones espaciales	Also tucuba; ttucku; tuc-ku.
+308-12-430-2	túckuba	cko-yu; túckuba; ais-pur-iá	near (adv)	NEAR	1942	12	Relaciones espaciales	Also tucuba; ttucku; tuc-ku.
+308-12-430-3	ais-pur-iá	cko-yu; túckuba; ais-pur-iá	near (adv)	NEAR	1942	12	Relaciones espaciales	Also tucuba; ttucku; tuc-ku.
+308-12-440-1	ckeleya	ckeleya; que-le-ya	far (adv)	FAR	1406	12	Relaciones espaciales	Also le-ya; leps.
+308-12-440-2	que-le-ya	ckeleya; que-le-ya	far (adv)	FAR	1406	12	Relaciones espaciales	Also le-ya; leps.
+308-12-450-1	ckockops	ckockops	east	EAST	1877	12	Relaciones espaciales	
+308-12-460-1	atiu	atiu; ckapiniatin	west	WEST	1817	12	Relaciones espaciales	Also k'apin-ia-tin.
+308-12-460-2	ckapiniatin	atiu; ckapiniatin	west	WEST	1817	12	Relaciones espaciales	Also k'apin-ia-tin.
+308-12-470-1	mutups	mutups	north	NORTH	1598	12	Relaciones espaciales	
+308-12-480-1	backa-ps	backa-ps	south	SOUTH	1595	12	Relaciones espaciales	
+308-12-530-1	cka-pa-tur	cka-pa-tur	grow	GROW	479	12	Relaciones espaciales	
+308-12-550-1	cka-pur	cka-pur	large, big	BIG	1202	12	Relaciones espaciales	Also means 'high'.
+308-12-560-1	pe-ni	pe-ni; ckack-tchi	small, little	SMALL	1246	12	Relaciones espaciales	
+308-12-560-2	ckack-tchi	pe-ni; ckack-tchi	small, little	SMALL	1246	12	Relaciones espaciales	
+308-12-610-1	ckackar	ckackar; ckac-kar	wide, broad	WIDE	1243	12	Relaciones espaciales	
+308-12-610-2	ckac-kar	ckackar; ckac-kar	wide, broad	WIDE	1243	12	Relaciones espaciales	
+308-12-620-1	pickan	pickan; pik'an	narrow	NARROW	1267	12	Relaciones espaciales	
+308-12-620-2	pik'an	pickan; pik'an	narrow	NARROW	1267	12	Relaciones espaciales	
+308-12-630-1	mossi	mossi; muray-nir	thick (in dimension)	THICK	1244	12	Relaciones espaciales	
+308-12-630-2	muray-nir	mossi; muray-nir	thick (in dimension)	THICK	1244	12	Relaciones espaciales	
+308-12-650-1	picka	picka; ttipan	thin (in dimension)	THIN (OF SHAPE OF OBJECT)	2249	12	Relaciones espaciales	
+308-12-650-2	ttipan	picka; ttipan	thin (in dimension)	THIN (OF SHAPE OF OBJECT)	2249	12	Relaciones espaciales	
+308-12-670-1	tockol	tockol; toc-kor; yokoinar	deep	DEEP	1593	12	Relaciones espaciales	
+308-12-670-2	toc-kor	tockol; toc-kor; yokoinar	deep	DEEP	1593	12	Relaciones espaciales	
+308-12-670-3	yokoinar	tockol; toc-kor; yokoinar	deep	DEEP	1593	12	Relaciones espaciales	
+308-12-710-1	perai-nir	perai-nir	flat	FLAT	1633	12	Relaciones espaciales	
+308-12-740-1	besti	besti	crooked	CROOKED	297	12	Relaciones espaciales	
+308-12-760-1	ckutchubí	ckutchubí	corner	CORNER	192	12	Relaciones espaciales	
+308-12-810-1	loy-mur	loy-mur	round	ROUND	1395	12	Relaciones espaciales	
+308-12-850-1	ckas-sa	ckas-sa; ckools; ttok-ko	hole	HOLE	1667	12	Relaciones espaciales	Also tocco; tookor; t'ok'o. See 'cave' 01.280.
+308-12-850-2	ckools	ckas-sa; ckools; ttok-ko	hole	HOLE	1667	12	Relaciones espaciales	Also tocco; tookor; t'ok'o. See 'cave' 01.280.
+308-12-850-3	ttok-ko	ckas-sa; ckools; ttok-ko	hole	HOLE	1667	12	Relaciones espaciales	Also tocco; tookor; t'ok'o. See 'cave' 01.280.
+308-12-920-1	bicki	bicki	like, similar	SIMILAR	1558	12	Relaciones espaciales	
+308-13-10-1	semma	semma; sem-ma; sema	one	ONE	1493	13	Cantidad	
+308-13-10-2	sem-ma	semma; sem-ma; sema	one	ONE	1493	13	Cantidad	
+308-13-10-3	sema	semma; sem-ma; sema	one	ONE	1493	13	Cantidad	
+308-13-20-1	ppoya	ppoya; ppo-ya; poya	two	TWO	1498	13	Cantidad	
+308-13-20-2	ppo-ya	ppoya; ppo-ya; poya	two	TWO	1498	13	Cantidad	
+308-13-20-3	poya	ppoya; ppo-ya; poya	two	TWO	1498	13	Cantidad	
+308-13-30-1	ppálama	ppálama; ppa-la-ma; pa-la-ma	three	THREE	492	13	Cantidad	
+308-13-30-2	ppa-la-ma	ppálama; ppa-la-ma; pa-la-ma	three	THREE	492	13	Cantidad	
+308-13-30-3	pa-la-ma	ppálama; ppa-la-ma; pa-la-ma	three	THREE	492	13	Cantidad	
+308-13-40-1	chalpa	chalpa; chchal-pa	four	FOUR	1500	13	Cantidad	
+308-13-40-2	chchal-pa	chalpa; chchal-pa	four	FOUR	1500	13	Cantidad	
+308-13-50-1	mutusma	mutusma; mutzma; muts-ma	five	FIVE	493	13	Cantidad	Also mut-sis-ma.
+308-13-50-2	mutzma	mutusma; mutzma; muts-ma	five	FIVE	493	13	Cantidad	Also mut-sis-ma.
+308-13-50-3	muts-ma	mutusma; mutzma; muts-ma	five	FIVE	493	13	Cantidad	Also mut-sis-ma.
+308-13-60-1	mítchala	mítchala; mí-che-lo	six	SIX	1703	13	Cantidad	
+308-13-60-2	mí-che-lo	mítchala; mí-che-lo	six	SIX	1703	13	Cantidad	
+308-13-70-1	tchoya	tchoya; tcho-ya	seven	SEVEN	1704	13	Cantidad	Also ch'hoya; chchoya.
+308-13-70-2	tcho-ya	tchoya; tcho-ya	seven	SEVEN	1704	13	Cantidad	Also ch'hoya; chchoya.
+308-13-80-1	tchólama	tchólama; chchó-la-ma	eight	EIGHT	1705	13	Cantidad	
+308-13-80-2	chchó-la-ma	tchólama; chchó-la-ma	eight	EIGHT	1705	13	Cantidad	
+308-13-90-1	téckara	téckara; secara; téker	nine	NINE	1483	13	Cantidad	Also te-cá-ra; té-ca-ra.
+308-13-90-2	secara	téckara; secara; téker	nine	NINE	1483	13	Cantidad	Also te-cá-ra; té-ca-ra.
+308-13-90-3	téker	téckara; secara; téker	nine	NINE	1483	13	Cantidad	Also te-cá-ra; té-ca-ra.
+308-13-100-1	sutchi	sutchi; suchita; su-tchi	ten	TEN	1515	13	Cantidad	Also su-chi; such.
+308-13-100-2	suchita	sutchi; suchita; su-tchi	ten	TEN	1515	13	Cantidad	Also su-chi; such.
+308-13-100-3	su-tchi	sutchi; suchita; su-tchi	ten	TEN	1515	13	Cantidad	Also su-chi; such.
+308-13-101-1	suchta sema	suchta sema	eleven	ELEVEN	1706	13	Cantidad	Also su-chi-ta se-ma; suchi sema.
+308-13-102-1	suchta ppoya	suchta ppoya; suchi poya	twelve	TWELVE	1707	13	Cantidad	Also su-chi-ta ppo-ya.
+308-13-102-2	suchi poya	suchta ppoya; suchi poya	twelve	TWELVE	1707	13	Cantidad	Also su-chi-ta ppo-ya.
+308-13-103-1	suchita mutusma	suchita mutusma	fifteen	FIFTEEN	1709	13	Cantidad	
+308-13-104-1	suchita	suchita; sutchi; su-chi	twenty	TWENTY	1710	13	Cantidad	Also su-chi-ta; tekner; tecnir.
+308-13-104-2	sutchi	suchita; sutchi; su-chi	twenty	TWENTY	1710	13	Cantidad	Also su-chi-ta; tekner; tecnir.
+308-13-104-3	su-chi	suchita; sutchi; su-chi	twenty	TWENTY	1710	13	Cantidad	Also su-chi-ta; tekner; tecnir.
+308-13-105-1	aras sema	aras sema	hundred	HUNDRED	1634	13	Cantidad	
+308-13-106-1	aras suchi	aras suchi	thousand	THOUSAND	1843	13	Cantidad	
+308-13-150-1	cke	cke; ho-honar; ho-nar	much, many	MANY	1198	13	Cantidad	Also in-ti.
+308-13-150-2	ho-honar	cke; ho-honar; ho-nar	much, many	MANY	1198	13	Cantidad	Also in-ti.
+308-13-150-3	ho-nar	cke; ho-honar; ho-nar	much, many	MANY	1198	13	Cantidad	Also in-ti.
+308-13-160-1	itchockol	itchockol	more	MORE	1992	13	Cantidad	
+308-13-170-1	itchpur	itchpur; it-chu-pur	little (quantity), few	FEW	1242	13	Cantidad	
+308-13-170-2	it-chu-pur	itchpur; it-chu-pur	little (quantity), few	FEW	1242	13	Cantidad	
+308-13-180-1	in-ti-pur	in-ti-pur	enough	ENOUGH	1881	13	Cantidad	
+308-13-210-1	ke	ke; cks	full	FULL	1429	13	Cantidad	
+308-13-210-2	cks	ke; cks	full	FULL	1429	13	Cantidad	
+308-13-220-1	húmar	húmar	empty	EMPTY	1624	13	Cantidad	
+308-13-240-1	ckees	ckees	half	HALF	816	13	Cantidad	Also means 'middle, center' 12.370.
+308-13-330-1	nunar	nunar; nun-na	alone, only	ONLY	1580	13	Cantidad	
+308-13-330-2	nun-na	nunar; nun-na	alone, only	ONLY	1580	13	Cantidad	
+308-13-340-1	semmu	semmu	first	FIRST	728	13	Cantidad	
+308-13-360-1	ppoinu	ppoinu	second	SECOND	1384	13	Cantidad	
+308-13-420-1	ppalantín	ppalantín	third	THIRD	1859	13	Cantidad	
+308-14-130-1	ckari	ckari; ca-ri	new	NEW	1231	14	Tiempo	
+308-14-130-2	ca-ri	ckari; ca-ri	new	NEW	1231	14	Tiempo	
+308-14-180-1	a-nu	a-nu; an-nu	now	NOW	1376	14	Tiempo	
+308-14-180-2	an-nu	a-nu; an-nu	now	NOW	1376	14	Tiempo	
+308-14-210-1	je-te-calc-ta	je-te-calc-ta	swift, fast, quick	FAST	1631	14	Tiempo	
+308-14-220-1	yabían	yabían	slow	SLOW	701	14	Tiempo	
+308-14-250-1	cka-ya-ri-tur	cka-ya-ri-tur	begin, beginning	BEGIN OR START	3447	14	Tiempo	
+308-14-310-1	ianinckiaré	ianinckiaré; ia-nin-quia-re	always	ALWAYS	1676	14	Tiempo	Also icks-puria-ayan.
+308-14-310-2	ia-nin-quia-re	ianinckiaré; ia-nin-quia-re	always	ALWAYS	1676	14	Tiempo	Also icks-puria-ayan.
+308-14-331-1	pickum	pickum; pi-cun; pic-ku	soon	SOON	703	14	Tiempo	Also pickulebal.
+308-14-331-2	pi-cun	pickum; pi-cun; pic-ku	soon	SOON	703	14	Tiempo	Also pickulebal.
+308-14-331-3	pic-ku	pickum; pi-cun; pic-ku	soon	SOON	703	14	Tiempo	Also pickulebal.
+308-14-340-1	ckeleutch-auɲa	ckeleutch-auɲa	never	NEVER	1656	14	Tiempo	
+308-14-350-1	cka-ta-sen-cul	cka-ta-sen-cul	again	AGAIN	204	14	Tiempo	
+308-14-410-1	ckaapin	ckaapin; cap-pin; huasina	day	DAY (NOT NIGHT)	1225	14	Tiempo	The former also mean 'sun' 01.520.
+308-14-410-2	cap-pin	ckaapin; cap-pin; huasina	day	DAY (NOT NIGHT)	1225	14	Tiempo	The former also mean 'sun' 01.520.
+308-14-410-3	huasina	ckaapin; cap-pin; huasina	day	DAY (NOT NIGHT)	1225	14	Tiempo	The former also mean 'sun' 01.520.
+308-14-420-1	atán	atán; tul-tur; ttul-ti	night	NIGHT	1233	14	Tiempo	
+308-14-420-2	tul-tur	atán; tul-tur; ttul-ti	night	NIGHT	1233	14	Tiempo	
+308-14-420-3	ttul-ti	atán; tul-tur; ttul-ti	night	NIGHT	1233	14	Tiempo	
+308-14-430-1	lálackma	lálackma; ttapian	dawn	DAWN	729	14	Tiempo	
+308-14-430-2	ttapian	lálackma; ttapian	dawn	DAWN	729	14	Tiempo	
+308-14-450-1	cko-las	cko-las	noon, midday	MIDDAY	12	14	Tiempo	
+308-14-460-1	tapur	tapur	evening	EVENING	1629	14	Tiempo	
+308-14-470-1	anuckápin	anuckápin; an-nu; a-nú	today	TODAY	1283	14	Tiempo	
+308-14-470-2	an-nu	anuckápin; an-nu; a-nú	today	TODAY	1283	14	Tiempo	
+308-14-470-3	a-nú	anuckápin; an-nu; a-nú	today	TODAY	1283	14	Tiempo	
+308-14-480-1	taipu	taipu; tai-po	tomorrow	TOMORROW	1329	14	Tiempo	
+308-14-480-2	tai-po	taipu; tai-po	tomorrow	TOMORROW	1329	14	Tiempo	
+308-14-481-1	taipu-ené	taipu-ené; e-né	day-after-tomorrow	DAY AFTER TOMORROW	1179	14	Tiempo	
+308-14-481-2	e-né	taipu-ené; e-né	day-after-tomorrow	DAY AFTER TOMORROW	1179	14	Tiempo	
+308-14-490-1	habá	habá; atta; hatta	yesterday	YESTERDAY	1174	14	Tiempo	Also haa-ta; hack-tu.
+308-14-490-2	atta	habá; atta; hatta	yesterday	YESTERDAY	1174	14	Tiempo	Also haa-ta; hack-tu.
+308-14-490-3	hatta	habá; atta; hatta	yesterday	YESTERDAY	1174	14	Tiempo	Also haa-ta; hack-tu.
+308-14-491-1	aba-haba	aba-haba; hat-ta-hat-cku	day-before-yesterday	DAY BEFORE YESTERDAY	1180	14	Tiempo	
+308-14-491-2	hat-ta-hat-cku	aba-haba; hat-ta-hat-cku	day-before-yesterday	DAY BEFORE YESTERDAY	1180	14	Tiempo	
+308-14-710-1	ckamur	ckamur; ca-mur; cca-mur	month	MONTH	1370	14	Tiempo	Also means 'moon' 01.530.
+308-14-710-2	ca-mur	ckamur; ca-mur; cca-mur	month	MONTH	1370	14	Tiempo	Also means 'moon' 01.530.
+308-14-710-3	cca-mur	ckamur; ca-mur; cca-mur	month	MONTH	1370	14	Tiempo	Also means 'moon' 01.530.
+308-14-730-1	cketi	cketi; quet-ti	year	YEAR	1226	14	Tiempo	
+308-14-730-2	quet-ti	cketi; quet-ti	year	YEAR	1226	14	Tiempo	
+308-14-740-1	tse-rar	tse-rar	winter	WINTER	1471	14	Tiempo	Also means 'cold' 15.860.
+308-15-210-1	hui-na-tur	hui-na-tur	smell (vb intrans)	SMELL (STINK)	1587	15	Percepción sensorial	
+308-15-260-1	pocknur	pocknur	stinking, bad smelling	STINKING	42	15	Percepción sensorial	
+308-15-310-1	ckack-na-tur	ckack-na-tur	taste	TASTE (SOMETHING)	21	15	Percepción sensorial	
+308-15-350-1	gkachi	gkachi; ckack-tchi	sweet	SWEET	717	15	Percepción sensorial	
+308-15-350-2	ckack-tchi	gkachi; ckack-tchi	sweet	SWEET	717	15	Percepción sensorial	
+308-15-360-1	ckair	ckair	salty	SALTY	1091	15	Percepción sensorial	
+308-15-370-1	ckannai	ckannai; suntchir	bitter	BITTER	887	15	Percepción sensorial	
+308-15-370-2	suntchir	ckannai; suntchir	bitter	BITTER	887	15	Percepción sensorial	
+308-15-410-1	ye-bi-tur	ye-bi-tur	hear	HEAR	1408	15	Percepción sensorial	
+308-15-420-1	batc-ka-tur	batc-ka-tur	listen	LISTEN	1608	15	Percepción sensorial	
+308-15-510-1	minck-tur	minck-tur; mi-ni-tur	see	SEE	1409	15	Percepción sensorial	
+308-15-510-2	mi-ni-tur	minck-tur; mi-ni-tur	see	SEE	1409	15	Percepción sensorial	
+308-15-520-1	lai-pin-tur	lai-pin-tur	look, look at	LOOK	1819	15	Percepción sensorial	
+308-15-630-1	seckstchar	seckstchar	dark (in color)	DARK	706	15	Percepción sensorial	
+308-15-640-1	tarar	tarar; tta-rar; ta-ra; tatar	white	WHITE	1335	15	Percepción sensorial	Also mean 'hard' 15.740. Also ka-nai.
+308-15-640-2	tta-rar	tarar; tta-rar; ta-ra; tatar	white	WHITE	1335	15	Percepción sensorial	Also mean 'hard' 15.740. Also ka-nai.
+308-15-640-3	ta-ra	tarar; tta-rar; ta-ra; tatar	white	WHITE	1335	15	Percepción sensorial	Also mean 'hard' 15.740. Also ka-nai.
+308-15-640-4	tatar	tarar; tta-rar; ta-ra; tatar	white	WHITE	1335	15	Percepción sensorial	Also mean 'hard' 15.740. Also ka-nai.
+308-15-650-1	atchi	atchi; haatchi	black	BLACK	163	15	Percepción sensorial	
+308-15-650-2	haatchi	atchi; haatchi	black	BLACK	163	15	Percepción sensorial	
+308-15-660-1	lari	lari	red	RED	156	15	Percepción sensorial	
+308-15-670-1	selti	selti	blue	BLUE	837	15	Percepción sensorial	
+308-15-680-1	ckaari	ckaari	green	GREEN	1425	15	Percepción sensorial	
+308-15-690-1	ckaala	ckaala	yellow	YELLOW	1424	15	Percepción sensorial	
+308-15-710-1	ya-pa-tur	ya-pa-tur	touch	TOUCH	1892	15	Percepción sensorial	
+308-15-712-1	bi-tai-na-tur	bi-tai-na-tur	pinch	PINCH	378	15	Percepción sensorial	
+308-15-740-1	tta-rar	tta-rar; tarar	hard	HARD	1884	15	Percepción sensorial	Also mean 'white' 15.640.
+308-15-740-2	tarar	tta-rar; tarar	hard	HARD	1884	15	Percepción sensorial	Also mean 'white' 15.640.
+308-15-750-1	hulir	hulir	soft	SOFT	1856	15	Percepción sensorial	
+308-15-760-1	ckatchacka	ckatchacka; ca-cha-ca	rough	ROUGH	1923	15	Percepción sensorial	
+308-15-760-2	ca-cha-ca	ckatchacka; ca-cha-ca	rough	ROUGH	1923	15	Percepción sensorial	
+308-15-810-1	nu-nir	nu-nir; mu-nir	heavy	HEAVY	1210	15	Percepción sensorial	
+308-15-810-2	mu-nir	nu-nir; mu-nir	heavy	HEAVY	1210	15	Percepción sensorial	
+308-15-820-1	leba	leba; pui-yur	light (in weight)	LIGHT (WEIGHT)	1052	15	Percepción sensorial	
+308-15-820-2	pui-yur	leba; pui-yur	light (in weight)	LIGHT (WEIGHT)	1052	15	Percepción sensorial	
+308-15-830-1	lac-kar	lac-kar; lackar	wet, damp	WET	1726	15	Percepción sensorial	
+308-15-830-2	lackar	lac-kar; lackar	wet, damp	WET	1726	15	Percepción sensorial	
+308-15-840-1	ckein-cha	ckein-cha	dry	DRY	1398	15	Percepción sensorial	
+308-15-850-1	capi	capi; ttami; ttama; tama	hot	HOT	1286	15	Percepción sensorial	
+308-15-850-2	ttami	capi; ttami; ttama; tama	hot	HOT	1286	15	Percepción sensorial	
+308-15-850-3	ttama	capi; ttami; ttama; tama	hot	HOT	1286	15	Percepción sensorial	
+308-15-850-4	tama	capi; ttami; ttama; tama	hot	HOT	1286	15	Percepción sensorial	
+308-15-851-1	hatur	hatur; ttami; tama	warm	WARM	1232	15	Percepción sensorial	
+308-15-851-2	ttami	hatur; ttami; tama	warm	WARM	1232	15	Percepción sensorial	
+308-15-851-3	tama	hatur; ttami; tama	warm	WARM	1232	15	Percepción sensorial	
+308-15-860-1	serar	serar; teckar; tse-rar; te-car	cold	COLD	1287	15	Percepción sensorial	Also tecka; seray. Also mean 'winter' 14.740.
+308-15-860-2	teckar	serar; teckar; tse-rar; te-car	cold	COLD	1287	15	Percepción sensorial	Also tecka; seray. Also mean 'winter' 14.740.
+308-15-860-3	tse-rar	serar; teckar; tse-rar; te-car	cold	COLD	1287	15	Percepción sensorial	Also tecka; seray. Also mean 'winter' 14.740.
+308-15-860-4	te-car	serar; teckar; tse-rar; te-car	cold	COLD	1287	15	Percepción sensorial	Also tecka; seray. Also mean 'winter' 14.740.
+308-15-870-1	pa-lun-tur	pa-lun-tur	clean	CLEAN	704	15	Percepción sensorial	
+308-15-880-1	ttanutacke	ttanutacke; tchicka	dirty, soiled	DIRTY	1230	15	Percepción sensorial	
+308-15-880-2	tchicka	ttanutacke; tchicka	dirty, soiled	DIRTY	1230	15	Percepción sensorial	
+308-16-230-1	coyajne	coyajne	joyful, glad, happy	HAPPY	1495	16	Emociones y valores	
+308-16-250-1	letch-tur	letch-tur; les-tur	laugh	LAUGH	1355	16	Emociones y valores	
+308-16-250-2	les-tur	letch-tur; les-tur	laugh	LAUGH	1355	16	Emociones y valores	
+308-16-251-1	tesh-ma	tesh-ma	smile	SMILE	1451	16	Emociones y valores	
+308-16-260-1	letch-tur	letch-tur	play	PLAY	1413	16	Emociones y valores	Also means 'laugh' 16.250.
+308-16-270-1	ckip-tur	ckip-tur; tchi-tac-kan-tur	love	LOVE	923	16	Emociones y valores	Also qqui-pi; ke-je-pe.
+308-16-270-2	tchi-tac-kan-tur	ckip-tur; tchi-tac-kan-tur	love	LOVE	923	16	Emociones y valores	Also qqui-pi; ke-je-pe.
+308-16-290-1	ckist-cha-tur	ckist-cha-tur; qui-se-ha-ma	kiss	KISS	578	16	Emociones y valores	
+308-16-290-2	qui-se-ha-ma	ckist-cha-tur; qui-se-ha-ma	kiss	KISS	578	16	Emociones y valores	
+308-16-300-1	lab-un-tur	lab-un-tur	embrace	EMBRACE	928	16	Emociones y valores	
+308-16-310-1	tchánima	tchánima; tcha-tur	pain	PAIN	1783	16	Emociones y valores	
+308-16-310-2	tcha-tur	tchánima; tcha-tur	pain	PAIN	1783	16	Emociones y valores	
+308-16-320-1	tchá-ni-ma	tchá-ni-ma	grief, sorrow, sadness	GRIEF	1668	16	Emociones y valores	
+308-16-370-1	ckeu-tur	ckeu-tur; queu-ma	cry, weep	CRY	1839	16	Emociones y valores	
+308-16-370-2	queu-ma	ckeu-tur; queu-ma	cry, weep	CRY	1839	16	Emociones y valores	
+308-16-380-1	ckepipui	ckepipui	tear (noun)	TEAR (OF EYE)	1651	16	Emociones y valores	
+308-16-410-1	ckois-tur	ckois-tur; ckoicks-tur; coys-ma	hate	HATE	1607	16	Emociones y valores	
+308-16-410-2	ckoicks-tur	ckois-tur; ckoicks-tur; coys-ma	hate	HATE	1607	16	Emociones y valores	
+308-16-410-3	coys-ma	ckois-tur; ckoicks-tur; coys-ma	hate	HATE	1607	16	Emociones y valores	
+308-16-450-1	haick-tur	haick-tur	shame (noun)	SHAME	1776	16	Emociones y valores	
+308-16-530-1	cko-na-tur	cko-na-tur; cku-na-tur	fear, fright	FEAR (FRIGHT)	781	16	Emociones y valores	Also cko-nao; cku-nau.
+308-16-530-2	cku-na-tur	cko-na-tur; cku-na-tur	fear, fright	FEAR (FRIGHT)	781	16	Emociones y valores	Also cko-nao; cku-nau.
+308-16-660-1	ckorinta	ckorinta; cko-rin; quél-char	true	TRUE	1657	16	Emociones y valores	Also ckeltchar; q'uelechar.
+308-16-660-2	cko-rin	ckorinta; cko-rin; quél-char	true	TRUE	1657	16	Emociones y valores	Also ckeltchar; q'uelechar.
+308-16-660-3	quél-char	ckorinta; cko-rin; quél-char	true	TRUE	1657	16	Emociones y valores	Also ckeltchar; q'uelechar.
+308-16-670-1	hee-la-ta	hee-la-ta; hel-la; se-li-ma	lie, tell lies	LIE (MISLEAD)	601	16	Emociones y valores	Also hee-la-tur; hel-la-tur.
+308-16-670-2	hel-la	hee-la-ta; hel-la; se-li-ma	lie, tell lies	LIE (MISLEAD)	601	16	Emociones y valores	Also hee-la-tur; hel-la-tur.
+308-16-670-3	se-li-ma	hee-la-ta; hel-la; se-li-ma	lie, tell lies	LIE (MISLEAD)	601	16	Emociones y valores	Also hee-la-tur; hel-la-tur.
+308-16-710-1	ckack-tchi	ckack-tchi; cayáhia; khaya	good	GOOD	1035	16	Emociones y valores	Also ckaa-ya; tei; ttey-ia.
+308-16-710-2	cayáhia	ckack-tchi; cayáhia; khaya	good	GOOD	1035	16	Emociones y valores	Also ckaa-ya; tei; ttey-ia.
+308-16-710-3	khaya	ckack-tchi; cayáhia; khaya	good	GOOD	1035	16	Emociones y valores	Also ckaa-ya; tei; ttey-ia.
+308-16-720-1	hualcher	hualcher; bal-tchar; válchar	bad	BAD	1292	16	Emociones y valores	Also valcher; calc'har.
+308-16-720-2	bal-tchar	hualcher; bal-tchar; válchar	bad	BAD	1292	16	Emociones y valores	Also valcher; calc'har.
+308-16-720-3	válchar	hualcher; bal-tchar; válchar	bad	BAD	1292	16	Emociones y valores	Also valcher; calc'har.
+308-16-810-1	nintchicks	nintchicks; nin-chies; michc-si	beautiful	BEAUTIFUL	1427	16	Emociones y valores	
+308-16-810-2	nin-chies	nintchicks; nin-chies; michc-si	beautiful	BEAUTIFUL	1427	16	Emociones y valores	
+308-16-810-3	michc-si	nintchicks; nin-chies; michc-si	beautiful	BEAUTIFUL	1427	16	Emociones y valores	
+308-16-820-1	itchansicks	itchansicks	ugly	UGLY	1548	16	Emociones y valores	
+308-16-830-1	ckanascka	ckanascka	greedy	GREEDY	2018	16	Emociones y valores	
+308-17-160-1	hayps-ckun-tur	hayps-ckun-tur	understand	UNDERSTAND	1536	17	Cognición	
+308-17-170-1	ttu-ick-tur	ttu-ick-tur	know	KNOW (SOMETHING)	1410	17	Cognición	
+308-17-172-1	paarck-tur	paarck-tur; palck-tur	imitate	IMITATE	117	17	Cognición	
+308-17-172-2	palck-tur	paarck-tur; palck-tur	imitate	IMITATE	117	17	Cognición	
+308-17-220-1	baɲuncki	baɲuncki; hurma; lack-tul-va	foolish, stupid	STUPID	1518	17	Cognición	
+308-17-220-2	hurma	baɲuncki; hurma; lack-tul-va	foolish, stupid	STUPID	1518	17	Cognición	
+308-17-220-3	lack-tul-va	baɲuncki; hurma; lack-tul-va	foolish, stupid	STUPID	1518	17	Cognición	
+308-17-240-1	hay-may-tier	hay-may-tier	learn	LEARN	504	17	Cognición	
+308-17-242-1	he-rab-un-tur	he-rab-un-tur	study	STUDY	1929	17	Cognición	
+308-17-310-1	tchi-tac-kan-tur	tchi-tac-kan-tur	remember	REMEMBER	707	17	Cognición	Also means 'love'.
+308-17-320-1	ckoi-ma-tur	ckoi-ma-tur	forget	FORGET	1523	17	Cognición	
+308-17-550-1	iquiaré	iquiaré; bé	yes, affirmative	YES	1268	17	Cognición	
+308-17-550-2	bé	iquiaré; bé	yes, affirmative	YES	1268	17	Cognición	
+308-17-560-1	ackanu	ackanu; sic-kin; sicanu	no, negative	NO	1269	17	Cognición	
+308-17-560-2	sic-kin	ackanu; sic-kin; sicanu	no, negative	NO	1269	17	Cognición	
+308-17-560-3	sicanu	ackanu; sic-kin; sicanu	no, negative	NO	1269	17	Cognición	
+308-17-640-1	irintacku	irintacku	what?	WHAT	1236	17	Cognición	
+308-17-650-1	pinch-có	pinch-có; pin-tchick	when?	WHEN	1238	17	Cognición	Also pintchicku; irorais.
+308-17-650-2	pin-tchick	pinch-có; pin-tchick	when?	WHEN	1238	17	Cognición	Also pintchicku; irorais.
+308-17-660-1	entickiá	entickiá; antiquiá	where?	WHERE	1237	17	Cognición	
+308-17-660-2	antiquiá	entickiá; antiquiá	where?	WHERE	1237	17	Cognición	
+308-17-670-1	itquiquiá	itquiquiá	which?	WHICH	727	17	Cognición	
+308-17-680-1	iticku	iticku; itiquiá; itic	who?	WHO	1235	17	Cognición	
+308-17-680-2	itiquiá	iticku; itiquiá; itic	who?	WHO	1235	17	Cognición	
+308-17-680-3	itic	iticku; itiquiá; itic	who?	WHO	1235	17	Cognición	
+308-18-110-1	ckoi	ckoi	voice	VOICE	1363	18	Habla y lenguaje	
+308-18-120-1	herck-tur	herck-tur	sing	SING	1261	18	Habla y lenguaje	
+308-18-130-1	ttac-ka-tur	ttac-ka-tur; stac-ka-tur	shout, cry out	SHOUT	715	18	Habla y lenguaje	
+308-18-130-2	stac-ka-tur	ttac-ka-tur; stac-ka-tur	shout, cry out	SHOUT	715	18	Habla y lenguaje	
+308-18-170-1	ckúc-kun-tur	ckúc-kun-tur	whistle	WHISTLE	1025	18	Habla y lenguaje	
+308-18-210-1	yoc-kon-tur	yoc-kon-tur; yoc-on-tur	speak, talk	SPEAK	1623	18	Habla y lenguaje	
+308-18-210-2	yoc-on-tur	yoc-kon-tur; yoc-on-tur	speak, talk	SPEAK	1623	18	Habla y lenguaje	
+308-18-220-1	ham-ma-tur	ham-ma-tur; nib-tur	say	SAY	1458	18	Habla y lenguaje	
+308-18-220-2	nib-tur	ham-ma-tur; nib-tur	say	SAY	1458	18	Habla y lenguaje	
+308-18-221-1	tchip-na-tur	tchip-na-tur	tell story	TELL	1711	18	Habla y lenguaje	
+308-18-280-1	tchei	tchei; yaclo	name	NAME	1405	18	Habla y lenguaje	
+308-18-280-2	yaclo	tchei; yaclo	name	NAME	1405	18	Habla y lenguaje	
+308-18-310-1	he-bi-tur	he-bi-tur	ask (question, inquire)	ASK (INQUIRE)	1309	18	Habla y lenguaje	
+308-18-320-1	ckol-back-tur	ckol-back-tur	answer	ANSWER	1275	18	Habla y lenguaje	
+308-18-350-1	tí-si-tur	tí-si-tur	ask, request	ASK (REQUEST)	1828	18	Habla y lenguaje	
+308-18-390-1	ckap-cki-tur	ckap-cki-tur	rebuke, scold	SCOLD	299	18	Habla y lenguaje	
+308-18-410-1	cka-tur	cka-tur	call (=summon)	CALL	1084	18	Habla y lenguaje	
+308-19-110-1	lickana	lickana; lic-ka-na; li-can	country	COUNTRY	1300	19	Relaciones sociales y políticas	
+308-19-110-2	lic-ka-na	lickana; lic-ka-na; li-can	country	COUNTRY	1300	19	Relaciones sociales y políticas	
+308-19-110-3	li-can	lickana; lic-ka-na; li-can	country	COUNTRY	1300	19	Relaciones sociales y políticas	
+308-19-120-1	lickana	lickana	one's native country	NATIVE COUNTRY	89	19	Relaciones sociales y políticas	
+308-19-150-1	liken	liken; lican; lickan	city, town	TOWN	1391	19	Relaciones sociales y políticas	Also leri; lican capur.
+308-19-150-2	lican	liken; lican; lickan	city, town	TOWN	1391	19	Relaciones sociales y políticas	Also leri; lican capur.
+308-19-150-3	lickan	liken; lican; lickan	city, town	TOWN	1391	19	Relaciones sociales y políticas	Also leri; lican capur.
+308-19-160-1	lickan itchckai	lickan itchckai; lican ichcai	village	VILLAGE	930	19	Relaciones sociales y políticas	Also cka-pun; li-ken.
+308-19-160-2	lican ichcai	lickan itchckai; lican ichcai	village	VILLAGE	930	19	Relaciones sociales y políticas	Also cka-pun; li-ken.
+308-19-210-1	ckonti	ckonti; ckonte; ckonnti	people (populace)	PEOPLE	789	19	Relaciones sociales y políticas	Also kontya; con-ti.
+308-19-210-2	ckonte	ckonti; ckonte; ckonnti	people (populace)	PEOPLE	789	19	Relaciones sociales y políticas	Also kontya; con-ti.
+308-19-210-3	ckonnti	ckonti; ckonte; ckonnti	people (populace)	PEOPLE	789	19	Relaciones sociales y políticas	Also kontya; con-ti.
+308-19-250-1	hackamur	hackamur; ha-cau-mur; haccumur	staff, walking stick	WALKING STICK	1296	19	Relaciones sociales y políticas	Also means 'firewood'.
+308-19-250-2	ha-cau-mur	hackamur; ha-cau-mur; haccumur	staff, walking stick	WALKING STICK	1296	19	Relaciones sociales y políticas	Also means 'firewood'.
+308-19-250-3	haccumur	hackamur; ha-cau-mur; haccumur	staff, walking stick	WALKING STICK	1296	19	Relaciones sociales y políticas	Also means 'firewood'.
+308-19-450-1	huc-kru-tur	huc-kru-tur	command, order	COMMAND	1998	19	Relaciones sociales y políticas	
+308-19-580-1	ye-na-pa-tur	ye-na-pa-tur	help, aid	HELP	1897	19	Relaciones sociales y políticas	
+308-20-110-1	cki-i-tur	cki-i-tur	fight (vb)	FIGHT	1423	20	Guerra y caza	
+308-20-140-1	tecumtansi	tecumtansi	peace	PEACE	1338	20	Guerra y caza	
+308-20-230-1	sippur	sippur; sip-pur; si-pur	sling	SLING	387	20	Guerra y caza	
+308-20-230-2	sip-pur	sippur; sip-pur; si-pur	sling	SLING	387	20	Guerra y caza	
+308-20-230-3	si-pur	sippur; sip-pur; si-pur	sling	SLING	387	20	Guerra y caza	
+308-20-620-1	tchorck-tur	tchorck-tur	shoot	SHOOT	1172	20	Guerra y caza	
+308-21-510-1	tcha-pa-tur	tcha-pa-tur; tcha-pu-tur	steal	STEAL	713	21	Derecho	
+308-21-510-2	tcha-pu-tur	tcha-pa-tur; tcha-pu-tur	steal	STEAL	713	21	Derecho	
+308-21-520-1	tchapuckar	tchapuckar; tcha-puc-kar	thief	THIEF	1160	21	Derecho	
+308-21-520-2	tcha-puc-kar	tchapuckar; tcha-puc-kar	thief	THIEF	1160	21	Derecho	
+308-22-120-1	ca-pim	ca-pim	God	GOD	1944	22	Religión y creencias	
+308-22-350-1	cun-san-ta	cun-san-ta	demon (evil spirit)	DEMON	1973	22	Religión y creencias	
+308-22-440-1	ckoi-man	ckoi-man	fairy, elf	ELF OR FAIRY	3206	22	Religión y creencias	
