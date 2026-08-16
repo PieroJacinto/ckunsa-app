@@ -118,11 +118,75 @@ body {
 	color: var(--ck-piedra);
 }
 
+/* --- EvidenceBadge (07-DISENO V4) ------------------------------------- */
+
+.evidencia {
+	display: inline-flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.evidencia__forma {
+	font-family: var(--ck-fuente-ckunsa);
+}
+
+.evidencia__marca {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3em;
+	padding: 0.15em 0.6em;
+	border-radius: 2em;
+	font-size: 0.8125rem;
+	line-height: 1.4;
+	white-space: nowrap;
+}
+
+.evidencia__icono {
+	width: 1em;
+	height: 1em;
+	flex-shrink: 0;
+}
+
+.evidencia__marca--atestiguada {
+	background-color: var(--ck-atestiguada-fondo);
+	color: var(--ck-atestiguada-texto);
+}
+
+.evidencia__marca--unificada {
+	background-color: var(--ck-unificada-fondo);
+	color: var(--ck-unificada-texto);
+}
+
+.evidencia__marca--reconstruida {
+	background-color: var(--ck-reconstruida-fondo);
+	color: var(--ck-reconstruida-texto);
+}
+
+.evidencia__marca--propuesta {
+	background-color: var(--ck-propuesta-fondo);
+	color: var(--ck-propuesta-texto);
+}
+
+/* Segunda marca, eje distinto: la ortografía, no la evidencia (03 §2.4). */
+.evidencia__grafia {
+	display: block;
+	font-size: 0.8125rem;
+	color: var(--ck-piedra);
+}
+
 /* Impresión: una lista de vocabulario fotocopiada tiene que seguir siendo
    legible y seguir mostrando la atribución (07-DISENO V7). */
 @media print {
 	body {
 		background: #fff;
 		color: #000;
+	}
+	/* El color de fondo puede desaparecer al imprimir: el ícono y la palabra
+	   tienen que bastar (07-DISENO V7). */
+	.evidencia__marca {
+		background: none !important;
+		color: #000 !important;
+		border: 1px solid #000;
 	}
 }
