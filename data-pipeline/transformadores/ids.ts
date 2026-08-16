@@ -14,9 +14,13 @@
  * Reglas aplicadas: `03-MODELO-DE-DATOS.md` §2.5 y §6.2.
  */
 
-import { canonizar, historizar } from '../../src/lib/domain/normalizacion';
-import type { Entrada, Fuente, IdentificadorExterno, VarianteHistorica } from '../../src/lib/domain/tipos';
-
+import { canonizar, historizar } from '../../src/lib/domain/normalizacion.ts';
+import type {
+	Entrada,
+	Fuente,
+	IdentificadorExterno,
+	VarianteHistorica
+} from '../../src/lib/domain/tipos.ts';
 // ---------------------------------------------------------------------------
 // Formas de entrada (las columnas crudas de cada TSV)
 // ---------------------------------------------------------------------------
