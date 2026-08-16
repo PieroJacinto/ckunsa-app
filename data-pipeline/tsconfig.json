@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ES2023",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"lib": ["ES2023"],
+		"types": ["node"],
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true
+	},
+	"include": ["**/*.ts", "../src/lib/domain/**/*.ts"],
+	"exclude": ["fuentes-crudas/**"]
+}
