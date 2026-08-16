@@ -7,6 +7,7 @@ import { BASELINE_COLISIONES, estaEnNfc, grafemasAjenos, tieneTilde, validar } f
 const FUENTE: Fuente = {
 	id: 'f1',
 	cita: 'Fuente de prueba',
+	cita_corta: 'Prueba (2021)',
 	anio: 2021,
 	tipo: 'primaria',
 	licencia: 'CC BY 4.0',

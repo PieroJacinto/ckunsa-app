@@ -217,6 +217,16 @@ export interface Fuente {
 	/** Cita bibliográfica completa, como se muestra en /fuentes. */
 	cita: string;
 
+	/**
+	 * Forma abreviada para listados. ej: "Lehnert (2021)".
+	 *
+	 * CC BY exige atribución "reasonable to the medium": en una lista de 50
+	 * resultados la cita completa taparía las palabras, que es lo que el usuario
+	 * vino a leer. La versión corta enlaza a /fuentes, donde está el TASL
+	 * completo (título, autor, fuente, licencia).
+	 */
+	cita_corta: string;
+
 	anio: number;
 	tipo: TipoFuente;
 

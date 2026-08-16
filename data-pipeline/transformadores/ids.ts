@@ -66,6 +66,7 @@ export const FUENTE_IDS: Fuente = {
 		'Lehnert Santander, R. (2021). Kunza Dictionary. En Key, M. R. & Comrie, B. (eds.), ' +
 		'The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for ' +
 		'Evolutionary Anthropology.',
+	cita_corta: 'Lehnert (2021)',
 	anio: 2021,
 	tipo: 'primaria',
 	licencia: 'CC BY 4.0',
@@ -83,6 +84,7 @@ export const FUENTE_CONCEPTICON: Fuente = {
 	cita:
 		'List, J.-M., Tjuka, A., Blum, F. et al. (eds.). CLLD Concepticon. Leipzig: Max Planck ' +
 		'Institute for Evolutionary Anthropology. Lista Key-2016-1310.',
+	cita_corta: 'Concepticon (2016)',
 	anio: 2016,
 	tipo: 'catalogo',
 	licencia: 'CC BY 4.0',
