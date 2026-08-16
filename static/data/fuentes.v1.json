@@ -1,0 +1,20 @@
+[
+	{
+		"id": "ids-lehnert-2021",
+		"cita": "Lehnert Santander, R. (2021). Kunza Dictionary. En Key, M. R. & Comrie, B. (eds.), The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology.",
+		"anio": 2021,
+		"tipo": "primaria",
+		"licencia": "CC BY 4.0",
+		"url": "https://ids.clld.org/contributions/308",
+		"autoridad_normativa": false
+	},
+	{
+		"id": "concepticon-key-2016",
+		"cita": "List, J.-M., Tjuka, A., Blum, F. et al. (eds.). CLLD Concepticon. Leipzig: Max Planck Institute for Evolutionary Anthropology. Lista Key-2016-1310.",
+		"anio": 2016,
+		"tipo": "catalogo",
+		"licencia": "CC BY 4.0",
+		"url": "https://concepticon.clld.org/contributions/Key-2016-1310",
+		"autoridad_normativa": false
+	}
+]

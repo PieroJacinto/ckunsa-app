@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"generado": "8d11e4f2ed12ac61",
+	"archivos": {
+		"entradas": "entradas.v1.json",
+		"fuentes": "fuentes.v1.json",
+		"morfemas": "morfemas.v1.json"
+	},
+	"conteos": {
+		"entradas": 851,
+		"fuentes": 2,
+		"morfemas": 0
+	}
+}
