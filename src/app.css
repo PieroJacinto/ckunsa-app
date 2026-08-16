@@ -49,8 +49,7 @@
 	/* Tipografía. La UI usa la fuente del sistema: cero bytes, cero latencia.
 	   Las formas en ckunsa y el AFI usan Andika, autohospedada (07-DISENO V2).
 	   Mientras no estén los archivos de Andika, cae al stack del sistema. */
-	--ck-fuente-ui: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-		sans-serif;
+	--ck-fuente-ui: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 	--ck-fuente-ckunsa: 'Andika', var(--ck-fuente-ui);
 
 	/* --- Reasignación de Bootstrap --- */

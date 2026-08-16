@@ -118,7 +118,10 @@ export function canonizar(forma: string): string {
 
 	// NFD separa la letra de su diacrítico; el rango \u0300-\u036f son los
 	// diacríticos combinantes. NFC vuelve a componer lo que quede.
-	s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').normalize('NFC');
+	s = s
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.normalize('NFC');
 
 	s = colapsarGeminadasVocalicas(s);
 

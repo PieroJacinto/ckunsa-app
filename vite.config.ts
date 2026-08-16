@@ -43,10 +43,7 @@ export default defineConfig({
 					// data-pipeline queda incluido a propósito: el transformador es la
 					// pieza donde se puede colar una afirmación falsa sobre la lengua,
 					// y sus tests tienen que correr con los del dominio.
-					include: [
-						'src/**/*.{test,spec}.{js,ts}',
-						'data-pipeline/**/*.{test,spec}.{js,ts}'
-					],
+					include: ['src/**/*.{test,spec}.{js,ts}', 'data-pipeline/**/*.{test,spec}.{js,ts}'],
 					exclude: ['src/**/*.svelte.{test,spec}.{js,ts}']
 				}
 			}

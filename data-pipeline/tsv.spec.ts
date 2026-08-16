@@ -59,9 +59,9 @@ describe('parsearTsv — verifica sus premisas', () => {
 	 * y guardar basura con apariencia de dato.
 	 */
 	it('falla si una línea tiene más campos que el encabezado', () => {
-		expect(() =>
-			parsearTsv(tsv('id\tforma\tcomentario', '1\tckabur\tcon\ttab'), OPCIONES)
-		).toThrow(/línea 2/);
+		expect(() => parsearTsv(tsv('id\tforma\tcomentario', '1\tckabur\tcon\ttab'), OPCIONES)).toThrow(
+			/línea 2/
+		);
 	});
 
 	it('falla si una línea tiene menos campos que el encabezado', () => {

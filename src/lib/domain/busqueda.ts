@@ -22,12 +22,7 @@ import type { Corpus, Entrada } from './tipos';
  * con la variante histórica"* aprende algo real sobre el estado de la lengua.
  */
 export type MotivoCoincidencia =
-	| 'exacta'
-	| 'variante'
-	| 'espanol'
-	| 'prefijo'
-	| 'contiene'
-	| 'aproximada';
+	'exacta' | 'variante' | 'espanol' | 'prefijo' | 'contiene' | 'aproximada';
 
 export interface ResultadoBusqueda {
 	entrada: Entrada;
@@ -182,9 +177,7 @@ function crearAcumulador(indice: IndiceBusqueda): Acumulador {
 				if (entrada.estado === 'retirada') continue;
 
 				vistos.add(id);
-				resultados.push(
-					detalle === undefined ? { entrada, motivo } : { entrada, motivo, detalle }
-				);
+				resultados.push(detalle === undefined ? { entrada, motivo } : { entrada, motivo, detalle });
 			}
 		}
 	};
