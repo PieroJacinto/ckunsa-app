@@ -1,0 +1,114 @@
+/**
+ * Tokens propios y retematización de Bootstrap.
+ *
+ * Bootstrap 5.3 tiene arquitectura completa de custom properties, así que no se
+ * pelea con el framework: se le reasignan las variables y se usan sus
+ * componentes tal cual (07-DISENO V6).
+ *
+ * Los colores salen del paisaje —adobe, sal, piedra—, que es el entorno físico
+ * donde se usa la app, no símbolos con dueño. NADA de iconografía atacameña
+ * (07-DISENO V1, regla 14 del proyecto).
+ *
+ * OJO con las variables `-rgb`. Bootstrap 5.3 aplica varios colores como
+ * `rgba(var(--bs-X-rgb), var(--bs-X-opacity, 1))` para poder manejar opacidad.
+ * La variable sin sufijo es sólo documentación: si no se setea también la
+ * `-rgb`, el color no cambia. Por eso van las dos, siempre en pareja.
+ *
+ * PENDIENTE antes de publicar: medir el contraste real con un checker WCAG.
+ * Estos valores son un punto de partida razonado, no verificado.
+ */
+
+:root {
+	/* Paleta — 07-DISENO §5 */
+	--ck-tinta: #1f1b16; /* texto principal, negro cálido */
+	--ck-papel: #faf7f2; /* fondo de página */
+	--ck-superficie: #ffffff; /* fichas */
+	--ck-borde: #e2dbd0;
+	--ck-piedra: #6b655c; /* texto secundario */
+	--ck-adobe: #8f4a22; /* acento: enlaces, foco, acciones */
+	--ck-adobe-oscuro: #703718;
+
+	/* Los mismos colores en componentes RGB, para las variables -rgb de Bootstrap. */
+	--ck-tinta-rgb: 31, 27, 22;
+	--ck-papel-rgb: 250, 247, 242;
+	--ck-piedra-rgb: 107, 101, 92;
+	--ck-adobe-rgb: 143, 74, 34;
+	--ck-adobe-oscuro-rgb: 112, 55, 24;
+
+	/* Niveles de evidencia. Fondo claro + texto oscuro de la misma familia,
+	   para que el contraste no dependa del matiz. Los usa EvidenceBadge. */
+	--ck-atestiguada-fondo: #e4efe7;
+	--ck-atestiguada-texto: #24503c;
+	--ck-unificada-fondo: #e4efe7;
+	--ck-unificada-texto: #24503c;
+	--ck-reconstruida-fondo: #f6ead3;
+	--ck-reconstruida-texto: #6b4a0a;
+	--ck-propuesta-fondo: #e3edf6;
+	--ck-propuesta-texto: #1b4a73;
+
+	/* Tipografía. La UI usa la fuente del sistema: cero bytes, cero latencia.
+	   Las formas en ckunsa y el AFI usan Andika, autohospedada (07-DISENO V2).
+	   Mientras no estén los archivos de Andika, cae al stack del sistema. */
+	--ck-fuente-ui: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		sans-serif;
+	--ck-fuente-ckunsa: 'Andika', var(--ck-fuente-ui);
+
+	/* --- Reasignación de Bootstrap --- */
+
+	--bs-body-bg: var(--ck-papel);
+	--bs-body-bg-rgb: var(--ck-papel-rgb);
+	--bs-body-color: var(--ck-tinta);
+	--bs-body-color-rgb: var(--ck-tinta-rgb);
+
+	--bs-body-font-family: var(--ck-fuente-ui);
+	--bs-body-font-size: 1.0625rem; /* 17px: se lee al sol, en pantallas baratas */
+	--bs-body-line-height: 1.6;
+
+	--bs-border-color: var(--ck-borde);
+	--bs-secondary-color: var(--ck-piedra);
+	--bs-secondary-color-rgb: var(--ck-piedra-rgb);
+	--bs-emphasis-color: var(--ck-tinta);
+	--bs-emphasis-color-rgb: var(--ck-tinta-rgb);
+
+	--bs-link-color: var(--ck-adobe);
+	--bs-link-color-rgb: var(--ck-adobe-rgb);
+	--bs-link-hover-color: var(--ck-adobe-oscuro);
+	--bs-link-hover-color-rgb: var(--ck-adobe-oscuro-rgb);
+
+	--bs-primary: var(--ck-adobe);
+	--bs-primary-rgb: var(--ck-adobe-rgb);
+
+	--bs-focus-ring-color: rgba(143, 74, 34, 0.35);
+	--bs-focus-ring-width: 3px;
+}
+
+body {
+	background-color: var(--ck-papel);
+	color: var(--ck-tinta);
+}
+
+/* Foco siempre visible: se navega con teclado y con lectores de pantalla. */
+:focus-visible {
+	outline: var(--bs-focus-ring-width) solid var(--ck-adobe);
+	outline-offset: 2px;
+}
+
+/* Toda forma en ckunsa renderizada al usuario. */
+.ck-forma {
+	font-family: var(--ck-fuente-ckunsa);
+}
+
+/* Transcripciones AFI. Necesitan cobertura IPA o se ven cuadraditos. */
+.ck-afi {
+	font-family: var(--ck-fuente-ckunsa);
+	color: var(--ck-piedra);
+}
+
+/* Impresión: una lista de vocabulario fotocopiada tiene que seguir siendo
+   legible y seguir mostrando la atribución (07-DISENO V7). */
+@media print {
+	body {
+		background: #fff;
+		color: #000;
+	}
+}
