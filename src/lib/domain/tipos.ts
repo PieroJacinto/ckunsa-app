@@ -23,6 +23,9 @@
  * - `reconstruida` producto de análisis o de composición por regla documentada
  * - `propuesta`    neologismo o forma pedagógica, sin respaldo documental
  *
+ * OJO: este eje mide de dónde sale el DATO, no en qué ortografía está escrito.
+ * Para lo segundo está `Entrada.grafia_provisional`.
+ *
  * Ver 02-LINGUISTICA-CKUNSA.md §5.
  */
 export type NivelEvidencia = 'atestiguada' | 'unificada' | 'reconstruida' | 'propuesta';
@@ -86,6 +89,22 @@ export interface VarianteHistorica {
 	fuente: string;
 }
 
+/**
+ * Identificador de esta entrada en un catálogo externo.
+ *
+ * La procedencia es el activo más valioso del corpus: esto permite volver a la
+ * fila original de la fuente y devolver correcciones al ecosistema
+ * (04-DATOS-Y-FUENTES.md §5).
+ *
+ * Esquemas en uso:
+ * - `"ids"`          id de counterpart en IDS.        ej: "308-1-210-1"
+ * - `"concepticon"`  id de concept set en Concepticon. ej: "626"
+ */
+export interface IdentificadorExterno {
+	esquema: string;
+	valor: string;
+}
+
 export interface Audio {
 	url: string;
 	/** Nombre del educador tradicional o miembro de la comunidad. Nunca TTS. */
@@ -102,6 +121,20 @@ export interface Entrada {
 	forma_clck: string;
 
 	/**
+	 * true si `forma_clck` NO está en grafía CLCK todavía, sino en la de su
+	 * fuente (Lehnert, Vaïsse, etc.).
+	 *
+	 * Eje distinto de `nivel_evidencia`: una forma puede ser `atestiguada`
+	 * (dato sólido) y estar escrita en una ortografía que no es la canónica.
+	 * Mientras no esté el Grafemario Unificado (bloqueante B1) no se puede
+	 * convertir sistemáticamente, y convertir por analogía con el castellano
+	 * está prohibido.
+	 *
+	 * La UI tiene que decir "grafía de la fuente, pendiente de normalización".
+	 */
+	grafia_provisional?: boolean;
+
+	/**
 	 * DERIVADA — nivel estricto. No se escribe a mano: la calcula
 	 * `canonizar(forma_clck)`. El validador falla el build si no coincide.
 	 */
@@ -116,12 +149,20 @@ export interface Entrada {
 	significados: string[];
 	categoria: Categoria;
 
+	/**
+	 * Campo semántico. En IDS son los 22 capítulos del cuestionario de Key &
+	 * Comrie, adaptados de Buck (1949). ej: "El mundo físico", "El cuerpo".
+	 */
+	campo_semantico?: string;
+
 	nivel_evidencia: NivelEvidencia;
 
 	/** ids de Fuente. Mínimo 1. Sin esto la entrada no entra al corpus. */
 	fuentes: string[];
 
 	variantes_historicas?: VarianteHistorica[];
+
+	identificadores_externos?: IdentificadorExterno[];
 
 	// --- morfología ---
 
@@ -167,7 +208,7 @@ export interface Entrada {
 // Fuente
 // ---------------------------------------------------------------------------
 
-export type TipoFuente = 'primaria' | 'analisis' | 'comunitaria' | 'educativa';
+export type TipoFuente = 'primaria' | 'analisis' | 'comunitaria' | 'educativa' | 'catalogo';
 
 export interface Fuente {
 	/** ej: "clck-2021", "ids-lehnert-2021", "llanquiman-2023" */
