@@ -142,6 +142,22 @@ export function slug(texto: string): string {
 }
 
 /**
+ * Normaliza la representación Unicode a NFC.
+ *
+ * Las 56 formas acentuadas de IDS vienen en NFD: `cáhmor` es `c a ◌́ h m o r`,
+ * con el acento como carácter combinante aparte. Un usuario que escribe en el
+ * teclado produce NFC, con `á` como un solo punto de código. Los dos strings se
+ * ven idénticos en pantalla y son DISTINTOS para JavaScript.
+ *
+ * Esto NO es normalizar ortografía (regla 6): NFC y NFD son canónicamente
+ * equivalentes según Unicode, es el mismo texto en otra representación de
+ * bytes. No se cambia ninguna letra ni se resuelve ninguna duda ortográfica.
+ */
+function aNfc(texto: string): string {
+	return texto.normalize('NFC');
+}
+
+/**
  * `"montaña, loma"` → `["montaña", "loma"]`.
  *
  * Las comas separan glosas alternativas del mismo concepto, no partes de una
@@ -193,8 +209,7 @@ export function transformarIds(
 	/** Devuelve las glosas ES del concepto de una fila. Nunca cae al inglés. */
 	const glosasDe = (fila: FilaIds): string[] => {
 		const concepto =
-			glosaPorIdsId.get(idsIdDeFila(fila.id_ids)) ??
-			glosaPorConcepticon.get(fila.concepticon_id);
+			glosaPorIdsId.get(idsIdDeFila(fila.id_ids)) ?? glosaPorConcepticon.get(fila.concepticon_id);
 
 		if (!concepto || !concepto.SPANISH.trim()) {
 			throw new Error(
@@ -212,7 +227,7 @@ export function transformarIds(
 	const porForma = new Map<string, FilaIds[]>();
 
 	for (const fila of filas) {
-		const forma = fila.forma.trim();
+		const forma = aNfc(fila.forma.trim());
 		if (!forma) continue; // una fila sin forma no es una palabra
 
 		const grupo = porForma.get(forma);

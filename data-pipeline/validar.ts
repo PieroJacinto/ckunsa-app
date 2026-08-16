@@ -61,6 +61,19 @@ export function tieneTilde(forma: string): boolean {
 	return /[\u0300-\u036f]/.test(forma.normalize('NFD'));
 }
 
+/**
+ * Detecta representación Unicode descompuesta (NFD).
+ *
+ * IDS trae 56 formas acentuadas en NFD: el acento viene como carácter
+ * combinante separado. Se ve idéntico en pantalla y es un string distinto para
+ * JavaScript, así que cualquier comparación directa falla en silencio. El
+ * transformador las pasa a NFC; esta regla evita que una fuente nueva vuelva a
+ * colar NFD sin que nadie lo note.
+ */
+export function estaEnNfc(texto: string): boolean {
+	return texto === texto.normalize('NFC');
+}
+
 function validarEntradas(entradas: Entrada[], idsFuentes: Set<string>): Problema[] {
 	const problemas: Problema[] = [];
 	const vistos = new Set<string>();
@@ -116,6 +129,13 @@ function validarEntradas(entradas: Entrada[], idsFuentes: Set<string>): Problema
 		// que estar marcada de algún modo: como grafía de la fuente, o con nota.
 		if (tieneTilde(e.forma_clck) && !e.grafia_provisional && !e.observaciones?.trim()) {
 			err('tilde-sin-nota', 'lleva tilde y no hay regla de acentuación documentada (B1)');
+		}
+
+		if (!estaEnNfc(e.forma_clck)) {
+			err(
+				'forma-no-nfc',
+				`la forma está en NFD (acento como carácter combinante) y tiene que estar en NFC`
+			);
 		}
 
 		porCanonica.set(e.clave_canonica, (porCanonica.get(e.clave_canonica) ?? 0) + 1);

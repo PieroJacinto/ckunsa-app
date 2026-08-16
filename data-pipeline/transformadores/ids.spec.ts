@@ -165,7 +165,10 @@ const FILAS: FilaIds[] = [
 const porId = (id: string) => {
 	const { entradas } = transformarIds(FILAS, CONCEPTOS);
 	const entrada = entradas.find((e) => e.id === id);
-	if (!entrada) throw new Error(`No se generó la entrada "${id}". Generadas: ${entradas.map((e) => e.id).join(', ')}`);
+	if (!entrada)
+		throw new Error(
+			`No se generó la entrada "${id}". Generadas: ${entradas.map((e) => e.id).join(', ')}`
+		);
 	return entrada;
 };
 
@@ -396,6 +399,34 @@ describe('transformarIds — fuentes', () => {
 
 		for (const f of fuentes) {
 			expect(f.licencia).toBe('CC BY 4.0');
+		}
+	});
+});
+
+describe('transformarIds — representación Unicode', () => {
+	/**
+	 * Las 56 formas acentuadas de IDS vienen en NFD: el acento como carácter
+	 * combinante separado. Se ven idénticas en pantalla y son strings distintos
+	 * para JavaScript, así que se normalizan a NFC.
+	 *
+	 * NO es normalizar ortografía (regla 6): NFC y NFD son canónicamente
+	 * equivalentes según Unicode, es el mismo texto en otra representación.
+	 */
+	it('pasa las formas descompuestas a NFC', () => {
+		const enNfd = 'ca\u0301hmor';
+		const filas: FilaIds[] = [{ ...FILAS[0]!, id_ids: '308-1-220-1', forma: enNfd }];
+
+		const { entradas } = transformarIds(filas, CONCEPTOS);
+
+		expect(entradas[0]?.forma_clck).toBe('cáhmor'.normalize('NFC'));
+		expect(entradas[0]?.forma_clck).not.toBe(enNfd);
+	});
+
+	it('ninguna entrada sale en NFD', () => {
+		const { entradas } = transformarIds(FILAS, CONCEPTOS);
+
+		for (const e of entradas) {
+			expect(e.forma_clck).toBe(e.forma_clck.normalize('NFC'));
 		}
 	});
 });

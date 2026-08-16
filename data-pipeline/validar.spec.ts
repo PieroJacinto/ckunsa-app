@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { canonizar, historizar } from '../src/lib/domain/normalizacion.ts';
 import type { Corpus, Entrada, Fuente, Morfema } from '../src/lib/domain/tipos.ts';
-import { BASELINE_COLISIONES, grafemasAjenos, tieneTilde, validar } from './validar.ts';
+import { BASELINE_COLISIONES, estaEnNfc, grafemasAjenos, tieneTilde, validar } from './validar.ts';
 
 const FUENTE: Fuente = {
 	id: 'f1',
@@ -199,6 +199,37 @@ describe('validar — grafía (bloqueante B1)', () => {
 		]);
 
 		expect(errores(c)).toEqual([]);
+	});
+});
+
+describe('validar — representación Unicode', () => {
+	/** `ayián` con el acento como carácter combinante separado. */
+	const EN_NFD = 'ayia\u0301n';
+	const EN_NFC = 'ayián'.normalize('NFC');
+
+	it('las dos formas se ven iguales pero son strings distintos', () => {
+		expect(EN_NFD).not.toBe(EN_NFC);
+	});
+
+	it('estaEnNfc distingue una de otra', () => {
+		expect(estaEnNfc(EN_NFC)).toBe(true);
+		expect(estaEnNfc(EN_NFD)).toBe(false);
+	});
+
+	/**
+	 * IDS trae 56 formas en NFD. El transformador las pasa a NFC; esta regla
+	 * evita que una fuente nueva vuelva a colar NFD sin que nadie lo note.
+	 */
+	it('rechaza una entrada guardada en NFD', () => {
+		const c = corpus([entrada({ id: 'a', forma_clck: EN_NFD, grafia_provisional: true })]);
+
+		expect(errores(c)).toContain('forma-no-nfc');
+	});
+
+	it('acepta la misma forma en NFC', () => {
+		const c = corpus([entrada({ id: 'a', forma_clck: EN_NFC, grafia_provisional: true })]);
+
+		expect(errores(c)).not.toContain('forma-no-nfc');
 	});
 });
 
