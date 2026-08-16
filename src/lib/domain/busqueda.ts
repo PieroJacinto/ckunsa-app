@@ -24,6 +24,22 @@ import type { Corpus, Entrada } from './tipos';
 export type MotivoCoincidencia =
 	'exacta' | 'variante' | 'espanol' | 'prefijo' | 'contiene' | 'aproximada';
 
+/**
+ * Cómo se le explica al usuario por qué apareció un resultado.
+ *
+ * `null` cuando no hace falta explicar nada: si buscó `ckabur` y encontró
+ * `ckabur`, decirle "coincidencia exacta" es ruido. Sólo se anuncian las
+ * coincidencias que el usuario no esperaba, que es lo didáctico
+ * (`07-DISENO` V5.4).
+ */
+export const DESCRIPCION_MOTIVO: Record<MotivoCoincidencia, string | null> = {
+	exacta: null,
+	variante: 'coincide con una variante registrada de esta palabra',
+	espanol: null,
+	prefijo: null,
+	contiene: null,
+	aproximada: 'coincidencia aproximada'
+};
 export interface ResultadoBusqueda {
 	entrada: Entrada;
 	motivo: MotivoCoincidencia;

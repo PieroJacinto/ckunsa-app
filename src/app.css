@@ -261,6 +261,58 @@ body {
 .cita__licencia {
 	margin: 0.25rem 0 0;
 }
+
+/* --- EntradaCard ------------------------------------------------------- */
+
+.ficha {
+	background-color: var(--ck-superficie);
+	border: 1px solid var(--ck-borde);
+	border-radius: 0.5rem;
+	padding: 1rem;
+	margin-bottom: 0.75rem;
+}
+
+.ficha__titulo {
+	margin: 0;
+	font-size: 1.5rem; /* la palabra en ckunsa es lo más grande (07-DISENO V5.1) */
+	font-weight: 600;
+}
+
+.ficha__enlace {
+	color: inherit;
+	text-decoration: none;
+}
+
+.ficha__enlace:hover .evidencia__forma,
+.ficha__enlace:focus-visible .evidencia__forma {
+	text-decoration: underline;
+}
+
+.ficha__significados {
+	margin: 0.5rem 0 0;
+	font-size: 1.0625rem;
+}
+
+.ficha__campo,
+.ficha__coincidencia {
+	margin: 0.25rem 0 0;
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+}
+
+.ficha__retirada {
+	margin: 0.5rem 0 0;
+	padding: 0.5rem;
+	border-left: 3px solid var(--ck-adobe);
+	font-size: 0.875rem;
+}
+
+.ficha__fuente {
+	margin: 0.75rem 0 0;
+	padding-top: 0.5rem;
+	border-top: 1px solid var(--ck-borde);
+}
+
 /* Impresión: una lista de vocabulario fotocopiada tiene que seguir siendo
    legible y seguir mostrando la atribución (07-DISENO V7). */
 @media print {
