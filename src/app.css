@@ -1050,6 +1050,22 @@ body {
 	color: var(--ck-adobe);
 }
 
+/* --- Sin conexión ------------------------------------------------------ */
+
+/*
+	Discreto a propósito: no es un error, es información. La app anda igual.
+	Por eso usa el gris piedra y no el adobe de las alertas.
+*/
+.conexion {
+	margin: 0;
+	padding: 0.5rem 1rem;
+	background-color: var(--ck-superficie);
+	border-bottom: 1px solid var(--ck-borde);
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+	text-align: center;
+}
+
 @media print {
 	body {
 		background: #fff;
@@ -1072,6 +1088,7 @@ body {
 	.vista__salto,
 	.aviso-sw,
 	.acciones,
+	.conexion,
 	.vista__nav {
 		display: none;
 	}

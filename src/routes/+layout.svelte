@@ -9,6 +9,7 @@
 
 	import AvisoActualizacion from '$lib/componentes/AvisoActualizacion.svelte';
 	import NavPrincipal from '$lib/componentes/NavPrincipal.svelte';
+	import EstadoConexion from '$lib/componentes/EstadoConexion.svelte';
 	import { proveerDiccionario } from '$lib/stores/contexto.svelte';
 
 	let { children } = $props();
@@ -89,6 +90,7 @@
 </svelte:head>
 
 <AvisoActualizacion />
+<EstadoConexion />
 
 <!--
 	El nav vive acá y no en AppViewLayout porque `page` necesita el contexto de
