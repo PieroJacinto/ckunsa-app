@@ -1,48 +1,97 @@
 <!--
 	Aviso de versión nueva de la APLICACIÓN.
 
-	El service worker se registra con `registerType: 'prompt'`: cuando hay una
-	versión nueva NO se recarga sola. Recargar de prepo mientras alguien está
-	leyendo una ficha es hostil (`01-ARQUITECTURA` §7), así que la decisión es
-	del usuario.
+	POR QUÉ HAY UNA COMPROBACIÓN PERIÓDICA: el navegador sólo busca versiones
+	nuevas del service worker cuando se navega de página. Esta app es una SPA —
+	la navegación es interna y no recarga nada—, así que sin esto puede pasar
+	días sin enterarse de que hay una versión nueva. El banner no aparecería
+	nunca.
 
-	El registro va con import dinámico dentro de `onMount` por dos razones:
-	`virtual:pwa-register` es un módulo virtual que sólo existe cuando corre el
-	plugin, y así no se ejecuta en el servidor ni en los tests.
+	Se sigue el patrón documentado por vite-plugin-pwa, con sus casos borde: no
+	chequear si el service worker ya está instalando, ni si el dispositivo está
+	sin conexión, y verificar que el servidor responda 200 antes de pedir la
+	actualización.
 
-	Se usa la API genérica con callbacks y no la variante de Svelte, que devuelve
-	stores del sistema viejo: todo el proyecto usa runes.
+	Se agrega un chequeo al volver a la app (`visibilitychange`), que en la
+	práctica sirve más que uno cada hora: alguien abre el diccionario, lo deja, y
+	vuelve a los dos días.
+
+	NO se recarga sola (`registerType: 'prompt'`): hacerlo mientras alguien lee
+	una ficha es hostil (`01-ARQUITECTURA` §7). La decisión es del usuario.
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	/** Cada hora. El intervalo va en milisegundos. */
+	const CADA = 60 * 60 * 1000;
+
 	let hayActualizacion = $state(false);
 	let listoOffline = $state(false);
-	let actualizar: ((recargar?: boolean) => Promise<void>) | null = null;
 	let aplicando = $state(false);
+	let actualizar: ((recargar?: boolean) => Promise<void>) | null = null;
 
-	onMount(async () => {
-		const { registerSW } = await import('virtual:pwa-register');
+	onMount(() => {
+		let limpiar: (() => void) | undefined;
 
-		actualizar = registerSW({
-			onNeedRefresh() {
-				hayActualizacion = true;
-			},
-			onOfflineReady() {
-				listoOffline = true;
-			}
-		});
+		void (async () => {
+			// Import dinámico: `virtual:pwa-register` sólo existe cuando corre el
+			// plugin, y así no se ejecuta en el servidor ni en los tests.
+			const { registerSW } = await import('virtual:pwa-register');
+
+			actualizar = registerSW({
+				immediate: true,
+
+				onNeedRefresh() {
+					hayActualizacion = true;
+				},
+
+				onOfflineReady() {
+					listoOffline = true;
+				},
+
+				onRegisteredSW(urlSw, registro) {
+					if (!registro) return;
+
+					const revisar = async () => {
+						if (registro.installing) return;
+						if ('connection' in navigator && !navigator.onLine) return;
+
+						try {
+							const r = await fetch(urlSw, {
+								cache: 'no-store',
+								headers: { 'cache-control': 'no-cache' }
+							});
+							if (r.status === 200) await registro.update();
+						} catch {
+							// Sin conexión o servidor caído: se reintenta en el próximo ciclo.
+							// No es un problema del usuario y no tiene que ensuciar la pantalla.
+						}
+					};
+
+					void revisar(); // una vez al arrancar
+					const reloj = setInterval(revisar, CADA);
+
+					const alVolver = () => {
+						if (document.visibilityState === 'visible') void revisar();
+					};
+					document.addEventListener('visibilitychange', alVolver);
+
+					limpiar = () => {
+						clearInterval(reloj);
+						document.removeEventListener('visibilitychange', alVolver);
+					};
+				}
+			});
+		})();
+
+		return () => limpiar?.();
 	});
 
 	/*
-		`registerSW` devuelve una función que sólo manda `skipWaiting` al service
-		worker en espera; la recarga la dispara después el evento `controlling`.
-
-		Si no hay ninguno esperando —porque ya se activó solo en una recarga
-		anterior— ese evento nunca ocurre y el botón no hace nada. Por eso
-		recargamos nosotros como respaldo: con worker en espera la recarga ya
-		habrá ocurrido, y sin él es la única forma de que el usuario vea la
-		versión nueva.
+		`registerSW` sólo manda `skipWaiting` al service worker en espera; la
+		recarga la dispara después el evento `controlling`. Si no hay ninguno
+		esperando, ese evento nunca ocurre y el botón no haría nada. Por eso
+		recargamos nosotros como respaldo.
 	*/
 	async function aplicar() {
 		aplicando = true;
@@ -62,7 +111,7 @@
 
 {#if hayActualizacion}
 	<div class="aviso-sw" role="status">
-		<p class="aviso-sw__texto">Hay una versión nueva de la aplicación.</p>
+		<p class="aviso-sw__texto">Hay una versión nueva del diccionario.</p>
 		<button class="aviso-sw__accion" type="button" onclick={aplicar} disabled={aplicando}>
 			{aplicando ? 'Actualizando…' : 'Actualizar'}
 		</button>
