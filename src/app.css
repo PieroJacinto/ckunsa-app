@@ -416,7 +416,51 @@ body {
 	padding: 0;
 	margin: 1.5rem 0 0;
 }
+/* --- Ficha de palabra -------------------------------------------------- */
 
+.palabra__forma {
+	margin: 0;
+	font-size: 2.25rem; /* lo más grande de la pantalla (07-DISENO V5.1) */
+	font-weight: 600;
+}
+
+.palabra__significados {
+	margin: 0.75rem 0 0;
+	font-size: 1.25rem;
+}
+
+.palabra__datos {
+	margin: 1.5rem 0 0;
+}
+
+.palabra__datos dt {
+	font-size: 0.8125rem;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: var(--ck-piedra);
+	font-weight: 600;
+	margin-top: 1rem;
+}
+
+.palabra__datos dd {
+	margin: 0.25rem 0 0;
+}
+
+.palabra__observaciones {
+	font-style: italic;
+	color: var(--ck-piedra);
+}
+
+.palabra__fuentes {
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid var(--ck-borde);
+}
+
+.palabra__subtitulo {
+	font-size: 1rem;
+	margin: 0 0 0.75rem;
+}
 /* Impresión: una lista de vocabulario fotocopiada tiene que seguir siendo
    legible y seguir mostrando la atribución (07-DISENO V7). */
 @media print {
