@@ -222,10 +222,6 @@ body {
 	left: 0;
 }
 
-.vista__nav {
-	display: none;
-}
-
 .vista {
 	max-width: 42rem;
 	margin: 0 auto;
@@ -550,5 +546,9 @@ body {
 	.cita--compacta,
 	.cita--completa {
 		color: #000 !important;
+	}
+	.vista__salto,
+	.vista__nav {
+		display: none;
 	}
 }
