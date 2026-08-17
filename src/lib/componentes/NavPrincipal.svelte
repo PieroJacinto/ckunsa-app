@@ -24,7 +24,7 @@
 		{ href: '/', texto: 'Buscador' },
 		{ href: '/indice', texto: 'Índice' },
 		{ href: '/lengua', texto: 'La lengua' },
-		{ href: '/proyecto', texto: 'Proyecto' },
+		{ href: '/grafia', texto: 'Escritura' },
 		{ href: '/fuentes', texto: 'Fuentes' }
 	];
 </script>
