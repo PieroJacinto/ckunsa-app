@@ -52,7 +52,12 @@
 				<em>Diccionario Unificado Ckunsa</em> (2021), que definen la grafía oficial.
 			</li>
 			<li><strong>CONADI El Loa</strong></li>
-			<li><strong>Fundación Yockontur</strong> — trabajo de revitalización en San Pedro.</li>
+			<li>
+				<strong>Corporación Cultural La Huella Teatro</strong> — impulsa el proyecto
+				<strong>Yockontur</strong> («hablar» en ckunsa), con patrocinio del CLCK, presentado por Escondida&nbsp;|
+				BHP y apoyo de UNESCO. Lleva mediaciones educativas y diccionarios a las escuelas de Atacama La
+				Grande.
+			</li>
 			<li><strong>Centro de Pensamiento Atacameño Ckunsa Ttulva</strong></li>
 			<li>
 				<strong>Educadores tradicionales</strong> de las escuelas de San Pedro de Atacama, Toconao, Peine,
