@@ -13,6 +13,7 @@
 	import type { NivelEvidencia } from '$lib/domain/tipos';
 
 	import EvidenceBadge from './EvidenceBadge.svelte';
+	import BotonInstalar from './BotonInstalar.svelte';
 
 	type Props = {
 		/** Llena el buscador con la palabra del ejemplo. */
@@ -31,6 +32,7 @@
 </script>
 
 <section class="bienvenida">
+	<BotonInstalar />
 	<p class="bienvenida__intro">
 		Diccionario de la lengua <strong>ckunsa</strong>, del pueblo lickanantay del Salar de Atacama.
 		Es una lengua dormida: hace más de un siglo que no se registran hablantes fluidos, y casi todo

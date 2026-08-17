@@ -972,6 +972,52 @@ body {
 		padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
 	}
 }
+
+/* --- Botón de instalar ------------------------------------------------- */
+
+.instalar {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+	padding: 0.875rem 1rem;
+	margin-bottom: 1.5rem;
+	background-color: var(--ck-superficie);
+	border: 1px solid var(--ck-adobe);
+	border-radius: 0.5rem;
+}
+
+.instalar__texto {
+	margin: 0;
+	flex: 1;
+	min-width: 12rem;
+	font-size: 0.9375rem;
+}
+
+.instalar__boton {
+	min-height: 2.75rem;
+	padding: 0 1.25rem;
+	border: none;
+	border-radius: 0.25rem;
+	background-color: var(--ck-adobe);
+	color: #fff;
+	font-size: 0.9375rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.instalar__pasos {
+	width: 100%;
+	margin: 0.5rem 0 0;
+	padding-left: 1.25rem;
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+}
+
+.instalar__pasos li {
+	margin-bottom: 0.25rem;
+}
+
 @media print {
 	body {
 		background: #fff;
