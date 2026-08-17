@@ -231,3 +231,38 @@ describe('actualizaciones', () => {
 		expect(d.error).toBeNull();
 	});
 });
+
+describe('aplicarActualizacion — no puede romper lo que anda', () => {
+	/**
+	 * El caso que importa: alguien está usando el diccionario, aparece el aviso
+	 * de palabras nuevas, toca actualizar y justo se queda sin señal. Si eso
+	 * dejara el store en error, la app mostraría una pantalla rota teniendo el
+	 * corpus entero en memoria.
+	 */
+	it('si falla, conserva el corpus que ya estaba cargado', async () => {
+		const d = crearDiccionario();
+		await d.cargar({ fetch: fake() });
+
+		expect(d.estado).toBe('listo');
+		const totalPrevio = d.total;
+
+		await d.aplicarActualizacion({
+			fetch: () => Promise.reject(new Error('sin conexión'))
+		});
+
+		expect(d.estado).toBe('listo');
+		expect(d.total).toBe(totalPrevio);
+	});
+
+	it('si sale bien, deja de anunciar la actualización', async () => {
+		const d = crearDiccionario();
+		await d.cargar({ fetch: fake() });
+		await d.revisarActualizacion({ fetch: fake(2) });
+
+		expect(d.hayActualizacion).toBe(true);
+
+		await d.aplicarActualizacion({ fetch: fake(2) });
+
+		expect(d.hayActualizacion).toBe(false);
+	});
+});

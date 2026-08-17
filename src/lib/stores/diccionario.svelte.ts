@@ -48,6 +48,8 @@ export interface Diccionario {
 
 	cargar(opciones: OpcionesCarga): Promise<void>;
 	revisarActualizacion(opciones: OpcionesCarga): Promise<void>;
+	/** Trae la versión nueva del corpus. Si falla, deja intacta la que anda. */
+	aplicarActualizacion(opciones: OpcionesCarga): Promise<void>;
 	buscar(consulta: string): void;
 
 	porId(id: string): Entrada | undefined;
@@ -125,6 +127,29 @@ export function crearDiccionario(): Diccionario {
 			} catch {
 				// Silencioso a propósito: no poder chequear si hay versión nueva no es
 				// un problema del usuario y no tiene que ensuciar la pantalla.
+			}
+		},
+
+		/**
+		 * A diferencia de `cargar`, si esto falla NO rompe nada: el corpus que ya
+		 * está en memoria sigue sirviendo. Aplicar una actualización sin señal no
+		 * puede dejar al usuario sin diccionario.
+		 */
+		async aplicarActualizacion(opciones) {
+			if (estado === 'cargando') return;
+
+			const estadoPrevio = estado;
+			estado = 'cargando';
+
+			try {
+				const cargado = await cargarCorpus(opciones);
+				corpus = cargado;
+				indice = construirIndice(cargado);
+				manifestNuevo = null;
+				estado = 'listo';
+			} catch {
+				// Se conserva lo que ya funcionaba. El aviso queda para reintentar.
+				estado = estadoPrevio;
 			}
 		},
 
