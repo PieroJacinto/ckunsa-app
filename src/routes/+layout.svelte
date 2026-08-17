@@ -60,6 +60,14 @@
 
 <svelte:head>
 	<link rel="icon" href="/favicon.svg" />
+	<!--
+		El enlace al manifest va a mano: con `ssr: false` el plugin no lo inyecta,
+		y sin él el navegador no detecta la app como instalable. Sin manifest no
+		hay botón de instalar, ni el de Chrome ni el nuestro.
+	-->
+	<link rel="manifest" href="/manifest.webmanifest" />
+	<meta name="theme-color" content="#8f4a22" />
+	<link rel="apple-touch-icon" href="/icono-192.png" />
 </svelte:head>
 
 <AvisoActualizacion />
