@@ -80,39 +80,49 @@
 		<h2>Cinco maneras de escribir el mismo nombre</h2>
 
 		<p>
-			<em>cunza</em>, <em>kunza</em>, <em>cunsa</em>, <em>kunsa</em>, <em>ckunsa</em>. Las cinco
-			circulan, y no son un capricho: cada una viene de una época y de una decisión distinta. Las
-			primeras son de los registros del siglo XIX; <em>kunza</em> es la de Lehnert en los años 70 y
-			80; <em>kunsa</em> aparece en el grafemario del Ministerio de Educación de 2014.
+			<em translate="no" lang="kuz">cunza</em>, <em translate="no" lang="kuz">kunza</em>,
+			<em translate="no" lang="kuz">cunsa</em>, <em translate="no" lang="kuz">kunsa</em>,
+			<em translate="no" lang="kuz">ckunsa</em>. Las cinco circulan, y no son un capricho: cada una
+			viene de una época y de una decisión distinta. Las primeras son de los registros del siglo
+			XIX; <em translate="no" lang="kuz">kunza</em> es la de Lehnert en los años 70 y 80;
+			<em translate="no" lang="kuz">kunsa</em> aparece en el grafemario del Ministerio de Educación de
+			2014.
 		</p>
 
 		<p>
-			<strong>La grafía que usa esta aplicación es <em>ckunsa</em></strong>, la que adoptó el
-			Consejo Lingüístico Ckunsa Lickanantay en 2018 y ratificó la comunidad en el
-			<em>Semmu Halayna Ckapur Lassi Ckunsa</em> —la Primera Gran Reunión de la Lengua— en octubre de
-			2021. No es una decisión técnica: es una decisión del pueblo lickanantay sobre cómo se escribe su
-			lengua.
+			<strong>La grafía que usa esta aplicación es <em translate="no" lang="kuz">ckunsa</em></strong
+			>, la que adoptó el Consejo Lingüístico Ckunsa Lickanantay en 2018 y ratificó la comunidad en
+			el
+			<em translate="no" lang="kuz">Semmu Halayna Ckapur Lassi Ckunsa</em> —la Primera Gran Reunión de
+			la Lengua— en octubre de 2021. No es una decisión técnica: es una decisión del pueblo lickanantay
+			sobre cómo se escribe su lengua.
 		</p>
 
 		<p>
-			El nombre significa <strong>«nuestro»</strong>: viene de <em>kun</em> «nosotros» más el sufijo
-			<em>-sa</em> de posesión.
+			El nombre significa <strong>«nuestro»</strong>: viene de
+			<em translate="no" lang="kuz">kun</em>
+			«nosotros» más el sufijo
+			<em translate="no" lang="kuz">-sa</em> de posesión.
 		</p>
 
 		<h2>Qué se sabe de su gramática</h2>
 
 		<p>
 			El ckunsa es <strong>aglutinante y sufijante</strong>: las palabras se arman pegando piezas al
-			final de una raíz. El verbalizador <em>-tur</em> es el proceso mejor documentado — de
-			<em>ampi</em> «medicina» sale <em>ampitur</em> «curar».
+			final de una raíz. El verbalizador <em translate="no" lang="kuz">-tur</em> es el proceso mejor
+			documentado — de
+			<em translate="no" lang="kuz">ampi</em> «medicina» sale
+			<em translate="no" lang="kuz">ampitur</em> «curar».
 		</p>
 
 		<p>
 			El sistema de <strong>numerales</strong> es el subsistema más completo y regular que se
-			conoce. Dos números yuxtapuestos se multiplican y unidos por la partícula <em>ta</em> se
-			suman: <em>su-ci pala-ma</em> es 10 × 3 = 30, y <em>su-ci ta se-ma</em> es 10 + 1 = 11. Con
-			una irregularidad que hay que respetar: el 20 es <em>su-ci ta su-ci</em>, diez más diez, y no
-			diez por dos.
+			conoce. Dos números yuxtapuestos se multiplican y unidos por la partícula
+			<em translate="no" lang="kuz">ta</em>
+			se suman: <em translate="no" lang="kuz">su-ci pala-ma</em> es 10 × 3 = 30, y
+			<em translate="no" lang="kuz">su-ci ta se-ma</em>
+			es 10 + 1 = 11. Con una irregularidad que hay que respetar: el 20 es
+			<em translate="no" lang="kuz">su-ci ta su-ci</em>, diez más diez, y no diez por dos.
 		</p>
 
 		<p>

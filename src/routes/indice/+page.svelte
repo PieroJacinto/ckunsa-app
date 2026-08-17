@@ -103,6 +103,7 @@
 						type="button"
 						class="indice__letra-boton"
 						aria-pressed={activa}
+						translate="no"
 						onclick={() => ir({ letra: grupo.letra })}>{grupo.letra}</button
 					>
 				{/each}

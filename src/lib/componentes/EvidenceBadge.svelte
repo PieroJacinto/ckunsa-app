@@ -48,7 +48,7 @@
 
 <span class="evidencia" data-nivel={nivel}>
 	{#if children}
-		<span class="evidencia__forma">{@render children()}</span>
+		<span class="evidencia__forma" translate="no" lang="kuz">{@render children()}</span>
 	{/if}
 
 	<!--

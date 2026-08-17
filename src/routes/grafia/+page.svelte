@@ -36,11 +36,14 @@
 			<li>El <strong>Grafemario de 2018</strong> define 14 consonantes y 10 vocales.</li>
 			<li>
 				El <strong>Diccionario de 2021</strong> define 17 consonantes: agrega las oclusivas
-				aspiradas <code>th</code> y <code>ph</code>, y la africada <code>ts</code>.
+				aspiradas <code translate="no" lang="kuz">th</code> y
+				<code translate="no" lang="kuz">ph</code>, y la africada
+				<code translate="no" lang="kuz">ts</code>.
 			</li>
 			<li>
 				Una tercera propuesta, la de <strong>Llanquiman (2023)</strong>, suma
-				<code>tck</code> y <code>ch</code>, y sugiere no usar <code>ts</code>.
+				<code translate="no" lang="kuz">tck</code> y <code translate="no" lang="kuz">ch</code>, y
+				sugiere no usar <code translate="no" lang="kuz">ts</code>.
 			</li>
 		</ul>
 
@@ -75,57 +78,79 @@
 
 		<p>
 			Varios de esos son <strong>una sola letra aunque se escriban con dos o tres signos</strong>:
-			<code>ck</code>, <code>tch</code> y <code>tck</code> no son «c más k» ni «t más ch». Es la
-			misma lógica de la <em>ch</em> y la <em>ll</em> del castellano antes de 1994.
+			<code translate="no" lang="kuz">ck</code>, <code translate="no" lang="kuz">tch</code> y
+			<code translate="no" lang="kuz">tck</code>
+			no son «c más k» ni «t más ch». Es la misma lógica de la <em>ch</em> y la <em>ll</em> del castellano
+			antes de 1994.
 		</p>
 
 		<h2>Reglas que el Consejo sí definió</h2>
 
 		<p>
 			<strong
-				><code>c</code>, <code>k</code> y <code>ck</code> se escriben todas
-				<code>ck</code>.</strong
+				><code translate="no" lang="kuz">c</code>, <code translate="no" lang="kuz">k</code> y
+				<code translate="no" lang="kuz">ck</code>
+				se escriben todas
+				<code translate="no" lang="kuz">ck</code>.</strong
 			> Es una norma del Diccionario Unificado.
 		</p>
 
 		<p>
-			<strong>La <code>z</code> se reemplaza por <code>s</code>.</strong> El Consejo lo argumenta
-			explícitamente: el sonido de la z habría llegado con los españoles, no es propio de las
-			lenguas andinas prehispánicas, y en los registros <em>ckunza</em> era la única palabra que la usaba.
+			<strong
+				>La <code translate="no" lang="kuz">z</code> se reemplaza por
+				<code translate="no" lang="kuz">s</code>.</strong
+			>
+			El Consejo lo argumenta explícitamente: el sonido de la z habría llegado con los españoles, no
+			es propio de las lenguas andinas prehispánicas, y en los registros
+			<em translate="no" lang="kuz">ckunza</em> era la única palabra que la usaba.
 		</p>
 
 		<p>
 			<strong
-				>No se usan <code>d</code>, <code>f</code>, <code>g</code>, <code>j</code>,
-				<code>v</code>, <code>w</code> ni <code>x</code>.</strong
+				>No se usan <code translate="no" lang="kuz">d</code>,
+				<code translate="no" lang="kuz">f</code>, <code translate="no" lang="kuz">g</code>,
+				<code translate="no" lang="kuz">j</code>,
+				<code translate="no" lang="kuz">v</code>, <code translate="no" lang="kuz">w</code> ni
+				<code translate="no" lang="kuz">x</code>.</strong
 			> En eso coinciden los dos documentos.
 		</p>
 
 		<p>
 			<strong>Las vocales largas cambian el significado.</strong> No son un error de tipeo:
-			<em>ckapin</em> es 'día' y <em>ckaapin</em> es 'sol'; <em>ckari</em> es 'nuevo' y
-			<em>ckaari</em> es 'brote'. Hay 22 pares así en el corpus del Consejo.
+			<em translate="no" lang="kuz">ckapin</em> es 'día' y
+			<em translate="no" lang="kuz">ckaapin</em>
+			es 'sol'; <em translate="no" lang="kuz">ckari</em> es 'nuevo' y
+			<em translate="no" lang="kuz">ckaari</em> es 'brote'. Hay 22 pares así en el corpus del Consejo.
 		</p>
 
 		<p>
-			<strong><code>tt</code> y <code>pp</code> son sonidos propios</strong>, no letras repetidas:
-			son oclusivas eyectivas, que se pronuncian con un golpe de glotis. En cambio
-			<code>mm</code>, <code>nn</code> y <code>ss</code> sí son dos consonantes seguidas.
+			<strong
+				><code translate="no" lang="kuz">tt</code> y <code translate="no" lang="kuz">pp</code> son sonidos
+				propios</strong
+			>, no letras repetidas: son oclusivas eyectivas, que se pronuncian con un golpe de glotis. En
+			cambio
+			<code translate="no" lang="kuz">mm</code>, <code translate="no" lang="kuz">nn</code> y
+			<code translate="no" lang="kuz">ss</code> sí son dos consonantes seguidas.
 		</p>
 
 		<h2>Por qué esto le importa a un buscador</h2>
 
 		<p>
 			Porque decide qué palabras son la misma y cuáles no. Esta aplicación distingue
-			<em>patha</em> 'gracias' de <em>patta</em> 'madre', y no las trata como variantes de
-			escritura. La razón es que <code>th</code> y <code>tt</code> representan sonidos distintos —una
-			aspirada y una eyectiva— según el propio Diccionario del Consejo.
+			<em translate="no" lang="kuz">patha</em> 'gracias' de <em translate="no" lang="kuz">patta</em>
+			'madre', y no las trata como variantes de escritura. La razón es que
+			<code translate="no" lang="kuz">th</code>
+			y <code translate="no" lang="kuz">tt</code> representan sonidos distintos —una aspirada y una eyectiva—
+			según el propio Diccionario del Consejo.
 		</p>
 
 		<p>
-			Lo mismo con <em>ckotcho</em> 'mazamorra' y <em>ckotcko</em> 'cráneo', o con
-			<em>atitur</em> 'vencer' y <em>hatitur</em> 'entrar'. Un buscador que ignorara esas diferencias
-			fusionaría palabras que no tienen nada que ver.
+			Lo mismo con <em translate="no" lang="kuz">ckotcho</em> 'mazamorra' y
+			<em translate="no" lang="kuz">ckotcko</em>
+			'cráneo', o con
+			<em translate="no" lang="kuz">atitur</em> 'vencer' y
+			<em translate="no" lang="kuz">hatitur</em> 'entrar'. Un buscador que ignorara esas diferencias fusionaría
+			palabras que no tienen nada que ver.
 		</p>
 
 		<h2>Lo que falta</h2>
@@ -135,7 +160,8 @@
 			tiende a la esdrújula. Llanquiman lo analiza y propone que el ckunsa tiene acento fijo y
 			predecible, que cae hacia la izquierda de la palabra: en la penúltima sílaba si tiene dos, en
 			la antepenúltima si tiene tres, y en la última si tiene cuatro o cinco —como
-			<em>lickanantay</em>—. Los compuestos conservan el acento de sus raíces.
+			<em translate="no" lang="kuz">lickanantay</em>—. Los compuestos conservan el acento de sus
+			raíces.
 		</p>
 
 		<p>
@@ -144,7 +170,8 @@
 				>son marcas de acento que anotaron San Román en 1890 y Mostny en 1954, y que el Consejo
 				conservó</strong
 			>. Describen dónde cae el acento; no distinguen una palabra de otra. Por eso esta aplicación
-			las ignora al buscar, y <em>humar</em> encuentra también <em>húmar</em>.
+			las ignora al buscar, y <em translate="no" lang="kuz">humar</em> encuentra también
+			<em translate="no" lang="kuz">húmar</em>.
 		</p>
 
 		<p>
