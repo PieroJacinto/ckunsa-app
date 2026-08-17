@@ -21,9 +21,17 @@
 		motivo?: MotivoCoincidencia;
 		/** Explicación puntual del buscador, más precisa que la genérica. */
 		detalle?: string;
+		/**
+		 * Mostrar la nota de grafía provisional en esta tarjeta.
+		 *
+		 * Por defecto NO, porque en un listado la llevan las 851 entradas y una
+		 * advertencia que aparece en todos los ítems deja de informar (V4.1). El
+		 * listado la dice una vez arriba; la ficha de palabra la pasa en `true`.
+		 */
+		mostrarNotaGrafia?: boolean;
 	};
 
-	let { entrada, fuente, motivo, detalle }: Props = $props();
+	let { entrada, fuente, motivo, detalle, mostrarNotaGrafia = false }: Props = $props();
 
 	const aviso = $derived(motivo ? DESCRIPCION_MOTIVO[motivo] : null);
 </script>
@@ -31,7 +39,10 @@
 <article class="ficha">
 	<h2 class="ficha__titulo">
 		<a class="ficha__enlace" href="/palabra/{entrada.id}">
-			<EvidenceBadge nivel={entrada.nivel_evidencia} grafiaProvisional={entrada.grafia_provisional}>
+			<EvidenceBadge
+				nivel={entrada.nivel_evidencia}
+				grafiaProvisional={mostrarNotaGrafia && entrada.grafia_provisional}
+			>
 				{entrada.forma_clck}
 			</EvidenceBadge>
 		</a>

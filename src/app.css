@@ -320,6 +320,14 @@ body {
 	No se usa display:none ni visibility:hidden porque esos lo sacarían también
 	del árbol de accesibilidad, que es justo lo contrario de lo que queremos.
 */
+.aviso-grafia {
+	margin: 1rem 0 0;
+	padding: 0.75rem;
+	background-color: var(--ck-superficie);
+	border-left: 3px solid var(--ck-borde);
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+}
 .visualmente-oculto {
 	position: absolute;
 	width: 1px;
@@ -390,6 +398,23 @@ body {
 /* El navegador pone su propia X en type=search; usamos la nuestra. */
 .buscador__input::-webkit-search-cancel-button {
 	display: none;
+}
+
+/* --- Buscador (ruta) --------------------------------------------------- */
+
+.estado {
+	margin-top: 2rem;
+	color: var(--ck-piedra);
+}
+
+.estado--error {
+	color: var(--ck-adobe-oscuro);
+}
+
+.resultados {
+	list-style: none;
+	padding: 0;
+	margin: 1.5rem 0 0;
 }
 
 /* Impresión: una lista de vocabulario fotocopiada tiene que seguir siendo

@@ -73,14 +73,13 @@ describe('EntradaCard — la forma nunca va suelta', () => {
 		expect(marcado({ entrada: propuesta })).toContain('evidencia__marca--propuesta');
 	});
 
-	it('propaga la nota de grafía provisional', () => {
-		expect(marcado()).toContain('pendiente de normalización');
+	/** Por defecto NO la muestra: en un listado la llevan todas y deja de informar. */
+	it('por defecto no muestra la nota de grafía', () => {
+		expect(marcado()).not.toContain('pendiente de normalización');
 	});
 
-	it('no la muestra si la grafía no es provisional', () => {
-		const canonica: Entrada = { ...CKABUR, grafia_provisional: false };
-
-		expect(marcado({ entrada: canonica })).not.toContain('pendiente de normalización');
+	it('la muestra cuando se la piden explícitamente', () => {
+		expect(marcado({ mostrarNotaGrafia: true })).toContain('pendiente de normalización');
 	});
 });
 
