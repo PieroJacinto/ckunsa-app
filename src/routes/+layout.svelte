@@ -4,7 +4,8 @@
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import '../app.css';
 
-	import { page } from '$app/state';
+	import { beforeNavigate } from '$app/navigation';
+	import { page, updated } from '$app/state';
 
 	import AvisoActualizacion from '$lib/componentes/AvisoActualizacion.svelte';
 	import NavPrincipal from '$lib/componentes/NavPrincipal.svelte';
@@ -25,7 +26,24 @@
 	});
 
 	/*
-		Chunk viejo que ya no existe: pantalla en blanco.
+		PREVENCIÓN de la pantalla en blanco.
+
+		Con `version.pollInterval` configurado, SvelteKit consulta en segundo
+		plano si se publicó una versión nueva y marca `updated.current`. Cuando
+		eso pasa, la próxima navegación se hace COMPLETA —recargando la página—
+		en vez de por dentro.
+
+		Así no se llega a pedir un archivo que ya no existe. Es el patrón que
+		documenta SvelteKit para este caso exacto.
+	*/
+	beforeNavigate(({ willUnload, to }) => {
+		if (updated.current && !willUnload && to?.url) {
+			location.href = to.url.href;
+		}
+	});
+
+	/*
+		RECUPERACIÓN, por si la prevención no alcanzó.
 
 		Cada build genera nombres de archivo con hash nuevo y Cloudflare borra
 		los anteriores. Además el service worker limpia su caché anterior al

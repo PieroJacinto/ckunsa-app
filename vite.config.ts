@@ -28,7 +28,20 @@ export default defineConfig({
 				fallback: '200.html',
 				precompress: false,
 				strict: false
-			})
+			}),
+			/*
+				Sin esto, publicar una versión nueva puede dejar la pantalla en blanco a
+				quien tenga la app abierta: los archivos JS viejos llevan un hash en el
+				nombre y desaparecen del servidor, así que una navegación interna
+				intenta cargar algo que ya no existe.
+
+				Con pollInterval, SvelteKit consulta en segundo plano si hay versión
+				nueva y marca `updated.current`. El layout lo usa para forzar una
+				navegación completa en vez de una interna.
+			*/
+			version: {
+				pollInterval: 15 * 60 * 1000
+			}
 		}),
 
 		SvelteKitPWA({

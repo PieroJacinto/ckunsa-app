@@ -100,8 +100,8 @@
 				>La <code translate="no" lang="kuz">z</code> se reemplaza por
 				<code translate="no" lang="kuz">s</code>.</strong
 			>
-			El Consejo lo argumenta explícitamente: el sonido de la z habría llegado con los españoles, no
-			es propio de las lenguas andinas prehispánicas, y en los registros
+			El Consejo lo argumenta explícitamente: el sonido de la z habría llegado con los españoles, no es
+			propio de las lenguas andinas prehispánicas, y en los registros
 			<em translate="no" lang="kuz">ckunza</em> era la única palabra que la usaba.
 		</p>
 
