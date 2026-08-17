@@ -698,6 +698,80 @@ body {
 	text-decoration: underline;
 }
 
+/* --- Bienvenida -------------------------------------------------------- */
+
+.bienvenida {
+	margin-top: 1.5rem;
+}
+
+.bienvenida__intro {
+	font-size: 1.0625rem;
+	line-height: 1.7;
+}
+
+.bienvenida__titulo {
+	font-size: 1rem;
+	margin: 2rem 0 0.75rem;
+	color: var(--ck-piedra);
+}
+
+.bienvenida__ejemplos {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.bienvenida__ejemplo {
+	display: flex;
+	flex-direction: column;
+	gap: 0.125rem;
+	text-align: left;
+	min-height: 2.75rem;
+	padding: 0.625rem 0.875rem;
+	background-color: var(--ck-superficie);
+	border: 1px solid var(--ck-borde);
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.bienvenida__ejemplo:hover {
+	border-color: var(--ck-adobe);
+}
+
+.bienvenida__palabra {
+	font-size: 1.0625rem;
+	color: var(--ck-adobe);
+	font-weight: 600;
+}
+
+.bienvenida__porque {
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+}
+
+/* La leyenda de niveles: marca a la izquierda, explicación a la derecha. */
+.bienvenida__niveles {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 0.5rem 0.75rem;
+	align-items: baseline;
+	margin: 0;
+}
+
+.bienvenida__niveles dt {
+	margin: 0;
+}
+
+.bienvenida__niveles dd {
+	margin: 0;
+	font-size: 0.9375rem;
+	color: var(--ck-piedra);
+}
+
+.bienvenida__mas {
+	margin-top: 2rem;
+}
+
 @media print {
 	body {
 		background: #fff;

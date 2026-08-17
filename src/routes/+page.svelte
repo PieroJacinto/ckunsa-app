@@ -7,6 +7,7 @@
 	import BuscadorInput from '$lib/componentes/BuscadorInput.svelte';
 	import EntradaCard from '$lib/componentes/EntradaCard.svelte';
 	import { usarDiccionario } from '$lib/stores/contexto.svelte';
+	import Bienvenida from '$lib/componentes/Bienvenida.svelte';
 
 	const diccionario = usarDiccionario();
 
@@ -45,9 +46,7 @@
 			No se pudieron cargar los datos. Revisá la conexión y volvé a intentar.
 		</p>
 	{:else if diccionario.consulta.trim() === ''}
-		<p class="estado">
-			Escribí una palabra en ckunsa o en español. La búsqueda funciona en las dos direcciones.
-		</p>
+		<Bienvenida onEjemplo={(palabra) => diccionario.buscar(palabra)} />
 	{:else if diccionario.resultados.length === 0}
 		<p class="estado">No se encontró nada para «{diccionario.consulta}».</p>
 	{:else}

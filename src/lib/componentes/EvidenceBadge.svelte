@@ -28,8 +28,15 @@
 		nivel: NivelEvidencia;
 		/** Segunda marca, eje distinto: la ortografía (`03` §2.4). */
 		grafiaProvisional?: boolean;
-		/** La forma en ckunsa. Va como snippet: el badge envuelve, no recibe texto. */
-		children: Snippet;
+		/**
+		 * La forma en ckunsa. Va como snippet: el badge envuelve, no recibe texto.
+		 *
+		 * Opcional para poder usar el badge suelto en una leyenda, donde se
+		 * explica qué significa cada marca y no hay ninguna forma que mostrar.
+		 * La regla 1 dice que toda forma pasa por el badge, no que el badge
+		 * siempre lleve una forma.
+		 */
+		children?: Snippet;
 	};
 
 	let { nivel, grafiaProvisional = false, children }: Props = $props();
@@ -40,7 +47,9 @@
 </script>
 
 <span class="evidencia" data-nivel={nivel}>
-	<span class="evidencia__forma">{@render children()}</span>
+	{#if children}
+		<span class="evidencia__forma">{@render children()}</span>
+	{/if}
 
 	<!--
 		El ícono es decorativo para el lector de pantalla: la palabra de al lado
