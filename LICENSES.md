@@ -30,8 +30,8 @@ dormida.
 
 Aplica a: `static/data/*.json`.
 
-Las 851 entradas son **obra derivada** del *Kunza Dictionary* de Roberto Lehnert Santander,
-publicado en el *Intercontinental Dictionary Series* bajo CC BY 4.0. Las glosas en español
+Las 851 entradas son **obra derivada** del _Kunza Dictionary_ de Roberto Lehnert Santander,
+publicado en el _Intercontinental Dictionary Series_ bajo CC BY 4.0. Las glosas en español
 provienen de la lista `Key-2016-1310` de Concepticon, también CC BY 4.0.
 
 Se mantiene **CC BY 4.0** porque es lo que corresponde a una obra derivada de esas fuentes.
@@ -47,11 +47,11 @@ una decisión nuestra sobre datos que no son nuestros.
 
 ### Atribución requerida
 
-> Lehnert Santander, R. (2021). *Kunza Dictionary*. En Key, M. R. & Comrie, B. (eds.),
-> *The Intercontinental Dictionary Series*. Leipzig: Max Planck Institute for Evolutionary
+> Lehnert Santander, R. (2021). _Kunza Dictionary_. En Key, M. R. & Comrie, B. (eds.),
+> _The Intercontinental Dictionary Series_. Leipzig: Max Planck Institute for Evolutionary
 > Anthropology. CC BY 4.0. https://ids.clld.org/contributions/308
 
-> List, J.-M., Tjuka, A., Blum, F. et al. (eds.). *CLLD Concepticon*, lista
+> List, J.-M., Tjuka, A., Blum, F. et al. (eds.). _CLLD Concepticon_, lista
 > `Key-2016-1310`. Leipzig: Max Planck Institute for Evolutionary Anthropology. CC BY 4.0.
 
 La aplicación muestra estas citas en cada ficha de palabra y en la página `/fuentes`.
@@ -63,10 +63,10 @@ La aplicación muestra estas citas en cada ficha de palabra y en la página `/fu
 `data-pipeline/fuentes-crudas/` contiene los archivos **tal como los publicó cada fuente**,
 sin modificar. No son obra de este proyecto y conservan sus condiciones originales:
 
-| Archivo | Fuente | Licencia |
-|---|---|---|
-| `ids-kunza-lehnert.tsv` | IDS / Lehnert (2021) | CC BY 4.0 |
-| `concepticon-Key-2016-1310.tsv` | CLLD Concepticon | CC BY 4.0 |
+| Archivo                         | Fuente               | Licencia  |
+| ------------------------------- | -------------------- | --------- |
+| `ids-kunza-lehnert.tsv`         | IDS / Lehnert (2021) | CC BY 4.0 |
+| `concepticon-Key-2016-1310.tsv` | CLLD Concepticon     | CC BY 4.0 |
 
 **No incluido en este repositorio:** el corpus morfofonológico OSF `u764r` de Llanquiman,
 Hasler y Torrico-Ávila. Su repositorio **no declara licencia**, lo que por defecto significa

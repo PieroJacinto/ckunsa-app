@@ -51,6 +51,8 @@ export interface Diccionario {
 	buscar(consulta: string): void;
 
 	porId(id: string): Entrada | undefined;
+	/** Todas las entradas del corpus, para el índice. */
+	todas(): Entrada[];
 	/** Búsqueda exacta que SÍ devuelve las retiradas, para la ficha de palabra. */
 	fichaDe(forma: string): Entrada[];
 	fuente(id: string): Fuente | undefined;
@@ -132,6 +134,10 @@ export function crearDiccionario(): Diccionario {
 
 		porId(id) {
 			return indice?.porId.get(id);
+		},
+
+		todas() {
+			return corpus?.entradas ?? [];
 		},
 
 		fichaDe(forma) {

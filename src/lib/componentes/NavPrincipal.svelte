@@ -22,6 +22,7 @@
 
 	const enlaces = [
 		{ href: '/', texto: 'Buscador' },
+		{ href: '/indice', texto: 'Índice' },
 		{ href: '/fuentes', texto: 'Fuentes' }
 	];
 </script>

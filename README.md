@@ -37,12 +37,12 @@ una forma inventada empiece a circular como si fuera un dato**.
 De ahí la regla central del proyecto: **ninguna palabra se muestra sin decir qué respaldo
 tiene.** Cuatro niveles, siempre visibles con color, ícono y palabra escrita:
 
-| Nivel | Significa |
-|---|---|
-| `atestiguada` | Aparece tal cual en una fuente documental |
-| `unificada` | Forma del Diccionario Unificado del CLCK |
-| `reconstruida` | Sale de un análisis o de aplicar una regla |
-| `propuesta` | La propuso la comunidad, sin respaldo documental |
+| Nivel          | Significa                                        |
+| -------------- | ------------------------------------------------ |
+| `atestiguada`  | Aparece tal cual en una fuente documental        |
+| `unificada`    | Forma del Diccionario Unificado del CLCK         |
+| `reconstruida` | Sale de un análisis o de aplicar una regla       |
+| `propuesta`    | La propuso la comunidad, sin respaldo documental |
 
 Un chico que copia una palabra en el cuaderno tiene que poder saber si eso está documentado
 o si es una reconstrucción.
@@ -51,20 +51,20 @@ o si es una reconstrucción.
 
 ## Estado
 
-- **851 entradas** del *Kunza Dictionary* de Lehnert, vía Intercontinental Dictionary
+- **851 entradas** del _Kunza Dictionary_ de Lehnert, vía Intercontinental Dictionary
   Series (CC BY 4.0), con glosas en español de Concepticon.
 - Búsqueda **bidireccional** —español ↔ ckunsa— con tolerancia a grafías históricas: quien
-  escribe *kunza* encuentra *ckunsa*.
+  escribe _kunza_ encuentra _ckunsa_.
 - **Funciona sin conexión** (PWA instalable).
 - **271 tests.**
 
 ### Lo que falta, y por qué
 
 Las formas están en la grafía de sus fuentes, **no en la grafía unificada del CLCK**. Para
-normalizarlas hace falta el *Grafemario Unificado Ckunsa* (2018), que este proyecto todavía
+normalizarlas hace falta el _Grafemario Unificado Ckunsa_ (2018), que este proyecto todavía
 no pudo consultar. Convertirlas por analogía con el castellano sería inventar ortografía.
 
-Tampoco están incorporados el *Diccionario Unificado Ckunsa* (2021) ni el corpus
+Tampoco están incorporados el _Diccionario Unificado Ckunsa_ (2021) ni el corpus
 morfofonológico de Llanquiman, Hasler y Torrico-Ávila, cuyo uso requiere autorización.
 
 ---
@@ -80,15 +80,15 @@ npm run dev          # servidor de desarrollo
 
 ### Comandos
 
-| Comando | Qué hace |
-|---|---|
-| `npm run dev` | servidor de desarrollo |
-| `npm run build` | sitio estático en `build/` |
-| `npm run preview` | sirve el build (necesario para probar el modo offline) |
-| `npm run test` | los 271 tests |
-| `npm run check` | typecheck de la app y del pipeline |
-| `npm run data:build` | regenera los JSON del corpus desde las fuentes crudas |
-| `npm run validate:data` | valida el corpus generado |
+| Comando                 | Qué hace                                               |
+| ----------------------- | ------------------------------------------------------ |
+| `npm run dev`           | servidor de desarrollo                                 |
+| `npm run build`         | sitio estático en `build/`                             |
+| `npm run preview`       | sirve el build (necesario para probar el modo offline) |
+| `npm run test`          | los 271 tests                                          |
+| `npm run check`         | typecheck de la app y del pipeline                     |
+| `npm run data:build`    | regenera los JSON del corpus desde las fuentes crudas  |
+| `npm run validate:data` | valida el corpus generado                              |
 
 Los tests de componente corren en Chromium real; la primera vez hay que bajarlo:
 

@@ -565,6 +565,139 @@ body {
 	font-weight: 600;
 }
 
+/* --- Índice ------------------------------------------------------------ */
+
+.indice__vistas {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.indice__vista {
+	min-height: 2.75rem;
+	padding: 0 1rem;
+	border: 1px solid var(--ck-borde);
+	border-radius: 0.25rem;
+	background-color: var(--ck-superficie);
+	color: var(--ck-piedra);
+	font-size: 0.9375rem;
+	cursor: pointer;
+}
+
+/* aria-pressed marca el estado: el atributo es lo que anuncia el lector de
+   pantalla, y de paso sirve de gancho para el estilo. */
+.indice__vista[aria-pressed='true'] {
+	background-color: var(--ck-adobe);
+	border-color: var(--ck-adobe);
+	color: #fff;
+	font-weight: 600;
+}
+
+.indice__nota {
+	padding: 0.75rem;
+	background-color: var(--ck-superficie);
+	border-left: 3px solid var(--ck-borde);
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+}
+
+.indice__nota code {
+	font-family: var(--ck-fuente-ckunsa);
+	color: var(--ck-tinta);
+}
+
+/* Pegada arriba mientras se recorre la lista. Compacta, como pide la guía de
+   menús pegajosos: en pantallas angostas no puede comerse el contenido. */
+.indice__letras {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+	margin: 1rem 0 0;
+	padding: 0.5rem 0;
+	background-color: var(--ck-papel);
+	border-bottom: 1px solid var(--ck-borde);
+}
+
+.indice__letra-boton {
+	min-width: 2.5rem;
+	min-height: 2.5rem;
+	border-radius: 0.25rem;
+	background-color: var(--ck-superficie);
+	border: 1px solid var(--ck-borde);
+	color: var(--ck-tinta);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.indice__letra-boton[aria-pressed='true'] {
+	background-color: var(--ck-adobe);
+	border-color: var(--ck-adobe);
+	color: #fff;
+}
+
+.indice__selector {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+	margin: 1rem 0;
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+}
+
+.indice__selector select {
+	min-height: 2.75rem;
+	padding: 0 0.5rem;
+	border: 1px solid var(--ck-borde);
+	border-radius: 0.25rem;
+	background-color: var(--ck-superficie);
+	color: var(--ck-tinta);
+	font-size: 1rem;
+}
+
+.indice__titulo {
+	font-size: 1.25rem;
+	margin: 1.25rem 0 0.5rem;
+}
+
+.indice__titulo small {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: var(--ck-piedra);
+}
+
+.indice__lista {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.indice__linea {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1rem;
+	flex-wrap: wrap;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid var(--ck-borde);
+}
+
+.indice__glosa {
+	color: var(--ck-piedra);
+}
+
+.indice__forma {
+	color: inherit;
+	text-decoration: none;
+}
+
+.indice__forma:hover .evidencia__forma,
+.indice__forma:focus-visible .evidencia__forma {
+	text-decoration: underline;
+}
+
 @media print {
 	body {
 		background: #fff;
