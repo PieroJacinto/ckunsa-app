@@ -21,10 +21,11 @@
 	let { rutaActual }: Props = $props();
 
 	const enlaces = [
-		{ href: '/', texto: 'Buscador' },
+		{ href: '/', texto: 'Buscar' },
 		{ href: '/indice', texto: 'Índice' },
-		{ href: '/lengua', texto: 'La lengua' },
+		{ href: '/lengua', texto: 'Lengua' },
 		{ href: '/grafia', texto: 'Escritura' },
+		{ href: '/proyecto', texto: 'Proyecto' },
 		{ href: '/fuentes', texto: 'Fuentes' }
 	];
 </script>

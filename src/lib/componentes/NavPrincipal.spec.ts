@@ -9,8 +9,19 @@ describe('NavPrincipal', () => {
 	it('lista las secciones', () => {
 		const html = marcado('/');
 
-		expect(html).toContain('Buscador');
+		expect(html).toContain('Buscar');
 		expect(html).toContain('Fuentes');
+	});
+
+	/**
+	 * Seis: en móvil el nav es una barra de pestañas de 60 px por ítem, y una
+	 * pestaña de más rompe las etiquetas. Si alguien agrega una séptima, este
+	 * test falla y obliga a decidirlo a conciencia.
+	 */
+	it('tiene seis secciones', () => {
+		const enlaces = marcado('/').match(/class="vista__nav-enlace"/g) ?? [];
+
+		expect(enlaces).toHaveLength(6);
 	});
 
 	it('es un nav con etiqueta accesible', () => {

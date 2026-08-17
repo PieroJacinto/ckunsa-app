@@ -185,7 +185,8 @@ body {
 */
 .vista__nav {
 	display: flex;
-	gap: 1.25rem;
+	flex-wrap: wrap; /* cinco enlaces no entran en un teléfono */
+	gap: 0.5rem 1.25rem;
 	margin-bottom: 1.25rem;
 	padding-bottom: 0.75rem;
 	border-bottom: 1px solid var(--ck-borde);
@@ -223,10 +224,12 @@ body {
 }
 
 .vista {
-	max-width: 42rem;
+	max-width: 38rem;
 	margin: 0 auto;
 	padding: 1rem;
-	min-height: 100vh;
+	/* dvh y no vh: en móvil la barra de direcciones aparece y desaparece, y
+	   100vh hace saltar el layout. */
+	min-height: 100dvh;
 	display: flex;
 	flex-direction: column;
 }
@@ -268,7 +271,7 @@ body {
 }
 /* El nav vive en el layout raíz, fuera de .vista: se alinea a mano. */
 .chrome {
-	max-width: 42rem;
+	max-width: 38rem;
 	margin: 0 auto;
 	padding: 0 1rem;
 }
@@ -775,7 +778,11 @@ body {
 /* --- Páginas de texto -------------------------------------------------- */
 
 .texto {
-	max-width: 34rem; /* ancho de lectura cómoda */
+	/* Sin ancho propio: usa el de la vista. Tener dos anchos distintos dejaba
+	   el título más ancho que los párrafos, y el texto pegado a la izquierda
+	   dentro de su contenedor. 38rem dan unos 70 caracteres por línea, que es
+	   buena medida de lectura y alcanza para los listados. */
+	max-width: none;
 }
 
 .texto h2 {
@@ -825,6 +832,146 @@ body {
 	margin-bottom: 0.5rem;
 }
 
+/* --- Palabras largas y pantallas angostas ------------------------------ */
+
+/*
+	El corpus tiene formas de 17 caracteres —lickauppaunackota,
+	ckiltorsocompa— que en 360 px no entran y desbordan la pantalla.
+	Se parten antes que romper el layout.
+*/
+.evidencia__forma,
+.palabra__forma,
+.ficha__titulo,
+.indice__forma,
+.texto__formas {
+	overflow-wrap: break-word;
+}
+
+/*
+	Punto de quiebre único, en 30rem (480 px). No hacen falta más: el layout es
+	de una sola columna y fluido; lo que cambia en un teléfono son los tamaños y
+	un par de disposiciones.
+*/
+@media (max-width: 30rem) {
+	.vista,
+	.chrome {
+		padding-left: 0.875rem;
+		padding-right: 0.875rem;
+	}
+
+	.vista__titulo {
+		font-size: 1.25rem;
+	}
+
+	.palabra__forma {
+		font-size: 1.75rem;
+	}
+
+	.palabra__significados {
+		font-size: 1.125rem;
+	}
+
+	.ficha__titulo {
+		font-size: 1.3125rem;
+	}
+
+	.bienvenida__intro,
+	.texto__entrada {
+		font-size: 1rem;
+	}
+
+	/* Glosa arriba y palabra abajo, las dos alineadas a la izquierda: con
+	   space-between la palabra quedaba sola y pegada al margen derecho. */
+	.indice__linea {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.125rem;
+	}
+
+	/* Los dos botones de vista, mitad y mitad, para que el área táctil sea
+	   cómoda con el pulgar. */
+	.indice__vistas {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.indice__vista {
+		padding: 0;
+	}
+
+	.aviso-sw {
+		padding: 0.75rem;
+	}
+}
+/* --- Navegación en móvil: barra de pestañas abajo ---------------------- */
+
+/*
+	POR QUÉ NO HAY HAMBURGUER.
+
+	Nielsen Norman midió el efecto de esconder la navegación: la
+	descubribilidad se corta casi a la mitad, el tiempo de tarea sube y la
+	dificultad percibida también. Vale igual en teléfono que en escritorio.
+
+	El hamburguer se justifica con más de cinco o seis opciones. Con cinco, una
+	barra de pestañas inferior funciona mejor, y todavía más en una app que se
+	instala y se usa seguido — que es este caso. Además el pulgar llega abajo,
+	no arriba.
+
+	Es el MISMO componente: sólo cambia el CSS. Sin estado, sin botón que abrir,
+	sin foco que atrapar, sin aria-expanded. El aria-current sigue funcionando
+	igual en las dos formas.
+*/
+
+@media (max-width: 30rem) {
+	.vista__nav {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 20;
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 0;
+		margin: 0;
+		padding: 0;
+		/* Respeta la franja del gesto de inicio en iPhone. */
+		padding-bottom: env(safe-area-inset-bottom, 0);
+		background-color: var(--ck-superficie);
+		border-top: 1px solid var(--ck-borde);
+		border-bottom: none;
+	}
+
+	.vista__nav-enlace {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		/* Más alto que con cinco: si una etiqueta cae a dos líneas, entra. */
+		min-height: 3.5rem;
+		padding: 0.25rem 0.0625rem;
+		font-size: 0.6875rem;
+		line-height: 1.1;
+		letter-spacing: -0.01em;
+		/* En 320 px cada pestaña queda en 53 px y «Escritura» no entra en una
+		   línea. Antes que desbordar, se parte. */
+		overflow-wrap: anywhere;
+		hyphens: auto;
+	}
+
+	/* La marca va arriba del ítem: abajo la taparía el borde de la pantalla. */
+	.vista__nav-enlace[aria-current='page'] {
+		box-shadow: inset 0 3px 0 var(--ck-adobe);
+	}
+
+	.chrome {
+		padding: 0;
+	}
+
+	/* Que la barra no tape el final del contenido. */
+	.vista {
+		padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+	}
+}
 @media print {
 	body {
 		background: #fff;
