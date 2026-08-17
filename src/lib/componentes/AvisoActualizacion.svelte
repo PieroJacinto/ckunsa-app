@@ -19,6 +19,7 @@
 	let hayActualizacion = $state(false);
 	let listoOffline = $state(false);
 	let actualizar: ((recargar?: boolean) => Promise<void>) | null = null;
+	let aplicando = $state(false);
 
 	onMount(async () => {
 		const { registerSW } = await import('virtual:pwa-register');
@@ -33,8 +34,24 @@
 		});
 	});
 
-	function aplicar() {
-		void actualizar?.();
+	/*
+		`registerSW` devuelve una función que sólo manda `skipWaiting` al service
+		worker en espera; la recarga la dispara después el evento `controlling`.
+
+		Si no hay ninguno esperando —porque ya se activó solo en una recarga
+		anterior— ese evento nunca ocurre y el botón no hace nada. Por eso
+		recargamos nosotros como respaldo: con worker en espera la recarga ya
+		habrá ocurrido, y sin él es la única forma de que el usuario vea la
+		versión nueva.
+	*/
+	async function aplicar() {
+		aplicando = true;
+
+		try {
+			await actualizar?.();
+		} finally {
+			location.reload();
+		}
 	}
 
 	function descartar() {
@@ -46,7 +63,9 @@
 {#if hayActualizacion}
 	<div class="aviso-sw" role="status">
 		<p class="aviso-sw__texto">Hay una versión nueva de la aplicación.</p>
-		<button class="aviso-sw__accion" type="button" onclick={aplicar}>Actualizar</button>
+		<button class="aviso-sw__accion" type="button" onclick={aplicar} disabled={aplicando}>
+			{aplicando ? 'Actualizando…' : 'Actualizar'}
+		</button>
 		<button class="aviso-sw__cerrar" type="button" onclick={descartar}>Ahora no</button>
 	</div>
 {:else if listoOffline}
