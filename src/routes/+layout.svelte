@@ -6,7 +6,6 @@
 
 	import { page } from '$app/state';
 
-	import favicon from '$lib/assets/favicon.svg';
 	import NavPrincipal from '$lib/componentes/NavPrincipal.svelte';
 	import { proveerDiccionario } from '$lib/stores/contexto.svelte';
 	import AvisoActualizacion from '$lib/componentes/AvisoActualizacion.svelte';
@@ -27,7 +26,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href="/favicon.svg" />
 </svelte:head>
 
 <!--

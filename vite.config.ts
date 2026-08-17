@@ -48,7 +48,17 @@ export default defineConfig({
 				background_color: '#faf7f2',
 				theme_color: '#8f4a22',
 				lang: 'es',
-				description: 'Diccionario de la lengua ckunsa del pueblo lickanantay.'
+				description: 'Diccionario de la lengua ckunsa del pueblo lickanantay.',
+				icons: [
+					{ src: '/icono-192.png', sizes: '192x192', type: 'image/png' },
+					{ src: '/icono-512.png', sizes: '512x512', type: 'image/png' },
+					{
+						src: '/icono-maskable-512.png',
+						sizes: '512x512',
+						type: 'image/png',
+						purpose: 'maskable'
+					}
+				]
 			},
 
 			workbox: {
