@@ -463,6 +463,41 @@ body {
 }
 /* Impresión: una lista de vocabulario fotocopiada tiene que seguir siendo
    legible y seguir mostrando la atribución (07-DISENO V7). */
+
+/* --- Página de fuentes ------------------------------------------------- */
+
+.fuentes__patrimonio {
+	padding: 1rem;
+	background-color: var(--ck-superficie);
+	border-left: 3px solid var(--ck-adobe);
+}
+
+.fuentes__seccion {
+	margin-top: 2.5rem;
+}
+
+.fuentes__seccion h2 {
+	font-size: 1.125rem;
+	margin: 0 0 0.75rem;
+}
+
+.fuentes__seccion ul {
+	padding-left: 1.25rem;
+}
+
+.fuentes__seccion li {
+	margin-bottom: 0.5rem;
+}
+
+.fuentes__item {
+	padding: 0.75rem 0;
+	border-top: 1px solid var(--ck-borde);
+}
+
+.fuentes__seccion--desarrollo {
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--ck-borde);
+}
 @media print {
 	body {
 		background: #fff;
