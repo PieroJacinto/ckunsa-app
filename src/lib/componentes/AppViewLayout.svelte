@@ -4,9 +4,13 @@
 	Nadie arma header ni título a mano. Si cada página se maquetea sola, en tres
 	meses hay tres versiones distintas del encabezado y ninguna es la correcta.
 
-	Además garantiza dos cosas que no pueden faltar en ninguna pantalla: el
-	enlace de salto al contenido (accesibilidad por teclado) y la línea que dice
-	a quién pertenece la lengua (`05-PROTOCOLO` §6).
+	Componente PURO: no importa nada de SvelteKit. La navegación vive en el
+	layout raíz, que es quien conoce la ruta actual — así este componente se
+	puede renderizar y testear sin levantar la app entera.
+
+	Garantiza dos cosas que no pueden faltar en ninguna pantalla: el enlace de
+	salto al contenido y la línea que dice a quién pertenece la lengua
+	(`05-PROTOCOLO` §6).
 -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';

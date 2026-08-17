@@ -183,6 +183,31 @@ body {
 	visibility:hidden, porque esos dos lo quitarían también del orden de foco y
 	dejaría de cumplir su función.
 */
+.vista__nav {
+	display: flex;
+	gap: 1.25rem;
+	margin-bottom: 1.25rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid var(--ck-borde);
+}
+
+.vista__nav-enlace {
+	color: var(--ck-piedra);
+	text-decoration: none;
+	padding: 0.5rem 0;
+	font-size: 0.9375rem;
+}
+
+.vista__nav-enlace:hover {
+	color: var(--ck-adobe);
+}
+
+/* La página actual se marca con color Y con peso: el color solo no alcanza. */
+.vista__nav-enlace[aria-current='page'] {
+	color: var(--ck-tinta);
+	font-weight: 600;
+	box-shadow: inset 0 -2px 0 var(--ck-adobe);
+}
 .vista__salto {
 	position: absolute;
 	left: -9999px;
@@ -195,6 +220,10 @@ body {
 
 .vista__salto:focus {
 	left: 0;
+}
+
+.vista__nav {
+	display: none;
 }
 
 .vista {
@@ -241,7 +270,12 @@ body {
 .vista__pie p {
 	margin: 0;
 }
-
+/* El nav vive en el layout raíz, fuera de .vista: se alinea a mano. */
+.chrome {
+	max-width: 42rem;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
 /* --- CitaFuente -------------------------------------------------------- */
 
 .cita--compacta {

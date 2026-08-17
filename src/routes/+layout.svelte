@@ -4,7 +4,10 @@
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import '../app.css';
 
+	import { page } from '$app/state';
+
 	import favicon from '$lib/assets/favicon.svg';
+	import NavPrincipal from '$lib/componentes/NavPrincipal.svelte';
 	import { proveerDiccionario } from '$lib/stores/contexto.svelte';
 
 	let { children } = $props();
@@ -25,5 +28,14 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
+
+<!--
+	El nav vive acá y no en AppViewLayout porque `page` necesita el contexto de
+	SvelteKit: poniéndolo en el layout raíz, AppViewLayout queda puro y testeable
+	sin levantar la app.
+-->
+<div class="chrome">
+	<NavPrincipal rutaActual={page.url.pathname} />
+</div>
 
 {@render children()}
