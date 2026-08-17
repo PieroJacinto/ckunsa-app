@@ -92,6 +92,7 @@
 				Ckunsa. El orden alfabético del ckunsa lo define el Grafemario Unificado, que este proyecto
 				todavía no pudo consultar: <code>ck</code>, <code>tch</code> y
 				<code>tt</code> son letras propias y no sabemos en qué posición van.
+				<a href="/grafia">Más sobre la escritura</a>.
 			</p>
 
 			<!-- Pegada arriba: cambiar de letra no puede exigir volver a scrollear. -->

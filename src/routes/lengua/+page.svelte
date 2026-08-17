@@ -158,6 +158,11 @@
 		</p>
 
 		<p>
+			<a href="/grafia">Cómo se escribe el ckunsa</a> explica en detalle qué reglas están definidas, cuáles
+			no, y en qué documentos consta cada una.
+		</p>
+
+		<p>
 			<a href="/fuentes">Ver todas las fuentes y sus licencias</a>
 		</p>
 	</article>

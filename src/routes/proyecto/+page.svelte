@@ -94,8 +94,9 @@
 		<h2>Qué falta</h2>
 
 		<p>
-			<strong>El Grafemario Unificado Ckunsa (2018).</strong> Sin él, las palabras siguen escritas en
-			la grafía de sus fuentes y no en la oficial. Es lo que más falta.
+			<strong>El Grafemario Unificado Ckunsa (2018).</strong> Sin él, las palabras siguen escritas
+			en la grafía de sus fuentes y no en la oficial. Es lo que más falta.
+			<a href="/grafia">Acá está el detalle</a> de qué se sabe hoy sobre la escritura y de dónde sale.
 		</p>
 
 		<p>

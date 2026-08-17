@@ -101,7 +101,12 @@
 			Las formas que muestra la aplicación están escritas en la grafía de sus fuentes, no en la
 			grafía unificada del CLCK. Para normalizarlas hace falta el <em
 				>Grafemario Unificado Ckunsa</em
-			> (2018), que este proyecto todavía no pudo consultar.
+			> (2018), que este proyecto no pudo consultar. Sí consultó el manual de trabajo previo, de 2016,
+			que el propio Consejo describe como un paso intermedio y no como la norma.
+		</p>
+		<p>
+			<a href="/grafia">Ver el estado completo de la escritura</a> — las reglas que sí están definidas,
+			y de dónde sale cada una.
 		</p>
 		<p>
 			Tampoco están incorporados el <em>Diccionario Unificado Ckunsa</em> (2021) ni el corpus morfofonológico
