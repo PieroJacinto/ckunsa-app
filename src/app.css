@@ -528,6 +528,43 @@ body {
 	padding-top: 1.5rem;
 	border-top: 1px solid var(--ck-borde);
 }
+
+/* --- Aviso de versión nueva -------------------------------------------- */
+
+.aviso-sw {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+	padding: 0.75rem 1rem;
+	background-color: var(--ck-adobe);
+	color: #fff;
+}
+
+.aviso-sw__texto {
+	margin: 0;
+	flex: 1;
+	font-size: 0.9375rem;
+}
+
+.aviso-sw__accion,
+.aviso-sw__cerrar {
+	min-height: 2.75rem;
+	padding: 0 1rem;
+	border-radius: 0.25rem;
+	border: 1px solid #fff;
+	background: none;
+	color: #fff;
+	font-size: 0.875rem;
+	cursor: pointer;
+}
+
+.aviso-sw__accion {
+	background-color: #fff;
+	color: var(--ck-adobe);
+	font-weight: 600;
+}
+
 @media print {
 	body {
 		background: #fff;
@@ -548,6 +585,7 @@ body {
 		color: #000 !important;
 	}
 	.vista__salto,
+	.aviso-sw,
 	.vista__nav {
 		display: none;
 	}

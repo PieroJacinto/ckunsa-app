@@ -9,6 +9,7 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import NavPrincipal from '$lib/componentes/NavPrincipal.svelte';
 	import { proveerDiccionario } from '$lib/stores/contexto.svelte';
+	import AvisoActualizacion from '$lib/componentes/AvisoActualizacion.svelte';
 
 	let { children } = $props();
 
@@ -34,6 +35,7 @@
 	SvelteKit: poniéndolo en el layout raíz, AppViewLayout queda puro y testeable
 	sin levantar la app.
 -->
+<AvisoActualizacion />
 <div class="chrome">
 	<NavPrincipal rutaActual={page.url.pathname} />
 </div>

@@ -2,6 +2,7 @@ import { defineConfig } from 'vitest/config';
 import { playwright } from '@vitest/browser-playwright';
 import adapter from '@sveltejs/adapter-static';
 import { sveltekit } from '@sveltejs/kit/vite';
+import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 
 export default defineConfig({
 	plugins: [
@@ -20,14 +21,6 @@ export default defineConfig({
 				ruta dinámica, y en vez de pregenerar 851 páginas HTML —una por
 				palabra— se sirve un único `200.html` que resuelve el id en el
 				navegador leyendo el índice que ya está en memoria.
-
-				Por qué así: el corpus completo ya se descarga como JSON. Pregenerar
-				HTML duplicaría en 851 archivos algo que ya está en 300 KB, y el
-				service worker tendría que cachear las 851 páginas para funcionar
-				offline. En una escuela rural eso importa.
-
-				El costo asumido es que los buscadores no indexan cada palabra por
-				separado. Para una app comunitaria offline es aceptable.
 			*/
 			adapter: adapter({
 				pages: 'build',
@@ -36,6 +29,57 @@ export default defineConfig({
 				precompress: false,
 				strict: false
 			})
+		}),
+
+		SvelteKitPWA({
+			/*
+				`prompt` y no `autoUpdate`: nunca recargar de prepo mientras alguien
+				está leyendo una ficha (01-ARQUITECTURA §7). El aviso lo decide el
+				usuario.
+			*/
+			registerType: 'prompt',
+			strategies: 'generateSW',
+
+			manifest: {
+				name: 'Diccionario ckunsa',
+				short_name: 'Ckunsa',
+				start_url: '/',
+				display: 'standalone',
+				background_color: '#faf7f2',
+				theme_color: '#8f4a22',
+				lang: 'es',
+				description: 'Diccionario de la lengua ckunsa del pueblo lickanantay.'
+			},
+
+			workbox: {
+				/*
+					El shell de la app va PRECACHEADO: JS, CSS, HTML y la fuente sólo
+					cambian con un deploy, así que la lista generada en build siempre
+					está al día. Medido: 21 entradas, 359 KB.
+
+					OJO — los JSON del corpus NO van acá, a propósito. La lista de
+					precache se genera en el BUILD: si el corpus estuviera adentro, un
+					`entradas.v2.json` subido después no aparecería en ella y el service
+					worker seguiría sirviendo la v1 hasta el próximo deploy. Eso rompería
+					el diseño de 01-ARQUITECTURA §7, donde agregar 200 palabras es subir
+					un JSON y bumpear el manifest, SIN redeploy.
+				*/
+				globPatterns: ['client/**/*.{js,css,html,woff2}', 'prerendered/**/*.html'],
+
+				runtimeCaching: [
+					{
+						/*
+							Los datos van por stale-while-revalidate: se sirven al instante
+							desde la caché —también sin señal— y en paralelo se chequea si
+							hay versión nueva. Cualquier versión futura del JSON se cachea
+							sola, sin redeploy.
+						*/
+						urlPattern: ({ url }) => url.pathname.startsWith('/data/'),
+						handler: 'StaleWhileRevalidate',
+						options: { cacheName: 'corpus-ckunsa' }
+					}
+				]
+			}
 		})
 	],
 	test: {
