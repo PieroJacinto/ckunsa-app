@@ -33,8 +33,9 @@
 <section class="bienvenida">
 	<p class="bienvenida__intro">
 		Diccionario de la lengua <strong>ckunsa</strong>, del pueblo lickanantay del Salar de Atacama.
-		Es una lengua dormida: no tiene hablantes desde los años 50, y todo lo que sabemos viene de
-		registros escritos. Por eso <strong>cada palabra dice de dónde sale</strong>.
+		Es una lengua dormida: hace más de un siglo que no se registran hablantes fluidos, y casi todo
+		lo que sabemos viene de anotaciones hechas por gente de afuera. Por eso
+		<strong>cada palabra dice de dónde sale</strong>.
 	</p>
 
 	<h2 class="bienvenida__titulo">Probá con</h2>

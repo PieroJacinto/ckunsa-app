@@ -772,6 +772,33 @@ body {
 	margin-top: 2rem;
 }
 
+/* --- Páginas de texto -------------------------------------------------- */
+
+.texto {
+	max-width: 34rem; /* ancho de lectura cómoda */
+}
+
+.texto h2 {
+	font-size: 1.125rem;
+	margin: 2rem 0 0.75rem;
+}
+
+.texto p {
+	line-height: 1.7;
+	margin: 0 0 1rem;
+}
+
+.texto__entrada {
+	font-size: 1.125rem;
+}
+
+.texto__destacado {
+	padding: 0.875rem 1rem;
+	background-color: var(--ck-superficie);
+	border-left: 3px solid var(--ck-adobe);
+	font-size: 1.0625rem;
+}
+
 @media print {
 	body {
 		background: #fff;

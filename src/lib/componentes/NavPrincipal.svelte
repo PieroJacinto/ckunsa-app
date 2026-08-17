@@ -23,6 +23,8 @@
 	const enlaces = [
 		{ href: '/', texto: 'Buscador' },
 		{ href: '/indice', texto: 'Índice' },
+		{ href: '/lengua', texto: 'La lengua' },
+		{ href: '/proyecto', texto: 'Proyecto' },
 		{ href: '/fuentes', texto: 'Fuentes' }
 	];
 </script>

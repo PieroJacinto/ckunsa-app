@@ -26,6 +26,18 @@ describe('Bienvenida — qué es esto', () => {
 		expect(html).not.toContain('extinta');
 	});
 
+	/**
+	 * Las fuentes no coinciden en cuándo murieron los últimos hablantes: 1890,
+	 * 1896 y 1954 declararon la lengua extinta, y en 2022 Torrico-Ávila escribe
+	 * que murieron en los noventa. La app no elige una fecha.
+	 */
+	it('no afirma una fecha exacta de los últimos hablantes', () => {
+		const html = marcado();
+
+		expect(html).not.toContain('años 50');
+		expect(html).toContain('más de un siglo');
+	});
+
 	it('explica por qué cada palabra lleva su fuente', () => {
 		expect(marcado()).toContain('de dónde sale');
 	});
