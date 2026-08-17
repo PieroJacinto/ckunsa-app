@@ -17,6 +17,7 @@
 	import EvidenceBadge from '$lib/componentes/EvidenceBadge.svelte';
 	import { DESCRIPCION_NIVEL, NOTA_GRAFIA_PROVISIONAL } from '$lib/domain/evidencia';
 	import { usarDiccionario } from '$lib/stores/contexto.svelte';
+	import AccionesPalabra from '$lib/componentes/AccionesPalabra.svelte';
 
 	const diccionario = usarDiccionario();
 
@@ -94,6 +95,12 @@
 					<dd class="palabra__observaciones">{entrada.observaciones}</dd>
 				{/if}
 			</dl>
+
+			<AccionesPalabra
+				forma={entrada.forma_clck}
+				significado={entrada.significados.join(', ')}
+				url={page.url.href}
+			/>
 
 			{#if entrada.estado === 'retirada'}
 				<p class="ficha__retirada">Esta forma fue retirada: {entrada.motivo_retiro}</p>

@@ -1018,6 +1018,38 @@ body {
 	margin-bottom: 0.25rem;
 }
 
+/* --- Acciones de la palabra -------------------------------------------- */
+
+.acciones {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem;
+	margin-top: 1.5rem;
+}
+
+.acciones__boton {
+	min-height: 2.75rem;
+	padding: 0 1rem;
+	border: 1px solid var(--ck-borde);
+	border-radius: 0.25rem;
+	background-color: var(--ck-superficie);
+	color: var(--ck-tinta);
+	font-size: 0.9375rem;
+	cursor: pointer;
+}
+
+.acciones__boton:hover {
+	border-color: var(--ck-adobe);
+	color: var(--ck-adobe);
+}
+
+.acciones__aviso {
+	margin: 0;
+	font-size: 0.875rem;
+	color: var(--ck-adobe);
+}
+
 @media print {
 	body {
 		background: #fff;
@@ -1039,6 +1071,7 @@ body {
 	}
 	.vista__salto,
 	.aviso-sw,
+	.acciones,
 	.vista__nav {
 		display: none;
 	}
