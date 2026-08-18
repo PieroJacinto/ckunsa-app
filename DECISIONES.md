@@ -81,7 +81,7 @@ Acá no hay datos privados —el corpus es el mismo para todos— pero el patró
 
 **Buscar «cueva» devuelve `toco` y `ckoiba` como dos fichas separadas.**
 
-Las fuentes son onomasiológicas: agrupan formas bajo un concepto sin afirmar que sean la misma palabra. Fusionarlas afirmaría algo que la fuente no dice — de hecho Lehnert anota que `ckoiba` es probablemente préstamo del castellano _cueva_.
+Las fuentes son onomasiológicas: agrupan formas bajo un concepto sin afirmar que sean la misma palabra. Fusionarlas afirmaría algo que la fuente no dice — de hecho Lehnert anota que `ckoiba` es probablemente préstamo del castellano *cueva*.
 
 Lo inverso sí se hace: `ckamur`, registrado para 'moon' y para 'month', es **una** entrada con dos significados. Eso es colexificación y reportarla es factual.
 
@@ -93,7 +93,7 @@ Lo inverso sí se hace: `ckamur`, registrado para 'moon' y para 'month', es **un
 
 **Hay dos claves por entrada, no una.**
 
-`clave_canonica` colapsa mayúsculas, acentos y guiones para la búsqueda exacta. `clave_historica` va más lejos: unifica las variantes de grafía de los registros del siglo XIX, para que quien escribe _kunza_ encuentre _ckunsa_.
+`clave_canonica` colapsa mayúsculas, acentos y guiones para la búsqueda exacta. `clave_historica` va más lejos: unifica las variantes de grafía de los registros del siglo XIX, para que quien escribe *kunza* encuentre *ckunsa*.
 
 Son dos niveles porque cumplen funciones distintas y tienen riesgos distintos. La histórica fusiona más, y fusionar de más significa afirmar que dos palabras son la misma.
 
@@ -168,7 +168,9 @@ Nielsen Norman midió el efecto de esconder la navegación: la descubribilidad s
 
 **Consecuencia práctica:** es el **mismo componente** que la navegación de escritorio; sólo cambia el CSS. Sin estado, sin botón que abrir, sin foco que atrapar, sin `aria-expanded`. El `aria-current` funciona igual en las dos formas.
 
-Hay un test que verifica que sean exactamente seis. Una séptima rompería las etiquetas en 320 px, y conviene que falle un test antes que descubrirlo en un teléfono.
+**Son cinco secciones, y hay un test que lo verifica.** Cada pestaña queda en unos 64 px; una sexta rompe las etiquetas en 320 px. Conviene que falle un test antes que descubrirlo en un teléfono.
+
+Cuando dos páginas son del mismo objeto —«La lengua» y «La escritura»— comparten lugar en la navegación principal y se reparten con **pestañas dentro de la sección**, no con un menú que se despliega. El mismo argumento de descubribilidad aplica adentro: las dos opciones siempre visibles. Es además el patrón que ya usa el índice con «Alfabético» y «Por tema», así que no se agrega un concepto nuevo.
 
 ---
 
@@ -176,11 +178,11 @@ Hay un test que verifica que sean exactamente seis. Una séptima rompería las e
 
 Medido sobre el corpus real, con warmup:
 
-|                     | 851 entradas | 2.500   | 5.000       |
-| ------------------- | ------------ | ------- | ----------- |
-| Construir el índice | 3,9 ms       | 13,5 ms | 28,6 ms     |
-| Fuzzy por consulta  | **0,17 ms**  | 0,24 ms | **0,61 ms** |
-| Lookup exacto       | 0,25 µs      | —       | —           |
+| | 851 entradas | 2.500 | 5.000 |
+|---|---|---|---|
+| Construir el índice | 3,9 ms | 13,5 ms | 28,6 ms |
+| Fuzzy por consulta | **0,17 ms** | 0,24 ms | **0,61 ms** |
+| Lookup exacto | 0,25 µs | — | — |
 
 Un frame a 60 fps son 16,7 ms: estamos dos órdenes de magnitud por debajo de lo perceptible. **El índice propio alcanza y sobra.**
 
@@ -211,13 +213,17 @@ Seis casos donde una herramienta hace en silencio algo distinto de lo esperado. 
 
 Lo grave no era eso: **con la traducción activa, el navegador podía convertir una palabra ckunsa en otra cosa.** Por eso toda forma lleva ahora `translate="no"` y `lang="kuz"`, igual que lleva `EvidenceBadge`.
 
-**`replaceState` de `$app/navigation` no navega.** Es _shallow routing_: asocia estado con una entrada del historial. Cambia la barra de direcciones y **no** actualiza `page.url`, así que nada se recalcula. Para que la vista reaccione hay que usar `goto(url, { replaceState: true })`.
+**`replaceState` de `$app/navigation` no navega.** Es *shallow routing*: asocia estado con una entrada del historial. Cambia la barra de direcciones y **no** actualiza `page.url`, así que nada se recalcula. Para que la vista reaccione hay que usar `goto(url, { replaceState: true })`.
 
 **Mutar `page.url` parece un bug de reactividad y no lo es.** Hay un issue abierto de SvelteKit al respecto, y el caso es siempre el mismo: `const { url } = page` y después mutar ese objeto. Hay que copiarlo con `new URL(page.url)`.
 
 **`registerSW` no recarga la página.** Sólo manda `skipWaiting` al service worker en espera; la recarga la dispara después el evento `controlling`. Si no hay ninguno esperando —porque ya se activó solo en una apertura anterior—, ese evento nunca ocurre y el botón de actualizar no hace nada. Por eso se recarga a mano como respaldo.
 
 **Los chunks viejos desaparecen al publicar.** Cada build genera nombres con hash nuevo y el CDN borra los anteriores. Una pestaña abierta con la versión vieja pide un archivo que ya no existe, el servidor responde el `200.html` de fallback, el navegador lo rechaza porque no es JavaScript, y la app muere en blanco. Se resuelve en dos capas: `version.pollInterval` fuerza navegación completa cuando hay versión nueva, y un manejador de `vite:preloadError` recarga si aun así falla.
+
+**Dos recargas compitiendo dejaban la pantalla en blanco.** `updateSW()` devuelve una promesa que se resuelve cuando el mensaje se **envía** al service worker, no cuando la activación termina. Recargar ahí caía justo mientras el worker nuevo tomaba el control y limpiaba la caché anterior. Encima `registerSW` ya recarga por su cuenta al detectar el cambio de control, así que había dos recargas en carrera — por eso fallaba sólo a veces, en teléfono y en escritorio por igual. Ahora se escucha `controllerchange`, que es el momento real, con un plazo de respaldo de 3 s y un cerrojo para que la recarga ocurra una sola vez.
+
+**`trailingSlash: 'always'` rompía la marca de sección actual.** La URL real es `/lengua/` con barra final y los `href` se escriben sin ella, así que `rutaActual === enlace.href` nunca coincidía. Ninguna sección aparecía marcada **salvo la home**, porque `/` coincide consigo misma — y como la home era la que más se miraba, estuvo roto un buen rato. Hay tests que lo cubren ahora, en la navegación principal y en las pestañas de sección.
 
 **Y una del entorno de trabajo:** al pegar código con atributos en varias líneas, el editor puede comerse la etiqueta de apertura. Pasó cuatro veces, siempre con el mismo síntoma: `</a> attempted to close an element that was not open`. Conviene escribir los enlaces en una sola línea y dejar que Prettier los reacomode.
 
