@@ -7,13 +7,16 @@
 	Los ejemplos son tocables y no decorativos: alguien que toca "cueva" y ve
 	dos fichas entiende en un segundo algo que un párrafo no explica igual de
 	bien. Los tres están elegidos para mostrar una cosa distinta cada uno.
+
+	La invitación a instalar va al final: primero hay que entender qué es esto,
+	después decidir si lo querés en el teléfono.
 -->
 <script lang="ts">
 	import { DESCRIPCION_NIVEL } from '$lib/domain/evidencia';
 	import type { NivelEvidencia } from '$lib/domain/tipos';
 
-	import EvidenceBadge from './EvidenceBadge.svelte';
 	import BotonInstalar from './BotonInstalar.svelte';
+	import EvidenceBadge from './EvidenceBadge.svelte';
 
 	type Props = {
 		/** Llena el buscador con la palabra del ejemplo. */
@@ -32,7 +35,6 @@
 </script>
 
 <section class="bienvenida">
-	<BotonInstalar />
 	<p class="bienvenida__intro">
 		Diccionario de la lengua <strong>ckunsa</strong>, del pueblo lickanantay del Salar de Atacama.
 		Es una lengua dormida: hace más de un siglo que no se registran hablantes fluidos, y casi todo
@@ -59,6 +61,8 @@
 			<dd>{DESCRIPCION_NIVEL[nivel]}</dd>
 		{/each}
 	</dl>
+
+	<BotonInstalar />
 
 	<p class="bienvenida__mas">
 		<a href="/fuentes">De dónde salen estas palabras</a>

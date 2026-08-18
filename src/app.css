@@ -987,6 +987,19 @@ body {
 	border-radius: 0.5rem;
 }
 
+.instalar__pasos {
+	margin: 0.75rem 0 0;
+	padding-left: 1.25rem;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+}
+
+.instalar__nota {
+	margin: 0.5rem 0 0;
+	font-size: 0.875rem;
+	color: var(--ck-piedra);
+}
+
 .instalar__texto {
 	margin: 0;
 	flex: 1;

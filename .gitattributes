@@ -1,0 +1,11 @@
+# Normaliza los saltos de línea a LF en el repositorio.
+#
+# Sin esto, Git en Windows puede checkoutear con CRLF y Prettier —que usa LF por
+# defecto— reescribe cada archivo que toca. Resultado: cambios fantasma en
+# decenas de archivos según en qué máquina se trabaje.
+* text=auto eol=lf
+
+# Binarios: no tocar.
+*.png binary
+*.woff2 binary
+*.pdf binary
