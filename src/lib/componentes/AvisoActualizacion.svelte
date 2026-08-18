@@ -25,13 +25,29 @@
 	/** Cada hora. El intervalo va en milisegundos. */
 	const CADA = 60 * 60 * 1000;
 
+	/** Respaldo por si el cambio de control nunca llega. */
+	const PLAZO_RESPALDO = 3000;
+
 	let hayActualizacion = $state(false);
 	let listoOffline = $state(false);
 	let aplicando = $state(false);
 	let actualizar: ((recargar?: boolean) => Promise<void>) | null = null;
 
+	/*
+		Cerrojo fuera del estado reactivo: no se renderiza, sólo evita recargas
+		duplicadas. Y son dos las que pueden competir: la que dispara `registerSW`
+		cuando el service worker nuevo toma el control, y la nuestra de respaldo.
+	*/
+	let yaRecargando = false;
+
+	function recargarUnaVez() {
+		if (yaRecargando) return;
+		yaRecargando = true;
+		location.reload();
+	}
+
 	onMount(() => {
-		let limpiar: (() => void) | undefined;
+		let limpiarChequeos: (() => void) | undefined;
 
 		void (async () => {
 			// Import dinámico: `virtual:pwa-register` sólo existe cuando corre el
@@ -76,7 +92,7 @@
 					};
 					document.addEventListener('visibilitychange', alVolver);
 
-					limpiar = () => {
+					limpiarChequeos = () => {
 						clearInterval(reloj);
 						document.removeEventListener('visibilitychange', alVolver);
 					};
@@ -84,23 +100,40 @@
 			});
 		})();
 
-		return () => limpiar?.();
+		/*
+			ESTE es el momento correcto para recargar: cuando el service worker nuevo
+			efectivamente tomó el control.
+
+			Antes se recargaba apenas volvía `updateSW()`, pero esa promesa se
+			resuelve cuando el mensaje se ENVÍA, no cuando la activación termina. La
+			recarga caía justo mientras el worker nuevo tomaba el control y limpiaba
+			la caché anterior, y la página quedaba en blanco. Como es una carrera,
+			fallaba sólo a veces — en teléfono y en escritorio por igual.
+		*/
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.addEventListener('controllerchange', recargarUnaVez);
+		}
+
+		return () => {
+			limpiarChequeos?.();
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.removeEventListener('controllerchange', recargarUnaVez);
+			}
+		};
 	});
 
-	/*
-		`registerSW` sólo manda `skipWaiting` al service worker en espera; la
-		recarga la dispara después el evento `controlling`. Si no hay ninguno
-		esperando, ese evento nunca ocurre y el botón no haría nada. Por eso
-		recargamos nosotros como respaldo.
-	*/
 	async function aplicar() {
 		aplicando = true;
 
-		try {
-			await actualizar?.();
-		} finally {
-			location.reload();
-		}
+		await actualizar?.();
+
+		/*
+			Respaldo: si no hay ningún worker esperando —porque ya se activó solo en
+			una apertura anterior— el evento `controllerchange` nunca llega y el
+			botón no haría nada. A los tres segundos se recarga igual, y el cerrojo
+			garantiza que sea una sola vez.
+		*/
+		setTimeout(recargarUnaVez, PLAZO_RESPALDO);
 	}
 
 	function descartar() {

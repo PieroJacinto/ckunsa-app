@@ -81,7 +81,7 @@ Acá no hay datos privados —el corpus es el mismo para todos— pero el patró
 
 **Buscar «cueva» devuelve `toco` y `ckoiba` como dos fichas separadas.**
 
-Las fuentes son onomasiológicas: agrupan formas bajo un concepto sin afirmar que sean la misma palabra. Fusionarlas afirmaría algo que la fuente no dice — de hecho Lehnert anota que `ckoiba` es probablemente préstamo del castellano *cueva*.
+Las fuentes son onomasiológicas: agrupan formas bajo un concepto sin afirmar que sean la misma palabra. Fusionarlas afirmaría algo que la fuente no dice — de hecho Lehnert anota que `ckoiba` es probablemente préstamo del castellano _cueva_.
 
 Lo inverso sí se hace: `ckamur`, registrado para 'moon' y para 'month', es **una** entrada con dos significados. Eso es colexificación y reportarla es factual.
 
@@ -93,7 +93,7 @@ Lo inverso sí se hace: `ckamur`, registrado para 'moon' y para 'month', es **un
 
 **Hay dos claves por entrada, no una.**
 
-`clave_canonica` colapsa mayúsculas, acentos y guiones para la búsqueda exacta. `clave_historica` va más lejos: unifica las variantes de grafía de los registros del siglo XIX, para que quien escribe *kunza* encuentre *ckunsa*.
+`clave_canonica` colapsa mayúsculas, acentos y guiones para la búsqueda exacta. `clave_historica` va más lejos: unifica las variantes de grafía de los registros del siglo XIX, para que quien escribe _kunza_ encuentre _ckunsa_.
 
 Son dos niveles porque cumplen funciones distintas y tienen riesgos distintos. La histórica fusiona más, y fusionar de más significa afirmar que dos palabras son la misma.
 
@@ -176,11 +176,11 @@ Hay un test que verifica que sean exactamente seis. Una séptima rompería las e
 
 Medido sobre el corpus real, con warmup:
 
-| | 851 entradas | 2.500 | 5.000 |
-|---|---|---|---|
-| Construir el índice | 3,9 ms | 13,5 ms | 28,6 ms |
-| Fuzzy por consulta | **0,17 ms** | 0,24 ms | **0,61 ms** |
-| Lookup exacto | 0,25 µs | — | — |
+|                     | 851 entradas | 2.500   | 5.000       |
+| ------------------- | ------------ | ------- | ----------- |
+| Construir el índice | 3,9 ms       | 13,5 ms | 28,6 ms     |
+| Fuzzy por consulta  | **0,17 ms**  | 0,24 ms | **0,61 ms** |
+| Lookup exacto       | 0,25 µs      | —       | —           |
 
 Un frame a 60 fps son 16,7 ms: estamos dos órdenes de magnitud por debajo de lo perceptible. **El índice propio alcanza y sobra.**
 
@@ -211,7 +211,7 @@ Seis casos donde una herramienta hace en silencio algo distinto de lo esperado. 
 
 Lo grave no era eso: **con la traducción activa, el navegador podía convertir una palabra ckunsa en otra cosa.** Por eso toda forma lleva ahora `translate="no"` y `lang="kuz"`, igual que lleva `EvidenceBadge`.
 
-**`replaceState` de `$app/navigation` no navega.** Es *shallow routing*: asocia estado con una entrada del historial. Cambia la barra de direcciones y **no** actualiza `page.url`, así que nada se recalcula. Para que la vista reaccione hay que usar `goto(url, { replaceState: true })`.
+**`replaceState` de `$app/navigation` no navega.** Es _shallow routing_: asocia estado con una entrada del historial. Cambia la barra de direcciones y **no** actualiza `page.url`, así que nada se recalcula. Para que la vista reaccione hay que usar `goto(url, { replaceState: true })`.
 
 **Mutar `page.url` parece un bug de reactividad y no lo es.** Hay un issue abierto de SvelteKit al respecto, y el caso es siempre el mismo: `const { url } = page` y después mutar ese objeto. Hay que copiarlo con `new URL(page.url)`.
 

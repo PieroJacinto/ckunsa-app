@@ -11,6 +11,10 @@
 
 	La página actual se marca con aria-current, que es lo que anuncia un lector
 	de pantalla. El color solo no alcanza.
+
+	CINCO secciones, no seis: en móvil esto es una barra de pestañas y cada ítem
+	tiene unos 64 px. «La lengua» y «La escritura» comparten lugar y se reparten
+	con pestañas dentro de la sección.
 -->
 <script lang="ts">
 	type Props = {
@@ -23,16 +27,27 @@
 	const enlaces = [
 		{ href: '/', texto: 'Buscar' },
 		{ href: '/indice', texto: 'Índice' },
-		{ href: '/lengua', texto: 'Lengua' },
-		{ href: '/grafia', texto: 'Escritura' },
+		{ href: '/lengua', texto: 'El ckunsa' },
 		{ href: '/proyecto', texto: 'Proyecto' },
 		{ href: '/fuentes', texto: 'Fuentes' }
 	];
+
+	/*
+		`trailingSlash: 'always'` hace que la URL real sea `/lengua/` con barra
+		final, mientras que los `href` se escriben sin ella. Sin normalizar, la
+		comparación nunca coincide y ninguna sección aparece marcada.
+
+		Estuvo roto un buen rato sin que se notara: la home funcionaba, porque `/`
+		coincide consigo misma, y era la única que se miraba.
+	*/
+	function normalizar(ruta: string): string {
+		return ruta !== '/' && ruta.endsWith('/') ? ruta.slice(0, -1) : ruta;
+	}
 </script>
 
 <nav class="vista__nav" aria-label="Principal">
 	{#each enlaces as enlace (enlace.href)}
-		{@const actual = rutaActual === enlace.href ? 'page' : undefined}
+		{@const actual = normalizar(rutaActual) === enlace.href ? 'page' : undefined}
 		<a class="vista__nav-enlace" href={enlace.href} aria-current={actual}>{enlace.texto}</a>
 	{/each}
 </nav>

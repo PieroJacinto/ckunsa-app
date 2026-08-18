@@ -42,6 +42,14 @@
 		segundo en cada visita directa a un enlace compartido.
 	*/
 	const cargando = $derived(diccionario.estado === 'cargando' || diccionario.estado === 'inicial');
+	/*
+		Conserva la búsqueda al volver. En iOS una PWA instalada NO tiene botón
+		atrás del sistema, así que este enlace es la única salida: mandarlo al
+		buscador vacío obligaría a escribir todo de nuevo.
+	*/
+	const volver = $derived(
+		diccionario.consulta.trim() ? `/?q=${encodeURIComponent(diccionario.consulta)}` : '/'
+	);
 </script>
 
 <AppViewLayout {titulo}>
@@ -53,7 +61,7 @@
 		</p>
 	{:else if !entrada}
 		<p class="estado">No hay ninguna palabra con el identificador «{id}».</p>
-		<p><a href="/">Volver al buscador</a></p>
+		<p><a href={volver}>Volver al buscador</a></p>
 	{:else}
 		<article class="palabra">
 			<p class="palabra__forma">
@@ -115,6 +123,6 @@
 			</section>
 		</article>
 
-		<p><a href="/">Volver al buscador</a></p>
+		<p><a href={volver}>Volver al buscador</a></p>
 	{/if}
 </AppViewLayout>

@@ -11,9 +11,21 @@
 -->
 <script lang="ts">
 	import AppViewLayout from '$lib/componentes/AppViewLayout.svelte';
+	import { page } from '$app/state';
+	import PestanasSeccion from '$lib/componentes/PestanasSeccion.svelte';
+
+	const PESTANAS = [
+		{ href: '/lengua', texto: 'La lengua' },
+		{ href: '/grafia', texto: 'La escritura' }
+	];
 </script>
 
 <AppViewLayout titulo="La lengua ckunsa" subtitulo="Qué se sabe y de dónde">
+	<PestanasSeccion
+		pestanas={PESTANAS}
+		rutaActual={page.url.pathname}
+		etiqueta="Secciones sobre la lengua"
+	/>
 	<article class="texto">
 		<p class="texto__entrada">
 			El <strong>ckunsa</strong> es la lengua del pueblo lickanantay, del Salar de Atacama y de

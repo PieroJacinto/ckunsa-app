@@ -13,9 +13,21 @@
 -->
 <script lang="ts">
 	import AppViewLayout from '$lib/componentes/AppViewLayout.svelte';
+	import { page } from '$app/state';
+	import PestanasSeccion from '$lib/componentes/PestanasSeccion.svelte';
+
+	const PESTANAS = [
+		{ href: '/lengua', texto: 'La lengua' },
+		{ href: '/grafia', texto: 'La escritura' }
+	];
 </script>
 
 <AppViewLayout titulo="La escritura del ckunsa" subtitulo="Qué está definido y qué no">
+	<PestanasSeccion
+		pestanas={PESTANAS}
+		rutaActual={page.url.pathname}
+		etiqueta="Secciones sobre la lengua"
+	/>
 	<article class="texto">
 		<p class="texto__entrada">
 			Esta es la pregunta que más condiciona la aplicación: <strong

@@ -36,11 +36,11 @@ Si alguna organización lickanantay considera que algo de esta aplicación no co
 
 **851 entradas**, todas de fuentes con licencia abierta verificada.
 
-| Fuente | Qué aporta | Licencia |
-|---|---|---|
-| Lehnert Santander, R. (2021). *Kunza Dictionary*, en el Intercontinental Dictionary Series (MPI-EVA) | las formas y su documentación | **CC BY 4.0** |
-| CLLD Concepticon, lista `Key-2016-1310` | las glosas en español | **CC BY 4.0** |
-| Andika Regular (SIL Global) | la tipografía | **OFL 1.1** |
+| Fuente                                                                                               | Qué aporta                    | Licencia      |
+| ---------------------------------------------------------------------------------------------------- | ----------------------------- | ------------- |
+| Lehnert Santander, R. (2021). _Kunza Dictionary_, en el Intercontinental Dictionary Series (MPI-EVA) | las formas y su documentación | **CC BY 4.0** |
+| CLLD Concepticon, lista `Key-2016-1310`                                                              | las glosas en español         | **CC BY 4.0** |
+| Andika Regular (SIL Global)                                                                          | la tipografía                 | **OFL 1.1**   |
 
 Concepticon va marcada como `catalogo`, no como fuente documental: **no documenta el ckunsa**, aporta la lista de conceptos y sus glosas. Mezclarla induciría a creer que es documentación de la lengua.
 
@@ -54,7 +54,7 @@ Los dos son **consultables, no publicables**. Ninguno habilita normalizar el cor
 
 ### El manual de trabajo del Consejo (2016)
 
-*Grafemario Unificado — Manual de trabajo para cultores y educadores tradicionales*. Consejo Lingüístico CKunsa Lickanantay, San Pedro de Atacama, cerrado en enero de 2017. Patrocinio de CONADI y la Oficina de Asuntos Indígenas.
+_Grafemario Unificado — Manual de trabajo para cultores y educadores tradicionales_. Consejo Lingüístico CKunsa Lickanantay, San Pedro de Atacama, cerrado en enero de 2017. Patrocinio de CONADI y la Oficina de Asuntos Indígenas.
 
 Investigadores: Ilia Reyes Aymani, Rubén Reyes Aymani, Juan Siares Flores, Wenceslao Reyes Chinchilla, Tomás Vilca Vilca.
 
@@ -70,7 +70,7 @@ Lo que aporta: confirma que las descripciones de grafemas se citan textualmente 
 
 ### El diccionario de Vilte (2004)
 
-*Kunza: diccionario kunza-español / español-kunza. Lengua del pueblo lickan antai o atacameño*. Investigación de Julio Vilte Vilte, fotografía de Claudio Pérez. Codelco Chile, 2004. ISBN 956-8072-03-9.
+_Kunza: diccionario kunza-español / español-kunza. Lengua del pueblo lickan antai o atacameño_. Investigación de Julio Vilte Vilte, fotografía de Claudio Pérez. Codelco Chile, 2004. ISBN 956-8072-03-9.
 
 **No es el Diccionario Unificado del CLCK.** Es una obra anterior, citada como una de las fuentes que el Consejo usó después.
 
@@ -80,11 +80,11 @@ Procedencia: **Memoria Chilena / Biblioteca Nacional Digital**. Fuente instituci
 
 ## Qué falta conseguir
 
-**El *Grafemario Unificado Ckunsa* (2018).** Es lo que más falta. Sin él las palabras siguen escritas en la grafía de sus fuentes y no en la oficial. No está publicado como dataset ni como PDF accesible.
+**El _Grafemario Unificado Ckunsa_ (2018).** Es lo que más falta. Sin él las palabras siguen escritas en la grafía de sus fuentes y no en la oficial. No está publicado como dataset ni como PDF accesible.
 
-**El *Diccionario Unificado de la Lengua Ckunsa* (2021).** Tampoco disponible en abierto. Circula en papel: se repartieron unos 3.000 ejemplares y en junio de 2025 se donaron 500 al Ministerio de las Culturas.
+**El _Diccionario Unificado de la Lengua Ckunsa_ (2021).** Tampoco disponible en abierto. Circula en papel: se repartieron unos 3.000 ejemplares y en junio de 2025 se donaron 500 al Ministerio de las Culturas.
 
-**El corpus morfofonológico.** De «El empleo de una base de datos para el estudio morfofonológico del ckunsa», de Eduardo Llanquiman Iturrieta, Felipe Hasler Sandoval y Elizabeth Torrico-Ávila (*Anthropologica* 43(54), 2025, pp. 282-305). Los datos están en `osf.io/u764r`: **1.728 formas con transcripción fonética y análisis morfológico**.
+**El corpus morfofonológico.** De «El empleo de una base de datos para el estudio morfofonológico del ckunsa», de Eduardo Llanquiman Iturrieta, Felipe Hasler Sandoval y Elizabeth Torrico-Ávila (_Anthropologica_ 43(54), 2025, pp. 282-305). Los datos están en `osf.io/u764r`: **1.728 formas con transcripción fonética y análisis morfológico**.
 
 Está público y descargable, pero **el repositorio no declara licencia**, lo que por defecto significa todos los derechos reservados. Se puede leer y estudiar; no se puede publicar. Alcanzaría con una autorización escrita de los tres autores.
 
@@ -114,7 +114,7 @@ Detalle útil para el contacto: el depósito en OSF figura sólo a nombre de Lla
 
 ## El contexto político del Grafemario
 
-El CLCK tomó el control de la enseñanza de la lengua —capacitando educadores tradicionales, diseñando material y publicando diccionarios y grafemarios— **para contrarrestar la decisión del Ministerio de Educación de enseñar sólo quechua y aimara en territorio lickanantay** a través del programa PEIB. La bibliografía lo describe como política lingüística *desde abajo* frente a una *desde arriba*.
+El CLCK tomó el control de la enseñanza de la lengua —capacitando educadores tradicionales, diseñando material y publicando diccionarios y grafemarios— **para contrarrestar la decisión del Ministerio de Educación de enseñar sólo quechua y aimara en territorio lickanantay** a través del programa PEIB. La bibliografía lo describe como política lingüística _desde abajo_ frente a una _desde arriba_.
 
 **Consecuencia para este proyecto:** el Grafemario y el Diccionario Unificado **no son documentos académicos, son actos de autodeterminación.** Pedirlos no es un trámite bibliográfico.
 

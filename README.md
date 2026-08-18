@@ -13,6 +13,7 @@ Correcciones a las fuentes originales se devuelven a quien las publicó: por eso
 guarda su identificador externo.
 
 ---
+
 ---
 
 ## Documentación

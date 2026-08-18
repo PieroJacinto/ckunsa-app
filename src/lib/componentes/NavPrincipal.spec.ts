@@ -18,10 +18,10 @@ describe('NavPrincipal', () => {
 	 * pestaña de más rompe las etiquetas. Si alguien agrega una séptima, este
 	 * test falla y obliga a decidirlo a conciencia.
 	 */
-	it('tiene seis secciones', () => {
+	it('tiene cinco secciones', () => {
 		const enlaces = marcado('/').match(/class="vista__nav-enlace"/g) ?? [];
 
-		expect(enlaces).toHaveLength(6);
+		expect(enlaces).toHaveLength(5);
 	});
 
 	it('es un nav con etiqueta accesible', () => {

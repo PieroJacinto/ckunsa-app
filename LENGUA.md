@@ -40,12 +40,12 @@ Y hay un argumento fáctico además del político, que es la sección siguiente.
 
 Las fuentes no coinciden, y el desacuerdo es el dato:
 
-| Año | Qué dijeron |
-|---|---|
-| 1890 | San Román advierte que quedan pocos ancianos y que al morir «no quedará el menor vestigio» |
-| 1896 | Vaïsse, Hoyos y Echeverría publican su glosario diciendo que la lengua «ya pertenece a las lenguas estintas» |
+| Año  | Qué dijeron                                                                                                                                  |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1890 | San Román advierte que quedan pocos ancianos y que al morir «no quedará el menor vestigio»                                                   |
+| 1896 | Vaïsse, Hoyos y Echeverría publican su glosario diciendo que la lengua «ya pertenece a las lenguas estintas»                                 |
 | 1954 | Mostny et al. declaran que lleva ~60 años extinta — **y en el mismo trabajo graban canciones y conversaciones en ckunsa** en Peine y Socaire |
-| 2022 | Torrico-Ávila escribe que los últimos hablantes murieron **en los años noventa** |
+| 2022 | Torrico-Ávila escribe que los últimos hablantes murieron **en los años noventa**                                                             |
 
 Tomás Vilca, que enseña la lengua hoy en el territorio, es nieto de una de las últimas hablantes.
 
@@ -57,13 +57,13 @@ Durante 130 años cada generación de investigadores dio la lengua por perdida, 
 
 ## La grafía es `ckunsa`, y la eligió la comunidad
 
-Circulan cinco formas del nombre: *cunza*, *kunza*, *cunsa*, *kunsa*, *ckunsa*. Cada una viene de una época y una decisión distinta.
+Circulan cinco formas del nombre: _cunza_, _kunza_, _cunsa_, _kunsa_, _ckunsa_. Cada una viene de una época y una decisión distinta.
 
-**La app usa `ckunsa`,** la que adoptó el Consejo Lingüístico Ckunsa Lickanantay en 2018 y ratificó la comunidad en el *Semmu Halayna Ckapur Lassi Ckunsa* de octubre de 2021.
+**La app usa `ckunsa`,** la que adoptó el Consejo Lingüístico Ckunsa Lickanantay en 2018 y ratificó la comunidad en el _Semmu Halayna Ckapur Lassi Ckunsa_ de octubre de 2021.
 
 No es una decisión técnica ni una preferencia: es una decisión del pueblo lickanantay sobre cómo se escribe su lengua.
 
-**Consecuencia práctica:** la búsqueda tolera todas las variantes. Quien escribe *kunza* encuentra *ckunsa*. Respetar la grafía oficial no puede significar que alguien no encuentre lo que busca.
+**Consecuencia práctica:** la búsqueda tolera todas las variantes. Quien escribe _kunza_ encuentra _ckunsa_. Respetar la grafía oficial no puede significar que alguien no encuentre lo que busca.
 
 ---
 
@@ -71,7 +71,7 @@ No es una decisión técnica ni una preferencia: es una decisión del pueblo lic
 
 **Ante una duda ortográfica, se marca como pendiente. No se resuelve por analogía con el castellano.**
 
-El *Grafemario Unificado Ckunsa* (2018) define cómo se escribe la lengua, y este proyecto no lo tiene. Lo que sí se conoce está sistematizado en la tesis de Llanquiman (2023) y en el manual de trabajo del propio Consejo de 2016 — pero ese manual dice de sí mismo que «un Grafemario definitivo está en gestación» y que no alcanzó a validarse con los educadores tradicionales.
+El _Grafemario Unificado Ckunsa_ (2018) define cómo se escribe la lengua, y este proyecto no lo tiene. Lo que sí se conoce está sistematizado en la tesis de Llanquiman (2023) y en el manual de trabajo del propio Consejo de 2016 — pero ese manual dice de sí mismo que «un Grafemario definitivo está en gestación» y que no alcanzó a validarse con los educadores tradicionales.
 
 Reglas que sí constan y que **no** se aplican todavía: `c`, `k` y `ck` se escriben todas `ck`; la `z` se reemplaza por `s`; no se usan `d`, `f`, `g`, `j`, `v`, `w`, `x`.
 
@@ -83,12 +83,12 @@ Reglas que sí constan y que **no** se aplican todavía: `c`, `k` y `ck` se escr
 
 ## Cuatro niveles de evidencia
 
-| Nivel | Significa |
-|---|---|
-| `atestiguada` | Aparece tal cual en una fuente documental |
-| `unificada` | Forma del Diccionario Unificado del CLCK |
-| `reconstruida` | Sale de un análisis o de aplicar una regla |
-| `propuesta` | La propuso la comunidad o un educador, sin respaldo documental |
+| Nivel          | Significa                                                      |
+| -------------- | -------------------------------------------------------------- |
+| `atestiguada`  | Aparece tal cual en una fuente documental                      |
+| `unificada`    | Forma del Diccionario Unificado del CLCK                       |
+| `reconstruida` | Sale de un análisis o de aplicar una regla                     |
+| `propuesta`    | La propuso la comunidad o un educador, sin respaldo documental |
 
 En una lengua sin hablantes, todo lo que se sabe viene de papeles. Es muy fácil que una forma inventada empiece a circular como si fuera un dato: alguien la copia, otro la repite, y en dos generaciones es parte de la lengua.
 
@@ -118,7 +118,7 @@ Es la misma regla que la anterior aplicada a la morfología: elegir la alternati
 
 ## Los numerales sí, con su irregularidad
 
-El sistema de numerales es el subsistema más completo y regular que se conoce. Dos números yuxtapuestos se multiplican; unidos por la partícula *ta* se suman.
+El sistema de numerales es el subsistema más completo y regular que se conoce. Dos números yuxtapuestos se multiplican; unidos por la partícula _ta_ se suman.
 
 ```
 su-ci pala-ma      10 × 3 = 30
@@ -134,7 +134,7 @@ su-ci ta su-ci     10 + 10 = 20
 
 En el corpus hay 56 formas con tilde. **Son marcas de acento heredadas de los registros de San Román (1890) y Mostny (1954), que el Consejo conservó.** Describen dónde cae el acento; no distinguen una palabra de otra.
 
-El Grafemario de 2018 dice que el acento tiende a la esdrújula. Llanquiman lo analiza y propone acento fijo y predecible: penúltima sílaba con dos, antepenúltima con tres, última con cuatro o cinco —como *lickanantay*—. Los compuestos conservan el acento de sus raíces.
+El Grafemario de 2018 dice que el acento tiende a la esdrújula. Llanquiman lo analiza y propone acento fijo y predecible: penúltima sílaba con dos, antepenúltima con tres, última con cuatro o cinco —como _lickanantay_—. Los compuestos conservan el acento de sus raíces.
 
 Si el acento es predecible, las tildes son información redundante, no contrastiva.
 
