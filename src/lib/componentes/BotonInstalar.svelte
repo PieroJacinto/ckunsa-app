@@ -1,29 +1,32 @@
 <!--
-	Invitación a instalar, con instrucciones según el navegador.
+	Invitación a instalar.
 
 	POR QUÉ EXISTE: los navegadores esconden la instalación en un menú que una
 	docente en San Pedro no va a encontrar. Si la app se piensa para usarse sin
 	señal, instalarla tiene que ser evidente.
 
-	POR QUÉ NO ALCANZA CON EL BOTÓN: `beforeinstallprompt` no es estándar. MDN lo
-	marca como de disponibilidad limitada y sólo lo implementan los navegadores
-	basados en Chromium; hay reportes de que Samsung Internet 27 dejó de
-	dispararlo. Antes, cuando ese evento no llegaba, no mostrábamos nada — y el
-	usuario quedaba sin botón y sin explicación. La recomendación oficial para
-	esos casos es mostrar instrucciones, que es lo que hacemos acá.
+	CUÁNDO SE MUESTRA, que es la parte delicada. Cuando el evento
+	`beforeinstallprompt` no llega, no se puede distinguir «ya está instalada» de
+	«este navegador no puede instalarla»: en los dos casos no pasa nada.
 
-	EL CASO DE SAMSUNG INTERNET está documentado: la instalación puede fallar en
-	silencio y la app puede quedar marcada como insegura por Google Play Protect,
-	porque el paquete que genera ese navegador no es de confianza para Play
-	Protect. Los criterios no están claros y normalmente se puede instalar igual
-	con «Instalar de todos modos». Nada de eso lo controla esta aplicación: el
-	paquete de Android lo arma el navegador, no nuestro código.
+	Lo que sí se sabe es qué navegadores NUNCA disparan ese evento —Safari en
+	iPhone, Firefox, y Samsung Internet en versiones recientes—. Ahí su ausencia
+	no informa nada y corresponde ofrecer las instrucciones.
 
-	Y SIEMPRE se aclara que instalar es opcional. Quien se topa con un aviso de
-	seguridad tiene que saber que no se está perdiendo nada.
+	En los basados en Chromium pasa lo contrario: si puede instalarla, avisa. Si
+	no avisó, o ya está instalada o no se puede, y en ambos casos no hay nada que
+	ofrecer. Por eso el recuadro desaparece solo después de instalar.
 
-	Se descartó usar una biblioteca para esto: son 28 KB sobre un shell de 404, y
-	se perdería el control de los textos, que en este proyecto importan.
+	SE PUEDE DESCARTAR, y la elección se recuerda. La guía de promoción de
+	instalación es explícita: hay que poder descartarla, recordar la preferencia
+	y no insistir. Se guarda la fecha y se vuelve a ofrecer recién a los 30 días
+	— no para siempre, porque alguien puede cambiar de opinión después de usar la
+	app un tiempo.
+
+	LAS INSTRUCCIONES NO ESTÁN ACÁ: viven en `/instalar`, que es una página con
+	URL propia y por lo tanto se puede mandar por mensaje a quien no puede
+	instalarla. Una sola fuente de verdad, y sigue disponible aunque alguien
+	haya descartado esta invitación.
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
@@ -35,17 +38,26 @@
 
 	type Plataforma = 'ios' | 'samsung' | 'firefox' | 'otro';
 
+	/** Navegadores que nunca disparan `beforeinstallprompt`. */
+	const NUNCA_AVISAN: Plataforma[] = ['ios', 'samsung', 'firefox'];
+
+	const CLAVE = 'ck:instalar-descartado';
+	const ESPERA = 30 * 24 * 60 * 60 * 1000; // 30 días
+
 	let evento = $state<EventoInstalacion | null>(null);
 	let plataforma = $state<Plataforma>('otro');
-	let mostrarPasos = $state(false);
+	let descartado = $state(false);
 
 	// Arranca en true: mostrar la invitación y esconderla enseguida sería peor
 	// que no mostrarla.
 	let yaInstalada = $state(true);
 
-	const sePuedeInstalar = $derived(evento !== null && !yaInstalada);
+	const sePuedeInstalar = $derived(evento !== null && !yaInstalada && !descartado);
 
-	/** Función pura y exportable: se testea sin navegador. */
+	const mostrarInstrucciones = $derived(
+		evento === null && !yaInstalada && !descartado && NUNCA_AVISAN.includes(plataforma)
+	);
+
 	function detectar(ua: string): Plataforma {
 		if (/iPad|iPhone|iPod/.test(ua)) return 'ios';
 		if (/SamsungBrowser/.test(ua)) return 'samsung';
@@ -61,11 +73,26 @@
 
 		plataforma = detectar(navigator.userAgent);
 
-		const alPoderInstalar = (e: Event) => {
-			// Sin preventDefault, el navegador muestra su propio aviso y el nuestro
-			// no sirve.
-			e.preventDefault();
-			evento = e as EventoInstalacion;
+		// En navegación privada el almacenamiento puede fallar: si no se puede
+		// leer, se muestra igual. Perder la preferencia es menos grave que romper.
+		try {
+			const cuando = Number(localStorage.getItem(CLAVE) ?? 0);
+			descartado = cuando > 0 && Date.now() - cuando < ESPERA;
+		} catch {
+			descartado = false;
+		}
+
+		/*
+			El evento se dispara al cargar la página, mucho antes de que exista este
+			componente. Un script en `app.html` lo captura y lo guarda; acá se
+			recoge. Sin eso, el botón no aparecía nunca aunque el navegador sí
+			ofreciera instalar.
+		*/
+		const guardado = (window as { __promptInstalacion?: EventoInstalacion }).__promptInstalacion;
+		if (guardado) evento = guardado;
+
+		const alPoderInstalar = () => {
+			evento = (window as { __promptInstalacion?: EventoInstalacion }).__promptInstalacion ?? null;
 		};
 
 		const alInstalar = () => {
@@ -73,11 +100,11 @@
 			evento = null;
 		};
 
-		window.addEventListener('beforeinstallprompt', alPoderInstalar);
+		window.addEventListener('ck:instalable', alPoderInstalar);
 		window.addEventListener('appinstalled', alInstalar);
 
 		return () => {
-			window.removeEventListener('beforeinstallprompt', alPoderInstalar);
+			window.removeEventListener('ck:instalable', alPoderInstalar);
 			window.removeEventListener('appinstalled', alInstalar);
 		};
 	});
@@ -91,58 +118,36 @@
 
 		// El evento se consume: sólo se puede usar una vez.
 		evento = null;
+		(window as { __promptInstalacion?: EventoInstalacion | null }).__promptInstalacion = null;
+	}
+
+	function descartar() {
+		descartado = true;
+
+		try {
+			localStorage.setItem(CLAVE, String(Date.now()));
+		} catch {
+			// Sin almacenamiento la preferencia no sobrevive a la recarga, pero al
+			// menos desaparece en esta sesión.
+		}
 	}
 </script>
 
-{#if !yaInstalada}
+{#if sePuedeInstalar || mostrarInstrucciones}
 	<div class="instalar">
 		<p class="instalar__texto">
 			<strong>Llevátelo en el teléfono</strong> para abrirlo como cualquier aplicación.
 		</p>
 
-		{#if sePuedeInstalar}
-			<button class="instalar__boton" type="button" onclick={instalar}>Instalar</button>
-		{:else}
-			<button
-				class="instalar__boton"
-				type="button"
-				aria-expanded={mostrarPasos}
-				onclick={() => (mostrarPasos = !mostrarPasos)}>Cómo se hace</button
-			>
-
-			{#if mostrarPasos}
-				{#if plataforma === 'ios'}
-					<ol class="instalar__pasos">
-						<li>Tocá el botón de compartir, abajo en el medio.</li>
-						<li>Deslizá y elegí «Agregar a pantalla de inicio».</li>
-						<li>Confirmá con «Agregar».</li>
-					</ol>
-				{:else if plataforma === 'samsung'}
-					<ol class="instalar__pasos">
-						<li>Abrí el menú del navegador, abajo a la derecha.</li>
-						<li>Elegí «Agregar página a» y después «Pantalla de inicio».</li>
-						<li>
-							Si aparece un aviso de Google Play Protect, tocá «Más detalles» y después «Instalar de
-							todos modos». Es un aviso conocido de este navegador, no de esta aplicación.
-						</li>
-					</ol>
-					<p class="instalar__nota">
-						Si el aviso no te deja seguir, probá abriendo <strong>ckunsa-app.pages.dev</strong> en Chrome:
-						ahí la instalación suele funcionar sin trabas.
-					</p>
-				{:else if plataforma === 'firefox'}
-					<ol class="instalar__pasos">
-						<li>Abrí el menú del navegador.</li>
-						<li>Elegí «Instalar» o «Agregar a la pantalla de inicio».</li>
-					</ol>
-				{:else}
-					<ol class="instalar__pasos">
-						<li>Abrí el menú del navegador.</li>
-						<li>Elegí «Instalar aplicación» o «Agregar a pantalla de inicio».</li>
-					</ol>
-				{/if}
+		<div class="instalar__acciones">
+			{#if sePuedeInstalar}
+				<button class="instalar__boton" type="button" onclick={instalar}>Instalar</button>
+			{:else}
+				<a class="instalar__boton" href="/instalar">Cómo se hace</a>
 			{/if}
-		{/if}
+
+			<button class="instalar__cerrar" type="button" onclick={descartar}>Ahora no</button>
+		</div>
 
 		<p class="instalar__nota">
 			No hace falta instalarlo: acá en el navegador funciona igual, también sin conexión. Instalarlo

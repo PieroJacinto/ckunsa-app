@@ -8,8 +8,9 @@
 	dos fichas entiende en un segundo algo que un párrafo no explica igual de
 	bien. Los tres están elegidos para mostrar una cosa distinta cada uno.
 
-	La invitación a instalar va al final: primero hay que entender qué es esto,
-	después decidir si lo querés en el teléfono.
+	La invitación a instalar va después de la introducción y antes de los
+	ejemplos: primero hay que entender qué es esto, pero no hace falta llegar al
+	final de la página para poder llevárselo.
 -->
 <script lang="ts">
 	import { DESCRIPCION_NIVEL } from '$lib/domain/evidencia';
@@ -42,6 +43,8 @@
 		<strong>cada palabra dice de dónde sale</strong>.
 	</p>
 
+	<BotonInstalar />
+
 	<h2 class="bienvenida__titulo">Probá con</h2>
 
 	<div class="bienvenida__ejemplos">
@@ -61,8 +64,6 @@
 			<dd>{DESCRIPCION_NIVEL[nivel]}</dd>
 		{/each}
 	</dl>
-
-	<BotonInstalar />
 
 	<p class="bienvenida__mas">
 		<a href="/fuentes">De dónde salen estas palabras</a>

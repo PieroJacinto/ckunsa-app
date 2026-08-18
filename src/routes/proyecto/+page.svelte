@@ -110,6 +110,11 @@
 			nombre y permiso. Nunca voz sintética: sin hablantes, la pronunciación es reconstrucción especulativa.
 		</p>
 
+		<p>
+			<a href="/instalar">Cómo instalar el diccionario en el teléfono</a>, y qué hacer si aparece un
+			aviso de seguridad.
+		</p>
+
 		<h2>Quién lo hizo</h2>
 
 		<p>

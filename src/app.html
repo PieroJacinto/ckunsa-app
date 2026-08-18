@@ -5,6 +5,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="text-scale" content="scale" />
 		<meta name="google" content="notranslate" />
+		<script>
+			/*
+				El navegador dispara `beforeinstallprompt` al cargar la página, mucho
+				antes de que Svelte monte ningún componente. Si se escucha desde un
+				componente, el evento ya pasó y no lo agarra nadie: el botón de
+				instalar no aparece nunca, aunque el navegador sí ofrezca instalar.
+
+				Por eso se captura acá, lo más temprano posible, y se guarda para que
+				el componente lo use cuando esté listo.
+			*/
+			window.__promptInstalacion = null;
+			window.addEventListener('beforeinstallprompt', function (e) {
+				e.preventDefault();
+				window.__promptInstalacion = e;
+				window.dispatchEvent(new Event('ck:instalable'));
+			});
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
